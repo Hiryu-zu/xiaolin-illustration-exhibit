@@ -1,0 +1,137 @@
+{
+  "id": "xiaolin_042_e3a08c52",
+  "imageFile": "xiaolin_042_e3a08c52.png",
+  "image": "../../selected/xiaolin_042_e3a08c52.png",
+  "imageForMarkdown": "selected/xiaolin_042_e3a08c52.png",
+  "noteOrder": 19,
+  "title": "道場入口に立つ静かな肖像",
+  "noteSection": "立ち絵・紹介",
+  "category": "portrait",
+  "tags": [
+    "立ち絵",
+    "道場",
+    "肖像",
+    "キャラ紹介"
+  ],
+  "caption": "道場の入口に立つ、キャラクター紹介向きの落ち着いた一枚。背景の掛け軸と自然光が、武術家としての芯を見せている。",
+  "scene": {
+    "ja": "道場の入口付近、掛け軸と中庭が見える明るい室内",
+    "en": "near the entrance of a dojo, with a hanging scroll and courtyard visible"
+  },
+  "pose": {
+    "ja": "片手を軽く握り、正面を向いて自然に立つ",
+    "en": "standing naturally while facing forward, one hand lightly clenched"
+  },
+  "intent": {
+    "ja": "キャラクター紹介としての落ち着き、芯の強さ、親しみやすさ",
+    "en": "a character introduction showing composure, inner strength, and approachability"
+  },
+  "composition": {
+    "ja": "上半身から全身寄りの縦構図で、道場の入口と掛け軸を背景に入れる",
+    "en": "a vertical portrait-like composition including the dojo entrance and hanging scroll in the background"
+  },
+  "strengths": {
+    "ja": [
+      "表情の見やすさ",
+      "衣装の確認しやすさ",
+      "道場背景によるキャラ性"
+    ],
+    "en": [
+      "clear facial expression",
+      "easy-to-read outfit details",
+      "character identity supported by the dojo background"
+    ]
+  },
+  "motion": {
+    "ja": "動きは入れず、髪と衣装の自然なまとまりを重視する",
+    "en": "avoid action; emphasize natural hair and clothing shape"
+  },
+  "lighting": {
+    "ja": "入口から入る自然光で顔と衣装を明るく見せる",
+    "en": "natural light from the entrance illuminating the face and outfit clearly"
+  },
+  "mood": {
+    "ja": "落ち着いていて礼儀正しい、紹介用の静かな存在感",
+    "en": "calm, polite, and quietly present for character introduction"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "19_xiaolin_042_e3a08c52.png",
+  "libraryImagePath": "library/images/19_xiaolin_042_e3a08c52.png",
+  "articleThemes": [
+    "still_to_motion",
+    "character_pose",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "front",
+    "centered"
+  ],
+  "lightingClass": [
+    "soft_natural",
+    "interior_light"
+  ],
+  "technique": [
+    "portrait"
+  ],
+  "motionTags": [
+    "stillness"
+  ]
+}

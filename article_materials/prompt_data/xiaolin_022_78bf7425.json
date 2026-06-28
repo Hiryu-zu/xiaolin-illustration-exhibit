@@ -1,0 +1,140 @@
+{
+  "id": "xiaolin_022_78bf7425",
+  "imageFile": "xiaolin_022_78bf7425.png",
+  "image": "../../selected/xiaolin_022_78bf7425.png",
+  "imageForMarkdown": "selected/xiaolin_022_78bf7425.png",
+  "noteOrder": 12,
+  "title": "水鏡に映る正面瞑想",
+  "noteSection": "静の修練・瞑想",
+  "category": "meditation",
+  "tags": [
+    "水鏡",
+    "対称構図",
+    "瞑想",
+    "夕暮れ"
+  ],
+  "caption": "湖面に姿が映る、正面性の強い瞑想カット。人物、反射、夕空の対称性が美しい。",
+  "scene": {
+    "ja": "夕暮れの湖面近く、浅い水に反射が映る静かな場所",
+    "en": "a quiet place beside shallow lake water at sunset, with a clear reflection"
+  },
+  "pose": {
+    "ja": "正面を向いて脚を組み、目を閉じて瞑想する",
+    "en": "front-facing, seated cross-legged, eyes closed in meditation"
+  },
+  "intent": {
+    "ja": "水面の反射で、内面の静けさと均衡を見せる",
+    "en": "showing inner calm and balance through the water reflection"
+  },
+  "composition": {
+    "ja": "人物と水面の反射を縦方向に重ね、中心軸を強く見せる",
+    "en": "stack the figure and water reflection vertically, emphasizing a strong central axis"
+  },
+  "strengths": {
+    "ja": [
+      "水鏡の反射",
+      "正面構図の安定感",
+      "夕空と山のグラデーション"
+    ],
+    "en": [
+      "mirror-like water reflection",
+      "stability of the front composition",
+      "gradient of sunset sky and mountains"
+    ]
+  },
+  "motion": {
+    "ja": "ほぼ完全な静止。水面には小さな波紋だけを入れる",
+    "en": "near-complete stillness, with only tiny ripples on the water surface"
+  },
+  "lighting": {
+    "ja": "夕日を背にした柔らかな逆光と、水面からの淡い反射",
+    "en": "soft sunset backlight and faint reflected light from the water"
+  },
+  "mood": {
+    "ja": "静かで神秘的、心が整っていく感覚",
+    "en": "quiet, mystical, and centered"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "12_xiaolin_022_78bf7425.png",
+  "libraryImagePath": "library/images/12_xiaolin_022_78bf7425.png",
+  "articleThemes": [
+    "still_to_motion",
+    "meditation",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "front",
+    "centered",
+    "symmetrical"
+  ],
+  "lightingClass": [
+    "sunset",
+    "water_reflection",
+    "backlight"
+  ],
+  "technique": [
+    "meditation"
+  ],
+  "motionTags": [
+    "stillness",
+    "reflection"
+  ]
+}

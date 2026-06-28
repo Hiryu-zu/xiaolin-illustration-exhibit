@@ -1,0 +1,11 @@
+inbox/
+inbox2/
+tmp/
+selected/*
+!selected/README.md
+
+*.tmp
+*.log
+
+.DS_Store
+Thumbs.db

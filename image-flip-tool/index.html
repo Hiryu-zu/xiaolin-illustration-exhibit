@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>画像左右反転チェックツール</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <p class="eyebrow">Local Image Tool</p>
+      <h1>画像左右反転チェックツール</h1>
+      <p class="lead">
+        画像をブラウザ内で左右反転し、反転で崩れる文字・ロゴ・小物だけをブラシで局所補正できます。
+      </p>
+    </header>
+
+    <section class="drop-area" id="dropArea">
+      <input id="fileInput" class="file-input" type="file" accept="image/*" />
+      <div class="drop-content">
+        <div class="icon" aria-hidden="true">↔</div>
+        <h2>画像を選択、またはドラッグ＆ドロップ</h2>
+        <p>PNG / JPG / JPEG / WebP に対応</p>
+        <button class="primary-button" id="selectButton" type="button">画像を選ぶ</button>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="操作パネル">
+      <button id="flipButton" type="button" disabled>左右反転</button>
+      <button id="compareButton" type="button" disabled>結果だけ表示</button>
+      <button id="downloadButton" type="button" disabled>PNGで保存</button>
+      <button id="resetButton" type="button" disabled>リセット</button>
+    </section>
+
+    <section class="repair-panel" aria-label="局所補正">
+      <div class="tool-row">
+        <label class="segmented">
+          <input type="radio" name="brushMode" value="unmirror" checked />
+          <span>局所補正</span>
+        </label>
+        <label class="segmented">
+          <input type="radio" name="brushMode" value="flipped" />
+          <span>反転へ戻す</span>
+        </label>
+      </div>
+      <label class="slider-label">
+        ブラシサイズ
+        <input id="brushSize" type="range" min="8" max="160" value="48" />
+        <output id="brushSizeValue">48px</output>
+      </label>
+    </section>
+
+    <section class="status" id="status">画像を読み込んでください。</section>
+
+    <section class="canvas-grid" id="canvasGrid">
+      <article class="panel">
+        <h3>元画像</h3>
+        <div class="canvas-wrap">
+          <canvas id="sourceCanvas"></canvas>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h3>反転・補正後</h3>
+        <div class="canvas-wrap">
+          <canvas id="resultCanvas"></canvas>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

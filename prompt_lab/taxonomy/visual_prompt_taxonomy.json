@@ -1,0 +1,63 @@
+{
+  "articleThemes": {
+    "action_pose": "アクションポーズ一覧",
+    "still_to_motion": "静から動への武術ポーズ",
+    "camera_work": "カメラワーク別",
+    "lighting": "ライティング別",
+    "strike": "打撃別",
+    "kick": "蹴り別",
+    "meditation": "静の修練",
+    "stance": "構えと間合い",
+    "character_pose": "キャラクター紹介"
+  },
+  "camera": {
+    "front": "正面構図",
+    "low_angle": "ローアングル",
+    "closeup": "超接近",
+    "strong_perspective": "強い遠近感",
+    "wide_panorama": "横長パノラマ",
+    "symmetrical": "対称構図",
+    "diagonal": "斜め構図",
+    "centered": "中央配置",
+    "negative_space": "余白重視",
+    "side_profile": "横顔"
+  },
+  "lighting": {
+    "backlight": "逆光",
+    "rim_light": "リムライト",
+    "sunset": "夕景",
+    "morning_mist": "朝靄",
+    "dappled_light": "木漏れ日",
+    "diffused_white": "白い拡散光",
+    "interior_light": "室内光",
+    "water_reflection": "水面反射",
+    "dust_reflection": "砂埃の反射",
+    "soft_natural": "柔らかい自然光"
+  },
+  "technique": {
+    "meditation": "瞑想",
+    "standing_stance": "構え",
+    "palm_strike": "掌底",
+    "straight_punch": "正拳",
+    "tile_break": "瓦割り",
+    "close_combat": "接近戦",
+    "kick": "蹴り",
+    "extended_leg_pose": "片脚を伸ばしたポーズ",
+    "rotation": "旋回",
+    "dash": "突進",
+    "etiquette": "礼法",
+    "portrait": "立ち絵"
+  },
+  "motionTags": {
+    "stillness": "静止",
+    "subtle_breeze": "微風",
+    "motion_blur": "モーションブラー",
+    "speed_lines": "スピードライン",
+    "wind_trails": "風の軌跡",
+    "debris": "破片",
+    "dust": "砂埃",
+    "impact": "衝撃",
+    "reflection": "反射",
+    "low_center": "低い重心"
+  }
+}

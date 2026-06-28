@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>中庭を横切る低い突進 - プロンプト切り替え</title>
+    <style>:root { color-scheme: light; --bg: #f7f4ee; --panel: #ffffff; --ink: #1f252d; --muted: #667085; --line: #d9d2c7; --accent: #1f6f78; --accent-strong: #18555c; } * { box-sizing: border-box; } body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; margin: 0; } main { display: grid; gap: 20px; grid-template-columns: minmax(280px, 390px) minmax(420px, 1fr); margin: 0 auto; max-width: 1280px; padding: 24px; } .preview, .editor, .prompt-card, details { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; } .editor { display: grid; gap: 14px; } h1 { font-size: 22px; line-height: 1.3; margin: 0 0 10px; } h2 { font-size: 16px; margin: 0; } img { border-radius: 6px; display: block; height: auto; width: 100%; } a { color: var(--accent); } .caption, .hint, .meta-line { color: var(--muted); font-size: 13px; margin: 10px 0 0; } .meta { display: grid; gap: 4px 10px; grid-template-columns: max-content 1fr; font-size: 13px; } .meta dt { color: var(--muted); } .controls, .prompt-head { align-items: center; display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; } .controls { justify-content: flex-start; } label { align-items: center; display: inline-flex; gap: 8px; } input[type="checkbox"] { height: 18px; width: 18px; } button { background: var(--accent); border: 0; border-radius: 6px; color: white; cursor: pointer; font: inherit; font-weight: 700; padding: 8px 12px; } button:hover { background: var(--accent-strong); } textarea { border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: 13px/1.55 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; margin-top: 10px; min-height: 300px; padding: 12px; resize: vertical; width: 100%; } code, pre { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; } pre { background: #f7f7f7; border-radius: 6px; overflow: auto; padding: 10px; white-space: pre-wrap; } @media (max-width: 900px) { main { grid-template-columns: 1fr; padding: 14px; } }</style>
+  </head>
+  <body>
+    <main>
+      <section class="preview">
+        <p><a href="index.html">一覧へ戻る</a></p>
+        <h1>中庭を横切る低い突進</h1>
+        <img src="../assets/images/14_xiaolin_024_7a70d879.png" alt="中庭を横切る低い突進">
+        <p class="caption">中庭を低く滑るように横切る横長アクション。背景の建物と斜めの体勢が、移動方向を強く示している。</p>
+        <dl class="meta">
+          <dt>カテゴリ</dt><dd>battle_motion</dd>
+          <dt>タグ</dt><dd>横長構図, 突進, 中庭, スピード感</dd>
+          <dt>状態</dt><dd>ready</dd>
+        </dl>
+        <details>
+          <summary>構造データを表示</summary>
+          <pre id="sourceData"></pre>
+        </details>
+      </section>
+
+      <section class="editor">
+        <div class="controls">
+          <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
+        </div>
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button id="copyEnglish" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false"></textarea>
+        </section>
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>日本語プロンプト</h2><button id="copyJapanese" type="button">日本語版をコピー</button></div>
+          <textarea id="japanesePrompt" spellcheck="false"></textarea>
+        </section>
+      </section>
+    </main>
+    <script>
+      const data = {
+  "item": {
+    "category": "battle_motion",
+    "tags": [
+      "横長構図",
+      "突進",
+      "中庭",
+      "スピード感"
+    ],
+    "noteOrder": 14,
+    "noteSection": "動きのある戦闘",
+    "status": "ready",
+    "subjectHandling": {
+      "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+      "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+    },
+    "scene": {
+      "ja": "寺院風の中庭と木造建築の前",
+      "en": "a temple-like courtyard in front of wooden buildings"
+    },
+    "pose": {
+      "ja": "低く身を沈めて横方向へ突進し、片腕を後ろに流す",
+      "en": "lunging low sideways, with one arm trailing behind"
+    },
+    "intent": {
+      "ja": "相手の視界を横に抜ける素早い移動",
+      "en": "a quick lateral movement slipping across the opponent’s field of view"
+    },
+    "composition": {
+      "ja": "横長構図で人物の移動方向を広く取り、背景の屋根線をスピードの補助に使う",
+      "en": "a wide composition that leaves room for the movement direction, using roof lines to reinforce speed"
+    },
+    "strengths": {
+      "ja": [
+        "横方向の疾走感",
+        "低い重心",
+        "背景の建築線による勢い"
+      ],
+      "en": [
+        "lateral speed",
+        "low center of gravity",
+        "momentum from architectural background lines"
+      ]
+    },
+    "motion": {
+      "ja": "足元と袖に中程度のブラーを入れ、進行方向へ流れる残像を作る",
+      "en": "use medium blur on feet and sleeves, creating afterimages along the travel direction"
+    },
+    "lighting": {
+      "ja": "日中の明るい自然光と、建物の影のコントラスト",
+      "en": "bright daylight with contrast from building shadows"
+    },
+    "mood": {
+      "ja": "軽快で素早い、回避から反撃へつながる緊張感",
+      "en": "nimble and fast, with tension leading from evasion into counterattack"
+    },
+    "style": {
+      "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+      "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+    },
+    "details": {
+      "ja": [
+        "背景の質感",
+        "自然な奥行き",
+        "キャラクターの重心",
+        "視線誘導"
+      ],
+      "en": [
+        "background texture",
+        "natural depth",
+        "clear body weight balance",
+        "strong visual focus"
+      ]
+    },
+    "negative": {
+      "ja": [
+        "余分な人物",
+        "武器が勝手に増えること",
+        "文字",
+        "ロゴ",
+        "歪んだ手",
+        "壊れた指",
+        "関節の破綻",
+        "過度に筋肉質な体型",
+        "幼すぎる比率",
+        "強すぎるモーションブラー"
+      ],
+      "en": [
+        "extra characters",
+        "unwanted weapons",
+        "text",
+        "logos",
+        "distorted hands",
+        "broken fingers",
+        "incorrect limb joints",
+        "overly muscular body",
+        "childish proportions",
+        "excessive motion blur"
+      ]
+    },
+    "reviewChecklist": [
+      "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+      "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+      "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+      "構図、光、背景、動き、雰囲気に矛盾がないか",
+      "その画像の見どころが strengths に入っているか",
+      "ネガティブ指定が生成意図を潰していないか",
+      "note記事で説明しやすい見どころが残っているか"
+    ],
+    "id": "xiaolin_024_7a70d879",
+    "imageFile": "xiaolin_024_7a70d879.png",
+    "image": "../assets/images/14_xiaolin_024_7a70d879.png",
+    "imageForMarkdown": "../assets/images/14_xiaolin_024_7a70d879.png",
+    "title": "中庭を横切る低い突進",
+    "caption": "中庭を低く滑るように横切る横長アクション。背景の建物と斜めの体勢が、移動方向を強く示している。",
+    "fixedCharacter": {
+      "nameJa": "小鈴（シャオリン）",
+      "nameEn": "Xiaolin",
+      "ja": {
+        "identity": "21歳の女性中国武術家。身長165cm",
+        "body": "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つき",
+        "hair": "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束",
+        "eyes": "琥珀色から黄褐色の瞳",
+        "face": "可愛さと凛々しさの中間にある落ち着いた顔立ち",
+        "outfit": "白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズ",
+        "personality": "真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気"
+      },
+      "en": {
+        "identity": "a 21-year-old female Chinese martial artist, 165 cm tall",
+        "body": "a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular",
+        "hair": "glossy black short bob hair with bangs and side locks framing her face",
+        "eyes": "amber to yellow-brown eyes",
+        "face": "a calm face that balances cuteness with dignified sharpness",
+        "outfit": "a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes",
+        "personality": "serious, focused, disciplined, quietly approachable, and not too cold"
+      }
+    }
+  },
+  "prompts": {
+    "englishGeneric": "Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style illustration set in a temple-like courtyard in front of wooden buildings. The pose/action is lunging low sideways, with one arm trailing behind, expressing a quick lateral movement slipping across the opponent’s field of view.\n\nComposition: a wide composition that leaves room for the movement direction, using roof lines to reinforce speed. Emphasize lateral speed, low center of gravity, momentum from architectural background lines.\n\nKeep use medium blur on feet and sleeves, creating afterimages along the travel direction, bright daylight with contrast from building shadows, and nimble and fast, with tension leading from evasion into counterattack. The scene should feel quiet, focused, and cinematic rather than chaotic.\n\nUse background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.\n\nAvoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.",
+    "englishFixed": "Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style illustration set in a temple-like courtyard in front of wooden buildings. The pose/action is lunging low sideways, with one arm trailing behind, expressing a quick lateral movement slipping across the opponent’s field of view.\n\nComposition: a wide composition that leaves room for the movement direction, using roof lines to reinforce speed. Emphasize lateral speed, low center of gravity, momentum from architectural background lines.\n\nKeep use medium blur on feet and sleeves, creating afterimages along the travel direction, bright daylight with contrast from building shadows, and nimble and fast, with tension leading from evasion into counterattack. The scene should feel quiet, focused, and cinematic rather than chaotic.\n\nUse background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.\n\nThe martial artist is Xiaolin, a 21-year-old female Chinese martial artist, 165 cm tall. She has a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular. She has glossy black short bob hair with bangs and side locks framing her face, amber to yellow-brown eyes, and a calm face that balances cuteness with dignified sharpness.\n\nShe wears a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes. Her expression and presence are serious, focused, disciplined, quietly approachable, and not too cold.\n\nAvoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.",
+    "japaneseGeneric": "参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。\n\n人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。\n\n寺院風の中庭と木造建築の前を舞台に、低く身を沈めて横方向へ突進し、片腕を後ろに流す場面を、アニメ調の高品質イラストとして描いてください。相手の視界を横に抜ける素早い移動が伝わるようにしてください。\n\n横長構図で人物の移動方向を広く取り、背景の屋根線をスピードの補助に使う。見どころとして、横方向の疾走感、低い重心、背景の建築線による勢いを強調してください。\n\n足元と袖に中程度のブラーを入れ、進行方向へ流れる残像を作る、日中の明るい自然光と、建物の影のコントラスト、軽快で素早い、回避から反撃へつながる緊張感を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。\n\n背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。\n\n余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。",
+    "japaneseFixed": "参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。\n\n人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。\n\n寺院風の中庭と木造建築の前を舞台に、低く身を沈めて横方向へ突進し、片腕を後ろに流す場面を、アニメ調の高品質イラストとして描いてください。相手の視界を横に抜ける素早い移動が伝わるようにしてください。\n\n横長構図で人物の移動方向を広く取り、背景の屋根線をスピードの補助に使う。見どころとして、横方向の疾走感、低い重心、背景の建築線による勢いを強調してください。\n\n足元と袖に中程度のブラーを入れ、進行方向へ流れる残像を作る、日中の明るい自然光と、建物の影のコントラスト、軽快で素早い、回避から反撃へつながる緊張感を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。\n\n背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。\n\n武術家は小鈴（シャオリン）です。21歳の女性中国武術家。身長165cm。しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。\n\n衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。表情と雰囲気は、真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気にしてください。\n\n余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。"
+  }
+};
+      const checkbox = document.getElementById("useFixedCharacter");
+      const englishTextarea = document.getElementById("englishPrompt");
+      const japaneseTextarea = document.getElementById("japanesePrompt");
+      const sourceData = document.getElementById("sourceData");
+      const copyEnglish = document.getElementById("copyEnglish");
+      const copyJapanese = document.getElementById("copyJapanese");
+      function renderPrompts() {
+        englishTextarea.value = checkbox.checked ? data.prompts.englishFixed : data.prompts.englishGeneric;
+        japaneseTextarea.value = checkbox.checked ? data.prompts.japaneseFixed : data.prompts.japaneseGeneric;
+        sourceData.textContent = JSON.stringify(data.item, null, 2);
+      }
+      async function copyFrom(textarea, button, label) {
+        await navigator.clipboard.writeText(textarea.value);
+        button.textContent = "コピー済み";
+        setTimeout(() => { button.textContent = label; }, 1200);
+      }
+      checkbox.addEventListener("change", renderPrompts);
+      copyEnglish.addEventListener("click", () => copyFrom(englishTextarea, copyEnglish, "英語版をコピー"));
+      copyJapanese.addEventListener("click", () => copyFrom(japaneseTextarea, copyJapanese, "日本語版をコピー"));
+      renderPrompts();
+    </script>
+  </body>
+</html>

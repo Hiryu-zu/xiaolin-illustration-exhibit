@@ -1,0 +1,139 @@
+{
+  "id": "xiaolin_040_22ed3784",
+  "imageFile": "xiaolin_040_22ed3784.png",
+  "image": "../../selected/xiaolin_040_22ed3784.png",
+  "imageForMarkdown": "selected/xiaolin_040_22ed3784.png",
+  "noteOrder": 17,
+  "title": "低姿勢で片脚を伸ばしたポーズ",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "低姿勢",
+    "片脚",
+    "ポーズ",
+    "夕日"
+  ],
+  "caption": "夕日の中庭で、低い姿勢から片脚を長く伸ばしたポーズ。蹴りの攻撃性より、柔軟性と体幹の安定感を見せる。",
+  "scene": {
+    "ja": "夕日が差す道場の中庭または寺院前の石畳",
+    "en": "a dojo courtyard or temple stone path lit by sunset"
+  },
+  "pose": {
+    "ja": "低く沈み込み、片脚を横へ長く伸ばしてポーズを取る",
+    "en": "sinking low and extending one leg sideways into a long controlled pose"
+  },
+  "intent": {
+    "ja": "低い重心、柔軟性、脚のラインの美しさを見せる",
+    "en": "show a low center of gravity, flexibility, and the beauty of the extended leg line"
+  },
+  "composition": {
+    "ja": "横長に近い画面で脚のラインを大きく取り、夕日を背後に置く",
+    "en": "use a wide-feeling frame to emphasize the leg line, placing the sunset behind"
+  },
+  "strengths": {
+    "ja": [
+      "長く伸びる脚のライン",
+      "夕日の逆光",
+      "低い姿勢の安定感"
+    ],
+    "en": [
+      "long extended leg line",
+      "sunset backlight",
+      "stability of the low posture"
+    ]
+  },
+  "motion": {
+    "ja": "動きは控えめにし、衣装の裾と髪にわずかな流れを入れる",
+    "en": "keep motion restrained, adding only slight flow to the clothing hem and hair"
+  },
+  "lighting": {
+    "ja": "背後の夕日による暖かい逆光と、石畳の反射",
+    "en": "warm sunset backlight and reflection from the stone paving"
+  },
+  "mood": {
+    "ja": "静かで美しい、型の一瞬を見せる緊張感",
+    "en": "quiet and graceful tension, showing a single moment of formal technique"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "17_xiaolin_040_22ed3784.png",
+  "libraryImagePath": "library/images/17_xiaolin_040_22ed3784.png",
+  "articleThemes": [
+    "still_to_motion",
+    "action_pose",
+    "kick",
+    "lighting"
+  ],
+  "camera": [
+    "wide_panorama",
+    "diagonal"
+  ],
+  "lightingClass": [
+    "sunset",
+    "backlight"
+  ],
+  "technique": [
+    "extended_leg_pose"
+  ],
+  "motionTags": [
+    "stillness",
+    "low_center",
+    "subtle_breeze"
+  ]
+}

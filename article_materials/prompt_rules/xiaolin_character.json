@@ -1,0 +1,22 @@
+{
+  "nameJa": "小鈴（シャオリン）",
+  "nameEn": "Xiaolin",
+  "ja": {
+    "identity": "21歳の女性中国武術家。身長165cm",
+    "body": "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つき",
+    "hair": "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束",
+    "eyes": "琥珀色から黄褐色の瞳",
+    "face": "可愛さと凛々しさの中間にある落ち着いた顔立ち",
+    "outfit": "白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズ",
+    "personality": "真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気"
+  },
+  "en": {
+    "identity": "a 21-year-old female Chinese martial artist, 165 cm tall",
+    "body": "a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular",
+    "hair": "glossy black short bob hair with bangs and side locks framing her face",
+    "eyes": "amber to yellow-brown eyes",
+    "face": "a calm face that balances cuteness with dignified sharpness",
+    "outfit": "a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes",
+    "personality": "serious, focused, disciplined, quietly approachable, and not too cold"
+  }
+}

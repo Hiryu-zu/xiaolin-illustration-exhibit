@@ -1,0 +1,239 @@
+# 低姿勢で片脚を伸ばしたポーズ
+
+対象画像: `selected/xiaolin_040_22ed3784.png`
+
+## note用キャプション案
+
+夕日の中庭で、低い姿勢から片脚を長く伸ばしたポーズ。蹴りの攻撃性より、柔軟性と体幹の安定感を見せる。
+
+## 構造データ
+
+```json
+{
+  "category": "battle_motion",
+  "tags": [
+    "低姿勢",
+    "片脚",
+    "ポーズ",
+    "夕日"
+  ],
+  "noteOrder": 17,
+  "noteSection": "動きのある戦闘",
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "scene": {
+    "ja": "夕日が差す道場の中庭または寺院前の石畳",
+    "en": "a dojo courtyard or temple stone path lit by sunset"
+  },
+  "pose": {
+    "ja": "低く沈み込み、片脚を横へ長く伸ばしてポーズを取る",
+    "en": "sinking low and extending one leg sideways into a long controlled pose"
+  },
+  "intent": {
+    "ja": "低い重心、柔軟性、脚のラインの美しさを見せる",
+    "en": "show a low center of gravity, flexibility, and the beauty of the extended leg line"
+  },
+  "composition": {
+    "ja": "横長に近い画面で脚のラインを大きく取り、夕日を背後に置く",
+    "en": "use a wide-feeling frame to emphasize the leg line, placing the sunset behind"
+  },
+  "strengths": {
+    "ja": [
+      "長く伸びる脚のライン",
+      "夕日の逆光",
+      "低い姿勢の安定感"
+    ],
+    "en": [
+      "long extended leg line",
+      "sunset backlight",
+      "stability of the low posture"
+    ]
+  },
+  "motion": {
+    "ja": "動きは控えめにし、衣装の裾と髪にわずかな流れを入れる",
+    "en": "keep motion restrained, adding only slight flow to the clothing hem and hair"
+  },
+  "lighting": {
+    "ja": "背後の夕日による暖かい逆光と、石畳の反射",
+    "en": "warm sunset backlight and reflection from the stone paving"
+  },
+  "mood": {
+    "ja": "静かで美しい、型の一瞬を見せる緊張感",
+    "en": "quiet and graceful tension, showing a single moment of formal technique"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "id": "xiaolin_040_22ed3784",
+  "imageFile": "xiaolin_040_22ed3784.png",
+  "image": "../../selected/xiaolin_040_22ed3784.png",
+  "imageForMarkdown": "selected/xiaolin_040_22ed3784.png",
+  "title": "低姿勢で片脚を伸ばしたポーズ",
+  "caption": "夕日の中庭で、低い姿勢から片脚を長く伸ばしたポーズ。蹴りの攻撃性より、柔軟性と体幹の安定感を見せる。",
+  "fixedCharacter": {
+    "nameJa": "小鈴（シャオリン）",
+    "nameEn": "Xiaolin",
+    "ja": {
+      "identity": "21歳の女性中国武術家。身長165cm",
+      "body": "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つき",
+      "hair": "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束",
+      "eyes": "琥珀色から黄褐色の瞳",
+      "face": "可愛さと凛々しさの中間にある落ち着いた顔立ち",
+      "outfit": "白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズ",
+      "personality": "真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気"
+    },
+    "en": {
+      "identity": "a 21-year-old female Chinese martial artist, 165 cm tall",
+      "body": "a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular",
+      "hair": "glossy black short bob hair with bangs and side locks framing her face",
+      "eyes": "amber to yellow-brown eyes",
+      "face": "a calm face that balances cuteness with dignified sharpness",
+      "outfit": "a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes",
+      "personality": "serious, focused, disciplined, quietly approachable, and not too cold"
+    }
+  }
+}
+```
+
+## 汎用プロンプト 英語版
+
+```text
+Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style illustration set in a dojo courtyard or temple stone path lit by sunset. The pose/action is sinking low and extending one leg sideways into a long controlled pose, expressing show a low center of gravity, flexibility, and the beauty of the extended leg line.
+
+Composition: use a wide-feeling frame to emphasize the leg line, placing the sunset behind. Emphasize long extended leg line, sunset backlight, stability of the low posture.
+
+Keep keep motion restrained, adding only slight flow to the clothing hem and hair, warm sunset backlight and reflection from the stone paving, and quiet and graceful tension, showing a single moment of formal technique. The scene should feel quiet, focused, and cinematic rather than chaotic.
+
+Use background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.
+
+Avoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.
+```
+
+## 汎用プロンプト 日本語版
+
+```text
+参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。
+
+人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。
+
+夕日が差す道場の中庭または寺院前の石畳を舞台に、低く沈み込み、片脚を横へ長く伸ばしてポーズを取る場面を、アニメ調の高品質イラストとして描いてください。低い重心、柔軟性、脚のラインの美しさを見せるが伝わるようにしてください。
+
+横長に近い画面で脚のラインを大きく取り、夕日を背後に置く。見どころとして、長く伸びる脚のライン、夕日の逆光、低い姿勢の安定感を強調してください。
+
+動きは控えめにし、衣装の裾と髪にわずかな流れを入れる、背後の夕日による暖かい逆光と、石畳の反射、静かで美しい、型の一瞬を見せる緊張感を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。
+
+背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。
+
+余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。
+```
+
+## 小鈴（シャオリン）固定キャラ版 英語
+
+```text
+Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style illustration set in a dojo courtyard or temple stone path lit by sunset. The pose/action is sinking low and extending one leg sideways into a long controlled pose, expressing show a low center of gravity, flexibility, and the beauty of the extended leg line.
+
+Composition: use a wide-feeling frame to emphasize the leg line, placing the sunset behind. Emphasize long extended leg line, sunset backlight, stability of the low posture.
+
+Keep keep motion restrained, adding only slight flow to the clothing hem and hair, warm sunset backlight and reflection from the stone paving, and quiet and graceful tension, showing a single moment of formal technique. The scene should feel quiet, focused, and cinematic rather than chaotic.
+
+Use background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.
+
+The martial artist is Xiaolin, a 21-year-old female Chinese martial artist, 165 cm tall. She has a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular. She has glossy black short bob hair with bangs and side locks framing her face, amber to yellow-brown eyes, and a calm face that balances cuteness with dignified sharpness.
+
+She wears a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes. Her expression and presence are serious, focused, disciplined, quietly approachable, and not too cold.
+
+Avoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.
+```
+
+## 小鈴（シャオリン）固定キャラ版 日本語
+
+```text
+参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。
+
+人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。
+
+夕日が差す道場の中庭または寺院前の石畳を舞台に、低く沈み込み、片脚を横へ長く伸ばしてポーズを取る場面を、アニメ調の高品質イラストとして描いてください。低い重心、柔軟性、脚のラインの美しさを見せるが伝わるようにしてください。
+
+横長に近い画面で脚のラインを大きく取り、夕日を背後に置く。見どころとして、長く伸びる脚のライン、夕日の逆光、低い姿勢の安定感を強調してください。
+
+動きは控えめにし、衣装の裾と髪にわずかな流れを入れる、背後の夕日による暖かい逆光と、石畳の反射、静かで美しい、型の一瞬を見せる緊張感を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。
+
+背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。
+
+武術家は小鈴（シャオリン）です。21歳の女性中国武術家。身長165cm。しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。
+
+衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。表情と雰囲気は、真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気にしてください。
+
+余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。
+```
+
+## AIレビュー観点
+
+- 参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか
+- 汎用版に固定キャラ名や固定衣装が混ざっていないか
+- 固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか
+- 構図、光、背景、動き、雰囲気に矛盾がないか
+- その画像の見どころが strengths に入っているか
+- ネガティブ指定が生成意図を潰していないか
+- note記事で説明しやすい見どころが残っているか

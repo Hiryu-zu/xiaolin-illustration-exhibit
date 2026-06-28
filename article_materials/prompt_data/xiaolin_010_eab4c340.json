@@ -1,0 +1,138 @@
+{
+  "id": "xiaolin_010_eab4c340",
+  "imageFile": "xiaolin_010_eab4c340.png",
+  "image": "../../selected/xiaolin_010_eab4c340.png",
+  "imageForMarkdown": "selected/xiaolin_010_eab4c340.png",
+  "noteOrder": 2,
+  "title": "竹林の水辺を歩く静かな導入",
+  "noteSection": "静の修練・風景",
+  "category": "environment",
+  "tags": [
+    "竹林",
+    "水辺",
+    "横長構図",
+    "朝靄"
+  ],
+  "caption": "竹林と水辺の広がりを見せる横長の一枚。人物よりも空気感と場所の美しさを重視する導入カットに向いている。",
+  "scene": {
+    "ja": "竹林に囲まれた水辺の石畳の小道",
+    "en": "a stone path beside water, surrounded by bamboo"
+  },
+  "pose": {
+    "ja": "静かに立ち、歩き出す直前の落ち着いた姿勢",
+    "en": "a calm standing pose, as if just before beginning to walk"
+  },
+  "intent": {
+    "ja": "修練前の静けさ、場所の気配、人物の落ち着き",
+    "en": "the quiet before training, the sense of place, and the character’s composure"
+  },
+  "composition": {
+    "ja": "横長のパノラマ構図で、左に人物、右に水面と遠景を広く取る",
+    "en": "a wide panoramic composition with the character on the left and water plus distant scenery opening to the right"
+  },
+  "strengths": {
+    "ja": [
+      "竹林の奥行き",
+      "水面の柔らかい反射",
+      "人物を小さく置いた余白"
+    ],
+    "en": [
+      "depth in the bamboo grove",
+      "soft water reflections",
+      "negative space created by the small figure placement"
+    ]
+  },
+  "motion": {
+    "ja": "ほぼ静止。衣装や竹葉にごく弱い風の気配を入れる",
+    "en": "mostly still, with only a faint breeze in the clothing and bamboo leaves"
+  },
+  "lighting": {
+    "ja": "木漏れ日と薄い朝靄で、柔らかく明るい光",
+    "en": "soft bright light through bamboo leaves and light morning mist"
+  },
+  "mood": {
+    "ja": "穏やかで透明感のある、修練の始まりの空気",
+    "en": "peaceful, clear, and introductory, like the beginning of training"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "02_xiaolin_010_eab4c340.png",
+  "libraryImagePath": "library/images/02_xiaolin_010_eab4c340.png",
+  "articleThemes": [
+    "still_to_motion",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "wide_panorama",
+    "negative_space"
+  ],
+  "lightingClass": [
+    "dappled_light",
+    "morning_mist",
+    "soft_natural"
+  ],
+  "technique": [
+    "portrait"
+  ],
+  "motionTags": [
+    "stillness",
+    "subtle_breeze"
+  ]
+}

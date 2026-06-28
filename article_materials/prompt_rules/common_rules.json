@@ -1,0 +1,107 @@
+{
+  "defaults": {
+    "subjectHandling": {
+      "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+      "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+    },
+    "scene": {
+      "ja": "雰囲気のある背景",
+      "en": "an atmospheric background"
+    },
+    "pose": {
+      "ja": "印象的なポーズを取る",
+      "en": "an expressive pose"
+    },
+    "intent": {
+      "ja": "キャラクターの集中力と存在感",
+      "en": "the character's focus and presence"
+    },
+    "composition": {
+      "ja": "参考画像の構図、カメラ位置、画面内の配置を保つ",
+      "en": "keep the reference image composition, camera angle, and on-canvas placement"
+    },
+    "strengths": {
+      "ja": [
+        "参考画像の見どころ"
+      ],
+      "en": [
+        "the strongest visual qualities of the reference image"
+      ]
+    },
+    "motion": {
+      "ja": "参考画像の動き、静けさ、またはブレの量を保つ",
+      "en": "preserve the movement, stillness, or amount of blur seen in the reference image"
+    },
+    "lighting": {
+      "ja": "印象的な光と影",
+      "en": "expressive light and shadow"
+    },
+    "mood": {
+      "ja": "静かで集中した空気",
+      "en": "a quiet and focused atmosphere"
+    },
+    "style": {
+      "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+      "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+    },
+    "details": {
+      "ja": [
+        "背景の質感",
+        "自然な奥行き",
+        "キャラクターの重心",
+        "視線誘導"
+      ],
+      "en": [
+        "background texture",
+        "natural depth",
+        "clear body weight balance",
+        "strong visual focus"
+      ]
+    }
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "categories": {
+    "battle_stance": "戦闘構え",
+    "battle_motion": "動きのある戦闘",
+    "training": "修練・稽古",
+    "meditation": "瞑想・静の修練",
+    "daily": "日常",
+    "portrait": "顔・立ち絵",
+    "environment": "背景重視",
+    "uncategorized": "未分類"
+  }
+}

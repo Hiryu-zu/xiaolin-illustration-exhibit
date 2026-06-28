@@ -1,0 +1,595 @@
+[
+  {
+    "id": "xiaolin_009_1a7a89db",
+    "noteOrder": 1,
+    "title": "夕日の道場で構える静かな間合い",
+    "imageFile": "xiaolin_009_1a7a89db.png",
+    "libraryImageFile": "01_xiaolin_009_1a7a89db.png",
+    "copied": true,
+    "category": "battle_stance",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "low_angle",
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "backlight",
+      "rim_light",
+      "sunset"
+    ],
+    "technique": [
+      "standing_stance"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center"
+    ],
+    "caption": "夕日が差し込む道場で、低く構えて相手との距離を測る一枚。強い逆光と床の導線が、静かな圧を作っている。"
+  },
+  {
+    "id": "xiaolin_010_eab4c340",
+    "noteOrder": 2,
+    "title": "竹林の水辺を歩く静かな導入",
+    "imageFile": "xiaolin_010_eab4c340.png",
+    "libraryImageFile": "02_xiaolin_010_eab4c340.png",
+    "copied": true,
+    "category": "environment",
+    "articleThemes": [
+      "still_to_motion",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "dappled_light",
+      "morning_mist",
+      "soft_natural"
+    ],
+    "technique": [
+      "portrait"
+    ],
+    "motionTags": [
+      "stillness",
+      "subtle_breeze"
+    ],
+    "caption": "竹林と水辺の広がりを見せる横長の一枚。人物よりも空気感と場所の美しさを重視する導入カットに向いている。"
+  },
+  {
+    "id": "xiaolin_011_27ed9fc5",
+    "noteOrder": 3,
+    "title": "湖畔で座禅する広い夕景",
+    "imageFile": "xiaolin_011_27ed9fc5.png",
+    "libraryImageFile": "03_xiaolin_011_27ed9fc5.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "sunset",
+      "water_reflection",
+      "backlight"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ],
+    "caption": "夕暮れの湖畔で瞑想する横長構図。人物の静けさと、広い水面・山並みの余韻が主役になる。"
+  },
+  {
+    "id": "xiaolin_012_3e3cddd0",
+    "noteOrder": 4,
+    "title": "雨上がりの石畳で構える朝の稽古",
+    "imageFile": "xiaolin_012_3e3cddd0.png",
+    "libraryImageFile": "04_xiaolin_012_3e3cddd0.png",
+    "copied": true,
+    "category": "battle_stance",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "morning_mist",
+      "soft_natural",
+      "water_reflection"
+    ],
+    "technique": [
+      "standing_stance"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center",
+      "reflection"
+    ],
+    "caption": "雨上がりの石畳に立ち、片手を前に出して構える一枚。湿った床の反射と朝靄が、静かな稽古の緊張感を支える。"
+  },
+  {
+    "id": "xiaolin_015_b0f6ade9",
+    "noteOrder": 5,
+    "title": "壁際で流す掌打の接近戦",
+    "imageFile": "xiaolin_015_b0f6ade9.png",
+    "libraryImageFile": "05_xiaolin_015_b0f6ade9.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "action_pose",
+      "strike",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "diagonal",
+      "closeup"
+    ],
+    "lightingClass": [
+      "interior_light",
+      "rim_light"
+    ],
+    "technique": [
+      "palm_strike",
+      "close_combat"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "low_center"
+    ],
+    "caption": "壁際で身をひねり、掌打を流すように出すアクションカット。袖と髪の流れ、壁の近さが接近戦の圧を作る。"
+  },
+  {
+    "id": "xiaolin_016_7df317fc",
+    "noteOrder": 6,
+    "title": "縁側で目を閉じる静かな座法",
+    "imageFile": "xiaolin_016_7df317fc.png",
+    "libraryImageFile": "06_xiaolin_016_7df317fc.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "soft_natural",
+      "interior_light"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness"
+    ],
+    "caption": "縁側に座って目を閉じる静かなカット。庭と柱のフレーミングが、内面に向かう時間を作っている。"
+  },
+  {
+    "id": "xiaolin_017_123010d9",
+    "noteOrder": 7,
+    "title": "中庭で座る朝靄の呼吸",
+    "imageFile": "xiaolin_017_123010d9.png",
+    "libraryImageFile": "07_xiaolin_017_123010d9.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered"
+    ],
+    "lightingClass": [
+      "morning_mist",
+      "soft_natural"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness"
+    ],
+    "caption": "庭園の石畳に座り、朝靄の中で呼吸を整える一枚。背景の緑と石の質感が、修練場の空気を補強する。"
+  },
+  {
+    "id": "xiaolin_018_bb7e49e0",
+    "noteOrder": 8,
+    "title": "木床の道場で膝をつく礼法",
+    "imageFile": "xiaolin_018_bb7e49e0.png",
+    "libraryImageFile": "08_xiaolin_018_bb7e49e0.png",
+    "copied": true,
+    "category": "training",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "front"
+    ],
+    "lightingClass": [
+      "interior_light",
+      "soft_natural"
+    ],
+    "technique": [
+      "etiquette"
+    ],
+    "motionTags": [
+      "stillness"
+    ],
+    "caption": "木造道場の中で膝をつき、静かに礼法や呼吸を整える場面。床の反射と柱の垂直線が、格式を感じさせる。"
+  },
+  {
+    "id": "xiaolin_019_df4c1d0a",
+    "noteOrder": 9,
+    "title": "湖と山を背にした夕暮れの瞑想",
+    "imageFile": "xiaolin_019_df4c1d0a.png",
+    "libraryImageFile": "09_xiaolin_019_df4c1d0a.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "symmetrical"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight",
+      "water_reflection"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ],
+    "caption": "湖畔で正面を向いて瞑想する一枚。背後の夕日と山並みが、静かな精神性を強く見せる。"
+  },
+  {
+    "id": "xiaolin_020_86b0a334",
+    "noteOrder": 10,
+    "title": "竹林の白光に包まれる横顔の瞑想",
+    "imageFile": "xiaolin_020_86b0a334.png",
+    "libraryImageFile": "10_xiaolin_020_86b0a334.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "side_profile",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "diffused_white",
+      "dappled_light"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "subtle_breeze"
+    ],
+    "caption": "竹林の中で横向きに座る静かな一枚。白く拡散した光が、瞑想の透明感を作っている。"
+  },
+  {
+    "id": "xiaolin_021_a83ca4f6",
+    "noteOrder": 11,
+    "title": "風をまとって旋回を表現した戦闘ポーズ",
+    "imageFile": "xiaolin_021_a83ca4f6.png",
+    "libraryImageFile": "11_xiaolin_021_a83ca4f6.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "diagonal",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "dappled_light",
+      "rim_light"
+    ],
+    "technique": [
+      "rotation"
+    ],
+    "motionTags": [
+      "wind_trails",
+      "motion_blur",
+      "speed_lines",
+      "low_center"
+    ],
+    "caption": "森の石橋で、風の軌跡をまといながら旋回を表現する戦闘ポーズ。白い流れと低い重心が、回転の勢いを見せている。"
+  },
+  {
+    "id": "xiaolin_022_78bf7425",
+    "noteOrder": 12,
+    "title": "水鏡に映る正面瞑想",
+    "imageFile": "xiaolin_022_78bf7425.png",
+    "libraryImageFile": "12_xiaolin_022_78bf7425.png",
+    "copied": true,
+    "category": "meditation",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "symmetrical"
+    ],
+    "lightingClass": [
+      "sunset",
+      "water_reflection",
+      "backlight"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ],
+    "caption": "湖面に姿が映る、正面性の強い瞑想カット。人物、反射、夕空の対称性が美しい。"
+  },
+  {
+    "id": "xiaolin_023_a414c2cc",
+    "noteOrder": 13,
+    "title": "乾いた荒野で踏み込む掌底構え",
+    "imageFile": "xiaolin_023_a414c2cc.png",
+    "libraryImageFile": "13_xiaolin_023_a414c2cc.png",
+    "copied": true,
+    "category": "battle_stance",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "strike",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight",
+      "dust_reflection"
+    ],
+    "technique": [
+      "palm_strike",
+      "standing_stance"
+    ],
+    "motionTags": [
+      "dust",
+      "low_center",
+      "impact"
+    ],
+    "caption": "乾いた地面で低く構え、片手を前へ出す荒野の戦闘カット。砂埃と夕日が、硬派な緊張感を出している。"
+  },
+  {
+    "id": "xiaolin_024_7a70d879",
+    "noteOrder": 14,
+    "title": "中庭を横切る低い突進",
+    "imageFile": "xiaolin_024_7a70d879.png",
+    "libraryImageFile": "14_xiaolin_024_7a70d879.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "action_pose",
+      "camera_work"
+    ],
+    "camera": [
+      "wide_panorama",
+      "diagonal"
+    ],
+    "lightingClass": [
+      "soft_natural"
+    ],
+    "technique": [
+      "dash"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "low_center"
+    ],
+    "caption": "中庭を低く滑るように横切る横長アクション。背景の建物と斜めの体勢が、移動方向を強く示している。"
+  },
+  {
+    "id": "xiaolin_036_45f4581f",
+    "noteOrder": 15,
+    "title": "正面からの瓦割り",
+    "imageFile": "xiaolin_036_45f4581f.png",
+    "libraryImageFile": "15_xiaolin_036_45f4581f.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "strike",
+      "camera_work"
+    ],
+    "camera": [
+      "front",
+      "centered"
+    ],
+    "lightingClass": [
+      "interior_light"
+    ],
+    "technique": [
+      "tile_break"
+    ],
+    "motionTags": [
+      "debris",
+      "impact",
+      "low_center"
+    ],
+    "caption": "正面から瓦や床材を割る瞬間を見せる一枚。飛び散る破片と体の中心軸が、真っ直ぐな衝撃を強調している。"
+  },
+  {
+    "id": "xiaolin_039_9c8c917e",
+    "noteOrder": 16,
+    "title": "蹴り足が画面に迫る超接近アクション",
+    "imageFile": "xiaolin_039_9c8c917e.png",
+    "libraryImageFile": "16_xiaolin_039_9c8c917e.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "kick",
+      "camera_work"
+    ],
+    "camera": [
+      "closeup",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "dust_reflection",
+      "soft_natural"
+    ],
+    "technique": [
+      "kick"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "dust",
+      "impact"
+    ],
+    "caption": "蹴り足を画面手前へ大きく出した迫力重視のカット。遠近感と白い軌跡で、蹴り足が画面に迫る距離感を見せる。"
+  },
+  {
+    "id": "xiaolin_040_22ed3784",
+    "noteOrder": 17,
+    "title": "低姿勢で片脚を伸ばしたポーズ",
+    "imageFile": "xiaolin_040_22ed3784.png",
+    "libraryImageFile": "17_xiaolin_040_22ed3784.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "kick",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "diagonal"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight"
+    ],
+    "technique": [
+      "extended_leg_pose"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center",
+      "subtle_breeze"
+    ],
+    "caption": "夕日の中庭で、低い姿勢から片脚を長く伸ばしたポーズ。蹴りの攻撃性より、柔軟性と体幹の安定感を見せる。"
+  },
+  {
+    "id": "xiaolin_041_39fab055",
+    "noteOrder": 18,
+    "title": "拳が迫る一点突破の正拳",
+    "imageFile": "xiaolin_041_39fab055.png",
+    "libraryImageFile": "18_xiaolin_041_39fab055.png",
+    "copied": true,
+    "category": "battle_motion",
+    "articleThemes": [
+      "action_pose",
+      "strike",
+      "camera_work"
+    ],
+    "camera": [
+      "closeup",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "soft_natural"
+    ],
+    "technique": [
+      "straight_punch"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "impact"
+    ],
+    "caption": "拳をカメラ前へ突き出した一点突破のアクション。拳の巨大な遠近感と背景の流れが、直線的な威力を出している。"
+  },
+  {
+    "id": "xiaolin_042_e3a08c52",
+    "noteOrder": 19,
+    "title": "道場入口に立つ静かな肖像",
+    "imageFile": "xiaolin_042_e3a08c52.png",
+    "libraryImageFile": "19_xiaolin_042_e3a08c52.png",
+    "copied": true,
+    "category": "portrait",
+    "articleThemes": [
+      "still_to_motion",
+      "character_pose",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered"
+    ],
+    "lightingClass": [
+      "soft_natural",
+      "interior_light"
+    ],
+    "technique": [
+      "portrait"
+    ],
+    "motionTags": [
+      "stillness"
+    ],
+    "caption": "道場の入口に立つ、キャラクター紹介向きの落ち着いた一枚。背景の掛け軸と自然光が、武術家としての芯を見せている。"
+  }
+]

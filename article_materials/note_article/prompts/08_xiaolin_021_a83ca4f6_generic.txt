@@ -1,0 +1,13 @@
+Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style illustration set in a forest stone bridge and stone path lit by shafts of sunlight. The pose/action is twisting the body in a low stance, expressing a turning motion as if wrapped in wind, expressing show rotation and body control through flowing wind, rather than a straight sprint.
+
+Composition: arrange white wind trails in arcs around the character, showing the turning flow across the whole frame. Emphasize white wind trails, twisted body posture suggesting rotation, contrast of sunlight and forest shadow.
+
+Keep use strong blur in the wind trails and sleeves while keeping the face and torso readable, slanting forest light and dark shadows making the white motion trails stand out, and sharp and fast, with tension as if controlling the surrounding wind. The scene should feel quiet, focused, and cinematic rather than chaotic.
+
+Use background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.
+
+Avoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.

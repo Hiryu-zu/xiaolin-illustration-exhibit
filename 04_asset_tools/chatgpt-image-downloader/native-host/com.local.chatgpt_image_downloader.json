@@ -1,0 +1,9 @@
+﻿{
+    "name":  "com.local.chatgpt_image_downloader",
+    "description":  "Local writer for ChatGPT Image Batch Downloader",
+    "path":  "C:\\Projects\\01_AI画像・動画\\小鈴（シャオリン）のイラスト展\\04_asset_tools\\chatgpt-image-downloader\\native-host\\chatgpt_image_downloader_host.cmd",
+    "type":  "stdio",
+    "allowed_origins":  [
+                            "chrome-extension://kbdpphjjkfhlochgnakadgklcklipcid/"
+                        ]
+}

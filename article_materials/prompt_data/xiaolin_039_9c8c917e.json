@@ -1,0 +1,140 @@
+{
+  "id": "xiaolin_039_9c8c917e",
+  "imageFile": "xiaolin_039_9c8c917e.png",
+  "image": "../../selected/xiaolin_039_9c8c917e.png",
+  "imageForMarkdown": "selected/xiaolin_039_9c8c917e.png",
+  "noteOrder": 16,
+  "title": "蹴り足が画面に迫る超接近アクション",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "蹴り",
+    "超広角",
+    "足裏",
+    "モーションブラー"
+  ],
+  "caption": "蹴り足を画面手前へ大きく出した迫力重視のカット。遠近感と白い軌跡で、蹴り足が画面に迫る距離感を見せる。",
+  "scene": {
+    "ja": "屋外の稽古場または中庭、砂埃が舞う戦闘空間",
+    "en": "an outdoor training yard or courtyard with dust in the air"
+  },
+  "pose": {
+    "ja": "蹴り足をカメラ前面へ大きく突き出し、上半身を奥に置く",
+    "en": "thrusting a kicking foot toward the camera with the upper body farther back"
+  },
+  "intent": {
+    "ja": "見る側に迫る蹴り足の衝撃と距離感",
+    "en": "the impact and proximity of a kicking foot rushing toward the viewer"
+  },
+  "composition": {
+    "ja": "超広角の遠近感で足裏を大きく、顔と体を奥に小さく配置する",
+    "en": "use extreme wide-angle perspective, making the sole large in the foreground and the face/body smaller behind"
+  },
+  "strengths": {
+    "ja": [
+      "足裏の強いパース",
+      "白い衝撃線",
+      "砂埃と背景ブラー"
+    ],
+    "en": [
+      "strong perspective on the sole",
+      "white impact lines",
+      "dust and background blur"
+    ]
+  },
+  "motion": {
+    "ja": "蹴りの周囲に強いブラーと円弧状の軌跡を入れ、顔は読み取れる程度に残す",
+    "en": "use strong blur and arc-shaped trails around the kick while keeping the face somewhat readable"
+  },
+  "lighting": {
+    "ja": "屋外の硬い光と砂埃の反射で、蹴りの輪郭を強調する",
+    "en": "hard outdoor light and dust reflection emphasizing the kick silhouette"
+  },
+  "mood": {
+    "ja": "迫力とスピードを最優先した、攻撃的な一瞬",
+    "en": "an aggressive instant prioritizing impact and speed"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "16_xiaolin_039_9c8c917e.png",
+  "libraryImagePath": "library/images/16_xiaolin_039_9c8c917e.png",
+  "articleThemes": [
+    "still_to_motion",
+    "action_pose",
+    "kick",
+    "camera_work"
+  ],
+  "camera": [
+    "closeup",
+    "strong_perspective"
+  ],
+  "lightingClass": [
+    "dust_reflection",
+    "soft_natural"
+  ],
+  "technique": [
+    "kick"
+  ],
+  "motionTags": [
+    "motion_blur",
+    "speed_lines",
+    "dust",
+    "impact"
+  ]
+}

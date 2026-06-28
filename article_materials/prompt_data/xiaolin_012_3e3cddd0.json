@@ -1,0 +1,140 @@
+{
+  "id": "xiaolin_012_3e3cddd0",
+  "imageFile": "xiaolin_012_3e3cddd0.png",
+  "image": "../../selected/xiaolin_012_3e3cddd0.png",
+  "imageForMarkdown": "selected/xiaolin_012_3e3cddd0.png",
+  "noteOrder": 4,
+  "title": "雨上がりの石畳で構える朝の稽古",
+  "noteSection": "構え・間合い",
+  "category": "battle_stance",
+  "tags": [
+    "石畳",
+    "朝靄",
+    "構え",
+    "水面反射"
+  ],
+  "caption": "雨上がりの石畳に立ち、片手を前に出して構える一枚。湿った床の反射と朝靄が、静かな稽古の緊張感を支える。",
+  "scene": {
+    "ja": "雨上がりの石畳が濡れた中庭と寺院の参道",
+    "en": "a rain-wet stone courtyard and temple path after dawn"
+  },
+  "pose": {
+    "ja": "足を大きく開き、片手を前に出した安定した武術の構え",
+    "en": "a stable martial stance with legs spread wide and one hand raised forward"
+  },
+  "intent": {
+    "ja": "攻撃よりも間合いを制する冷静な構え",
+    "en": "a calm stance focused on controlling distance rather than attacking"
+  },
+  "composition": {
+    "ja": "縦構図で人物を中央に置き、石畳の遠近線と灯籠で奥行きを作る",
+    "en": "a vertical central composition using stone path perspective lines and lanterns to create depth"
+  },
+  "strengths": {
+    "ja": [
+      "濡れた石畳の反射",
+      "霧に包まれた奥行き",
+      "構えの安定感"
+    ],
+    "en": [
+      "reflections on wet stone",
+      "misty depth",
+      "stability of the stance"
+    ]
+  },
+  "motion": {
+    "ja": "動き始める直前の静止。衣装の裾だけに軽い揺れを残す",
+    "en": "a held moment just before movement, with only slight motion in the clothing hem"
+  },
+  "lighting": {
+    "ja": "朝の低い光と霧で、柔らかく湿度のある光",
+    "en": "low morning light diffused by mist, soft and humid"
+  },
+  "mood": {
+    "ja": "凛として落ち着いた、稽古前の緊張感",
+    "en": "composed, disciplined tension before training"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "04_xiaolin_012_3e3cddd0.png",
+  "libraryImagePath": "library/images/04_xiaolin_012_3e3cddd0.png",
+  "articleThemes": [
+    "still_to_motion",
+    "stance",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "centered",
+    "strong_perspective"
+  ],
+  "lightingClass": [
+    "morning_mist",
+    "soft_natural",
+    "water_reflection"
+  ],
+  "technique": [
+    "standing_stance"
+  ],
+  "motionTags": [
+    "stillness",
+    "low_center",
+    "reflection"
+  ]
+}

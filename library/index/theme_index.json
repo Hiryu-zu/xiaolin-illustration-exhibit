@@ -1,0 +1,519 @@
+[
+  {
+    "id": "xiaolin_009_1a7a89db",
+    "noteOrder": 1,
+    "title": "夕日の道場で構える静かな間合い",
+    "libraryImagePath": "library/images/01_xiaolin_009_1a7a89db.png",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "low_angle",
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "backlight",
+      "rim_light",
+      "sunset"
+    ],
+    "technique": [
+      "standing_stance"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center"
+    ]
+  },
+  {
+    "id": "xiaolin_010_eab4c340",
+    "noteOrder": 2,
+    "title": "竹林の水辺を歩く静かな導入",
+    "libraryImagePath": "library/images/02_xiaolin_010_eab4c340.png",
+    "articleThemes": [
+      "still_to_motion",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "dappled_light",
+      "morning_mist",
+      "soft_natural"
+    ],
+    "technique": [
+      "portrait"
+    ],
+    "motionTags": [
+      "stillness",
+      "subtle_breeze"
+    ]
+  },
+  {
+    "id": "xiaolin_011_27ed9fc5",
+    "noteOrder": 3,
+    "title": "湖畔で座禅する広い夕景",
+    "libraryImagePath": "library/images/03_xiaolin_011_27ed9fc5.png",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "sunset",
+      "water_reflection",
+      "backlight"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ]
+  },
+  {
+    "id": "xiaolin_012_3e3cddd0",
+    "noteOrder": 4,
+    "title": "雨上がりの石畳で構える朝の稽古",
+    "libraryImagePath": "library/images/04_xiaolin_012_3e3cddd0.png",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "morning_mist",
+      "soft_natural",
+      "water_reflection"
+    ],
+    "technique": [
+      "standing_stance"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center",
+      "reflection"
+    ]
+  },
+  {
+    "id": "xiaolin_015_b0f6ade9",
+    "noteOrder": 5,
+    "title": "壁際で流す掌打の接近戦",
+    "libraryImagePath": "library/images/05_xiaolin_015_b0f6ade9.png",
+    "articleThemes": [
+      "action_pose",
+      "strike",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "diagonal",
+      "closeup"
+    ],
+    "lightingClass": [
+      "interior_light",
+      "rim_light"
+    ],
+    "technique": [
+      "palm_strike",
+      "close_combat"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "low_center"
+    ]
+  },
+  {
+    "id": "xiaolin_016_7df317fc",
+    "noteOrder": 6,
+    "title": "縁側で目を閉じる静かな座法",
+    "libraryImagePath": "library/images/06_xiaolin_016_7df317fc.png",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "soft_natural",
+      "interior_light"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness"
+    ]
+  },
+  {
+    "id": "xiaolin_017_123010d9",
+    "noteOrder": 7,
+    "title": "中庭で座る朝靄の呼吸",
+    "libraryImagePath": "library/images/07_xiaolin_017_123010d9.png",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered"
+    ],
+    "lightingClass": [
+      "morning_mist",
+      "soft_natural"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness"
+    ]
+  },
+  {
+    "id": "xiaolin_018_bb7e49e0",
+    "noteOrder": 8,
+    "title": "木床の道場で膝をつく礼法",
+    "libraryImagePath": "library/images/08_xiaolin_018_bb7e49e0.png",
+    "articleThemes": [
+      "meditation",
+      "lighting"
+    ],
+    "camera": [
+      "centered",
+      "front"
+    ],
+    "lightingClass": [
+      "interior_light",
+      "soft_natural"
+    ],
+    "technique": [
+      "etiquette"
+    ],
+    "motionTags": [
+      "stillness"
+    ]
+  },
+  {
+    "id": "xiaolin_019_df4c1d0a",
+    "noteOrder": 9,
+    "title": "湖と山を背にした夕暮れの瞑想",
+    "libraryImagePath": "library/images/09_xiaolin_019_df4c1d0a.png",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "symmetrical"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight",
+      "water_reflection"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ]
+  },
+  {
+    "id": "xiaolin_020_86b0a334",
+    "noteOrder": 10,
+    "title": "竹林の白光に包まれる横顔の瞑想",
+    "libraryImagePath": "library/images/10_xiaolin_020_86b0a334.png",
+    "articleThemes": [
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "side_profile",
+      "negative_space"
+    ],
+    "lightingClass": [
+      "diffused_white",
+      "dappled_light"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "subtle_breeze"
+    ]
+  },
+  {
+    "id": "xiaolin_021_a83ca4f6",
+    "noteOrder": 11,
+    "title": "風をまとって旋回を表現した戦闘ポーズ",
+    "libraryImagePath": "library/images/11_xiaolin_021_a83ca4f6.png",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "diagonal",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "dappled_light",
+      "rim_light"
+    ],
+    "technique": [
+      "rotation"
+    ],
+    "motionTags": [
+      "wind_trails",
+      "motion_blur",
+      "speed_lines",
+      "low_center"
+    ]
+  },
+  {
+    "id": "xiaolin_022_78bf7425",
+    "noteOrder": 12,
+    "title": "水鏡に映る正面瞑想",
+    "libraryImagePath": "library/images/12_xiaolin_022_78bf7425.png",
+    "articleThemes": [
+      "still_to_motion",
+      "meditation",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "symmetrical"
+    ],
+    "lightingClass": [
+      "sunset",
+      "water_reflection",
+      "backlight"
+    ],
+    "technique": [
+      "meditation"
+    ],
+    "motionTags": [
+      "stillness",
+      "reflection"
+    ]
+  },
+  {
+    "id": "xiaolin_023_a414c2cc",
+    "noteOrder": 13,
+    "title": "乾いた荒野で踏み込む掌底構え",
+    "libraryImagePath": "library/images/13_xiaolin_023_a414c2cc.png",
+    "articleThemes": [
+      "still_to_motion",
+      "stance",
+      "strike",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight",
+      "dust_reflection"
+    ],
+    "technique": [
+      "palm_strike",
+      "standing_stance"
+    ],
+    "motionTags": [
+      "dust",
+      "low_center",
+      "impact"
+    ]
+  },
+  {
+    "id": "xiaolin_024_7a70d879",
+    "noteOrder": 14,
+    "title": "中庭を横切る低い突進",
+    "libraryImagePath": "library/images/14_xiaolin_024_7a70d879.png",
+    "articleThemes": [
+      "action_pose",
+      "camera_work"
+    ],
+    "camera": [
+      "wide_panorama",
+      "diagonal"
+    ],
+    "lightingClass": [
+      "soft_natural"
+    ],
+    "technique": [
+      "dash"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "low_center"
+    ]
+  },
+  {
+    "id": "xiaolin_036_45f4581f",
+    "noteOrder": 15,
+    "title": "正面からの瓦割り",
+    "libraryImagePath": "library/images/15_xiaolin_036_45f4581f.png",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "strike",
+      "camera_work"
+    ],
+    "camera": [
+      "front",
+      "centered"
+    ],
+    "lightingClass": [
+      "interior_light"
+    ],
+    "technique": [
+      "tile_break"
+    ],
+    "motionTags": [
+      "debris",
+      "impact",
+      "low_center"
+    ]
+  },
+  {
+    "id": "xiaolin_039_9c8c917e",
+    "noteOrder": 16,
+    "title": "蹴り足が画面に迫る超接近アクション",
+    "libraryImagePath": "library/images/16_xiaolin_039_9c8c917e.png",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "kick",
+      "camera_work"
+    ],
+    "camera": [
+      "closeup",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "dust_reflection",
+      "soft_natural"
+    ],
+    "technique": [
+      "kick"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "dust",
+      "impact"
+    ]
+  },
+  {
+    "id": "xiaolin_040_22ed3784",
+    "noteOrder": 17,
+    "title": "低姿勢で片脚を伸ばしたポーズ",
+    "libraryImagePath": "library/images/17_xiaolin_040_22ed3784.png",
+    "articleThemes": [
+      "still_to_motion",
+      "action_pose",
+      "kick",
+      "lighting"
+    ],
+    "camera": [
+      "wide_panorama",
+      "diagonal"
+    ],
+    "lightingClass": [
+      "sunset",
+      "backlight"
+    ],
+    "technique": [
+      "extended_leg_pose"
+    ],
+    "motionTags": [
+      "stillness",
+      "low_center",
+      "subtle_breeze"
+    ]
+  },
+  {
+    "id": "xiaolin_041_39fab055",
+    "noteOrder": 18,
+    "title": "拳が迫る一点突破の正拳",
+    "libraryImagePath": "library/images/18_xiaolin_041_39fab055.png",
+    "articleThemes": [
+      "action_pose",
+      "strike",
+      "camera_work"
+    ],
+    "camera": [
+      "closeup",
+      "strong_perspective"
+    ],
+    "lightingClass": [
+      "soft_natural"
+    ],
+    "technique": [
+      "straight_punch"
+    ],
+    "motionTags": [
+      "motion_blur",
+      "speed_lines",
+      "impact"
+    ]
+  },
+  {
+    "id": "xiaolin_042_e3a08c52",
+    "noteOrder": 19,
+    "title": "道場入口に立つ静かな肖像",
+    "libraryImagePath": "library/images/19_xiaolin_042_e3a08c52.png",
+    "articleThemes": [
+      "still_to_motion",
+      "character_pose",
+      "camera_work",
+      "lighting"
+    ],
+    "camera": [
+      "front",
+      "centered"
+    ],
+    "lightingClass": [
+      "soft_natural",
+      "interior_light"
+    ],
+    "technique": [
+      "portrait"
+    ],
+    "motionTags": [
+      "stillness"
+    ]
+  }
+]

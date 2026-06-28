@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatGPT Image Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <label>
+        Chat URL
+        <input id="chatUrl" type="url" placeholder="https://chatgpt.com/..." autocomplete="off">
+      </label>
+      <label>
+        Save folder
+        <input id="folder" type="text" placeholder="C:\Projects\...\inbox" autocomplete="off">
+      </label>
+      <label>
+        Prefix
+        <input id="prefix" type="text" value="chatgpt_image" autocomplete="off">
+      </label>
+      <label class="check">
+        <input id="includeUploads" type="checkbox">
+        Include uploaded/reference files
+      </label>
+      <button id="start">Download images</button>
+      <pre id="status">Ready.</pre>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

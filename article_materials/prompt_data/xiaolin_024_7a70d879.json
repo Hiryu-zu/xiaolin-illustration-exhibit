@@ -1,0 +1,136 @@
+{
+  "id": "xiaolin_024_7a70d879",
+  "imageFile": "xiaolin_024_7a70d879.png",
+  "image": "../../selected/xiaolin_024_7a70d879.png",
+  "imageForMarkdown": "selected/xiaolin_024_7a70d879.png",
+  "noteOrder": 14,
+  "title": "中庭を横切る低い突進",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "横長構図",
+    "突進",
+    "中庭",
+    "スピード感"
+  ],
+  "caption": "中庭を低く滑るように横切る横長アクション。背景の建物と斜めの体勢が、移動方向を強く示している。",
+  "scene": {
+    "ja": "寺院風の中庭と木造建築の前",
+    "en": "a temple-like courtyard in front of wooden buildings"
+  },
+  "pose": {
+    "ja": "低く身を沈めて横方向へ突進し、片腕を後ろに流す",
+    "en": "lunging low sideways, with one arm trailing behind"
+  },
+  "intent": {
+    "ja": "相手の視界を横に抜ける素早い移動",
+    "en": "a quick lateral movement slipping across the opponent’s field of view"
+  },
+  "composition": {
+    "ja": "横長構図で人物の移動方向を広く取り、背景の屋根線をスピードの補助に使う",
+    "en": "a wide composition that leaves room for the movement direction, using roof lines to reinforce speed"
+  },
+  "strengths": {
+    "ja": [
+      "横方向の疾走感",
+      "低い重心",
+      "背景の建築線による勢い"
+    ],
+    "en": [
+      "lateral speed",
+      "low center of gravity",
+      "momentum from architectural background lines"
+    ]
+  },
+  "motion": {
+    "ja": "足元と袖に中程度のブラーを入れ、進行方向へ流れる残像を作る",
+    "en": "use medium blur on feet and sleeves, creating afterimages along the travel direction"
+  },
+  "lighting": {
+    "ja": "日中の明るい自然光と、建物の影のコントラスト",
+    "en": "bright daylight with contrast from building shadows"
+  },
+  "mood": {
+    "ja": "軽快で素早い、回避から反撃へつながる緊張感",
+    "en": "nimble and fast, with tension leading from evasion into counterattack"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "14_xiaolin_024_7a70d879.png",
+  "libraryImagePath": "library/images/14_xiaolin_024_7a70d879.png",
+  "articleThemes": [
+    "action_pose",
+    "camera_work"
+  ],
+  "camera": [
+    "wide_panorama",
+    "diagonal"
+  ],
+  "lightingClass": [
+    "soft_natural"
+  ],
+  "technique": [
+    "dash"
+  ],
+  "motionTags": [
+    "motion_blur",
+    "speed_lines",
+    "low_center"
+  ]
+}

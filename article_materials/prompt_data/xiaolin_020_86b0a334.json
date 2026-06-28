@@ -1,0 +1,137 @@
+{
+  "id": "xiaolin_020_86b0a334",
+  "imageFile": "xiaolin_020_86b0a334.png",
+  "image": "../../selected/xiaolin_020_86b0a334.png",
+  "imageForMarkdown": "selected/xiaolin_020_86b0a334.png",
+  "noteOrder": 10,
+  "title": "竹林の白光に包まれる横顔の瞑想",
+  "noteSection": "静の修練・瞑想",
+  "category": "meditation",
+  "tags": [
+    "竹林",
+    "横顔",
+    "瞑想",
+    "白い光"
+  ],
+  "caption": "竹林の中で横向きに座る静かな一枚。白く拡散した光が、瞑想の透明感を作っている。",
+  "scene": {
+    "ja": "白い光が差す竹林の石床",
+    "en": "a bamboo grove with white diffused light falling onto a stone floor"
+  },
+  "pose": {
+    "ja": "横向きに脚を組んで座り、目を閉じて手を膝に置く",
+    "en": "sitting cross-legged in side profile with eyes closed and hands on the knees"
+  },
+  "intent": {
+    "ja": "外界から意識を切り離し、静かに集中する",
+    "en": "withdrawing from the outside world and entering quiet focus"
+  },
+  "composition": {
+    "ja": "横顔を右寄りに配置し、竹林の縦線と白い余白で静けさを作る",
+    "en": "place the side-profile figure slightly to the right, using bamboo verticals and pale negative space for stillness"
+  },
+  "strengths": {
+    "ja": [
+      "白く拡散した光",
+      "横顔の静けさ",
+      "竹林の縦方向のリズム"
+    ],
+    "en": [
+      "white diffused light",
+      "quiet side profile",
+      "vertical rhythm of bamboo"
+    ]
+  },
+  "motion": {
+    "ja": "静止。竹葉と薄霧だけに柔らかな揺れを入れる",
+    "en": "stillness, with only soft movement in bamboo leaves and faint mist"
+  },
+  "lighting": {
+    "ja": "逆光気味の白い拡散光で、輪郭をやわらかく溶かす",
+    "en": "white diffused backlight softly dissolving the silhouette edges"
+  },
+  "mood": {
+    "ja": "透明感があり、静かで内向的",
+    "en": "clear, quiet, and inward-looking"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "10_xiaolin_020_86b0a334.png",
+  "libraryImagePath": "library/images/10_xiaolin_020_86b0a334.png",
+  "articleThemes": [
+    "meditation",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "side_profile",
+    "negative_space"
+  ],
+  "lightingClass": [
+    "diffused_white",
+    "dappled_light"
+  ],
+  "technique": [
+    "meditation"
+  ],
+  "motionTags": [
+    "stillness",
+    "subtle_breeze"
+  ]
+}

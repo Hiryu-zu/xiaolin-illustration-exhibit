@@ -1,0 +1,137 @@
+{
+  "id": "xiaolin_041_39fab055",
+  "imageFile": "xiaolin_041_39fab055.png",
+  "image": "../../selected/xiaolin_041_39fab055.png",
+  "imageForMarkdown": "selected/xiaolin_041_39fab055.png",
+  "noteOrder": 18,
+  "title": "拳が迫る一点突破の正拳",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "正拳",
+    "拳アップ",
+    "遠近感",
+    "スピードライン"
+  ],
+  "caption": "拳をカメラ前へ突き出した一点突破のアクション。拳の巨大な遠近感と背景の流れが、直線的な威力を出している。",
+  "scene": {
+    "ja": "道場外の中庭、建物を背にした戦闘の瞬間",
+    "en": "a dojo courtyard combat moment with buildings behind"
+  },
+  "pose": {
+    "ja": "拳をカメラへまっすぐ突き出し、体を低く前傾させる",
+    "en": "thrusting a fist straight toward the camera while leaning forward low"
+  },
+  "intent": {
+    "ja": "一点に集中した正拳の速度と突破力",
+    "en": "the speed and piercing force of a straight punch focused on one point"
+  },
+  "composition": {
+    "ja": "拳を画面手前に大きく置き、顔と体を奥へ配置する強い遠近構図",
+    "en": "a strong perspective composition with the fist huge in the foreground and face/body behind"
+  },
+  "strengths": {
+    "ja": [
+      "拳の迫力あるパース",
+      "背景の流線",
+      "視線を一点に集める構図"
+    ],
+    "en": [
+      "powerful fist perspective",
+      "streaming background lines",
+      "composition that concentrates attention on one point"
+    ]
+  },
+  "motion": {
+    "ja": "拳の周囲と背景に強い直線ブラーを入れ、目線は残す",
+    "en": "use strong linear blur around the fist and background while preserving the eyes"
+  },
+  "lighting": {
+    "ja": "屋外の明るい光と影で、拳と顔の立体感を分ける",
+    "en": "bright outdoor light and shadows separating the volume of the fist and face"
+  },
+  "mood": {
+    "ja": "攻撃的で直線的、決め技に近い緊迫感",
+    "en": "aggressive and direct, with the tension of a finishing strike"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "18_xiaolin_041_39fab055.png",
+  "libraryImagePath": "library/images/18_xiaolin_041_39fab055.png",
+  "articleThemes": [
+    "action_pose",
+    "strike",
+    "camera_work"
+  ],
+  "camera": [
+    "closeup",
+    "strong_perspective"
+  ],
+  "lightingClass": [
+    "soft_natural"
+  ],
+  "technique": [
+    "straight_punch"
+  ],
+  "motionTags": [
+    "motion_blur",
+    "speed_lines",
+    "impact"
+  ]
+}

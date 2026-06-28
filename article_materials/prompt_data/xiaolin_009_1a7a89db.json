@@ -1,0 +1,140 @@
+{
+  "id": "xiaolin_009_1a7a89db",
+  "imageFile": "xiaolin_009_1a7a89db.png",
+  "image": "../../selected/xiaolin_009_1a7a89db.png",
+  "imageForMarkdown": "selected/xiaolin_009_1a7a89db.png",
+  "noteOrder": 1,
+  "title": "夕日の道場で構える静かな間合い",
+  "noteSection": "構え・間合い",
+  "category": "battle_stance",
+  "tags": [
+    "逆光",
+    "道場",
+    "低い構え",
+    "間合い"
+  ],
+  "caption": "夕日が差し込む道場で、低く構えて相手との距離を測る一枚。強い逆光と床の導線が、静かな圧を作っている。",
+  "scene": {
+    "ja": "夕日の光が差し込む古い木造道場",
+    "en": "an old wooden dojo lit by a low sunset"
+  },
+  "pose": {
+    "ja": "片膝を深く曲げた低い防御構えで、片手を前へ差し出す",
+    "en": "a low defensive stance with one knee deeply bent and one hand extended forward"
+  },
+  "intent": {
+    "ja": "戦う直前の間合い、集中、静かな威圧感",
+    "en": "distance control, focus, and quiet pressure just before a fight"
+  },
+  "composition": {
+    "ja": "ローアングルで人物を大きく配置し、床板の線と背後の太陽で視線を中央に集める",
+    "en": "a low-angle composition with the figure large in frame, floor lines and the backlit sun drawing the eye to the center"
+  },
+  "strengths": {
+    "ja": [
+      "強い逆光のシルエット",
+      "床に伸びる長い影",
+      "低い重心からくる緊張感"
+    ],
+    "en": [
+      "strong backlit silhouette",
+      "long shadows across the floor",
+      "tension from the low center of gravity"
+    ]
+  },
+  "motion": {
+    "ja": "大きな動きは抑え、髪と衣装にわずかな揺れを残す",
+    "en": "keep the action restrained, with only subtle movement in the hair and clothing"
+  },
+  "lighting": {
+    "ja": "背後からの黄金色のリムライトと、床に落ちる長い影",
+    "en": "golden rim light from behind and long shadows falling across the floor"
+  },
+  "mood": {
+    "ja": "静かで張りつめた、勝負前の映画的な緊張感",
+    "en": "quiet, taut, cinematic tension before a confrontation"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "01_xiaolin_009_1a7a89db.png",
+  "libraryImagePath": "library/images/01_xiaolin_009_1a7a89db.png",
+  "articleThemes": [
+    "still_to_motion",
+    "stance",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "low_angle",
+    "centered",
+    "strong_perspective"
+  ],
+  "lightingClass": [
+    "backlight",
+    "rim_light",
+    "sunset"
+  ],
+  "technique": [
+    "standing_stance"
+  ],
+  "motionTags": [
+    "stillness",
+    "low_center"
+  ]
+}

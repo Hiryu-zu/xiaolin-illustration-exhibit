@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Image Batch Downloader",
+  "version": "0.1.0",
+  "description": "Collects generated images from a ChatGPT conversation and saves them through a local native host.",
+  "permissions": [
+    "cookies",
+    "nativeMessaging",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ChatGPT Image Downloader"
+  }
+}

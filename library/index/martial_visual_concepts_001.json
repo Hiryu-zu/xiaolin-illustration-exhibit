@@ -1,0 +1,408 @@
+[
+  {
+    "id": "xiaolin_001_156c0c08",
+    "title": "summary pose sheet 01",
+    "themes": [
+      "summary_sheet",
+      "style_study"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_001_156c0c08.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Multiple full-body poses, stances, and close views on a clean white layout.",
+    "gptFocus": [
+      "full-body pose catalog",
+      "readable white background",
+      "outfit and body reference"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_001_156c0c08.png"
+  },
+  {
+    "id": "xiaolin_002_6e10a10e",
+    "title": "mixed stance reference sheet",
+    "themes": [
+      "summary_sheet",
+      "manga_composition"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_002_6e10a10e.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Full body, side profile, palm strike, and action references arranged as a hybrid pose sheet.",
+    "gptFocus": [
+      "combine character sheet and action sheet",
+      "palm strike scale",
+      "comparison layout"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_002_6e10a10e.png"
+  },
+  {
+    "id": "xiaolin_003_a5eab930",
+    "title": "light and shadow pose sheet",
+    "themes": [
+      "summary_sheet",
+      "shadow_study",
+      "manga_composition"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_003_a5eab930.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "A mixed reference sheet with dojo lighting, shadow, circular framing, and low stances.",
+    "gptFocus": [
+      "pose-by-pose lighting differences",
+      "shadow staging",
+      "circular frame and reflection"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_003_a5eab930.png"
+  },
+  {
+    "id": "xiaolin_004_dec78598",
+    "title": "integrated action pose board",
+    "themes": [
+      "summary_sheet",
+      "manga_composition",
+      "breathing_study"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_004_dec78598.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Action reference board with front pose, palm strike, rotating motion, silhouette, and standing pose.",
+    "gptFocus": [
+      "multi-action overview",
+      "wind trails",
+      "visual flow"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_004_dec78598.png"
+  },
+  {
+    "id": "xiaolin_005_5b089ca4",
+    "title": "palm and rotation action sheet",
+    "themes": [
+      "summary_sheet",
+      "manga_composition",
+      "breathing_study"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_005_5b089ca4.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Palm strike, turning motion, standing pose, and seated posture combined in one board.",
+    "gptFocus": [
+      "palm strike and wind arc",
+      "stillness versus motion",
+      "multi-cut balance"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_005_5b089ca4.png"
+  },
+  {
+    "id": "xiaolin_006_5b61a5e0",
+    "title": "selected action pose sheet",
+    "themes": [
+      "summary_sheet",
+      "style_study"
+    ],
+    "primary": "summary_sheet",
+    "themeLabel": "まとめイラスト",
+    "selectedImagePath": "selected/xiaolin_006_5b61a5e0.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Collected combat poses and standing views for selecting useful prompt directions.",
+    "gptFocus": [
+      "pose selection",
+      "full body versus bust-up",
+      "readable action silhouettes"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_006_5b61a5e0.png"
+  },
+  {
+    "id": "xiaolin_007_c641b8f2",
+    "title": "wide manga action layout",
+    "themes": [
+      "manga_composition",
+      "screen_break",
+      "eye_study"
+    ],
+    "primary": "manga_composition",
+    "themeLabel": "漫画構図",
+    "selectedImagePath": "selected/xiaolin_007_c641b8f2.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Wide manga-style layout with palm close-up, fist, eye cut-in, and horizontal panels.",
+    "gptFocus": [
+      "panel rhythm",
+      "palm strike foreground",
+      "eye cut-in"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_007_c641b8f2.png"
+  },
+  {
+    "id": "xiaolin_009_1e58c68a",
+    "title": "dojo sequential manga panels",
+    "themes": [
+      "manga_composition",
+      "screen_break",
+      "eye_study"
+    ],
+    "primary": "manga_composition",
+    "themeLabel": "漫画構図",
+    "selectedImagePath": "selected/xiaolin_009_1e58c68a.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Indoor dojo manga page with horizontal panels, palm strike, eye cut-in, and low stance.",
+    "gptFocus": [
+      "sequential motion",
+      "thin horizontal panels",
+      "palm and eye tension"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_009_1e58c68a.png"
+  },
+  {
+    "id": "xiaolin_014_a400315e",
+    "title": "bamboo manga panel breathing study",
+    "themes": [
+      "manga_composition",
+      "breathing_study",
+      "eye_study"
+    ],
+    "primary": "manga_composition",
+    "themeLabel": "漫画構図",
+    "selectedImagePath": "selected/xiaolin_014_a400315e.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Bamboo training panels with seated posture, stance, palm strike, and eye close-ups.",
+    "gptFocus": [
+      "bamboo verticals",
+      "breath and palm contrast",
+      "eye cut-ins"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_014_a400315e.png"
+  },
+  {
+    "id": "xiaolin_015_2a472ba4",
+    "title": "bamboo style comparison",
+    "themes": [
+      "style_study",
+      "summary_sheet"
+    ],
+    "primary": "style_study",
+    "themeLabel": "画風イラスト",
+    "selectedImagePath": "selected/xiaolin_015_2a472ba4.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Four-panel comparison of similar bamboo stances with different rendering density.",
+    "gptFocus": [
+      "same-pose style comparison",
+      "background handling",
+      "line and color density"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_015_2a472ba4.png"
+  },
+  {
+    "id": "xiaolin_016_34893ba8",
+    "title": "shadow and wind style comparison",
+    "themes": [
+      "style_study",
+      "shadow_study",
+      "breathing_study"
+    ],
+    "primary": "style_study",
+    "themeLabel": "画風イラスト",
+    "selectedImagePath": "selected/xiaolin_016_34893ba8.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Style comparison with smoke-like trails, darker shadows, and breathing-like motion.",
+    "gptFocus": [
+      "dark versus bright style",
+      "wind or smoke trails",
+      "shadow strength"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_016_34893ba8.png"
+  },
+  {
+    "id": "xiaolin_020_554f1a66",
+    "title": "bamboo portrait baseline",
+    "themes": [
+      "style_study",
+      "eye_study"
+    ],
+    "primary": "style_study",
+    "themeLabel": "画風イラスト",
+    "selectedImagePath": "selected/xiaolin_020_554f1a66.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Bust-up portrait in bamboo lighting, useful as face, hair, outfit, and light baseline.",
+    "gptFocus": [
+      "face baseline",
+      "bamboo natural light",
+      "hair and outfit texture"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_020_554f1a66.png"
+  },
+  {
+    "id": "xiaolin_021_ca4807ab",
+    "title": "front eye expression baseline",
+    "themes": [
+      "eye_study",
+      "style_study"
+    ],
+    "primary": "eye_study",
+    "themeLabel": "眼のイラスト",
+    "selectedImagePath": "selected/xiaolin_021_ca4807ab.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Straight-on face close-up with amber eyes and controlled expression.",
+    "gptFocus": [
+      "eye color and highlights",
+      "front gaze",
+      "expression intensity"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_021_ca4807ab.png"
+  },
+  {
+    "id": "xiaolin_022_fc8e9a7d",
+    "title": "shadowed sharp gaze",
+    "themes": [
+      "eye_study",
+      "shadow_study"
+    ],
+    "primary": "eye_study",
+    "themeLabel": "眼のイラスト",
+    "selectedImagePath": "selected/xiaolin_022_fc8e9a7d.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Sharper eyes with facial shadow and serious mood.",
+    "gptFocus": [
+      "shadow around eyes",
+      "sharp gaze",
+      "darker face lighting"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_022_fc8e9a7d.png"
+  },
+  {
+    "id": "xiaolin_023_e884e748",
+    "title": "extreme eye close-up portrait",
+    "themes": [
+      "eye_study"
+    ],
+    "primary": "eye_study",
+    "themeLabel": "眼のイラスト",
+    "selectedImagePath": "selected/xiaolin_023_e884e748.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Extreme crop around eyes, bangs, and nose bridge with minimal facial context.",
+    "gptFocus": [
+      "extreme eye close-up",
+      "bangs and iris balance",
+      "cropped face composition"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_023_e884e748.png"
+  },
+  {
+    "id": "xiaolin_024_2f635a52",
+    "title": "strong face shadow portrait",
+    "themes": [
+      "shadow_study",
+      "eye_study"
+    ],
+    "primary": "shadow_study",
+    "themeLabel": "影のイラスト",
+    "selectedImagePath": "selected/xiaolin_024_2f635a52.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Face under strong shadow, with eyes carrying most of the emotional pressure.",
+    "gptFocus": [
+      "face shadow",
+      "glowing eyes effect",
+      "dark emotional tone"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_024_2f635a52.png"
+  },
+  {
+    "id": "xiaolin_029_51c0c6a2",
+    "title": "giant wall shadow stance",
+    "themes": [
+      "shadow_study",
+      "manga_composition"
+    ],
+    "primary": "shadow_study",
+    "themeLabel": "影のイラスト",
+    "selectedImagePath": "selected/xiaolin_029_51c0c6a2.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Low stance in a dojo with a huge wall shadow behind the character.",
+    "gptFocus": [
+      "giant shadow",
+      "psychological pressure",
+      "scale contrast"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_029_51c0c6a2.png"
+  },
+  {
+    "id": "xiaolin_033_f59121cd",
+    "title": "screen breaking fist punch",
+    "themes": [
+      "screen_break",
+      "manga_composition"
+    ],
+    "primary": "screen_break",
+    "themeLabel": "画面破壊のイラスト",
+    "selectedImagePath": "selected/xiaolin_033_f59121cd.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Foreground fist with crack lines and speed lines, pushing toward the viewer.",
+    "gptFocus": [
+      "foreground fist perspective",
+      "screen break impact",
+      "face and fist readability"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_033_f59121cd.png"
+  },
+  {
+    "id": "xiaolin_034_b928488a",
+    "title": "screen breaking kick close-up",
+    "themes": [
+      "screen_break",
+      "manga_composition"
+    ],
+    "primary": "screen_break",
+    "themeLabel": "画面破壊のイラスト",
+    "selectedImagePath": "selected/xiaolin_034_b928488a.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Large sole in the foreground with glass-like crack impact.",
+    "gptFocus": [
+      "extreme sole perspective",
+      "screen break",
+      "kick and face balance"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_034_b928488a.png"
+  },
+  {
+    "id": "xiaolin_038_cb2308ed",
+    "title": "bamboo standard portrait",
+    "themes": [
+      "style_study",
+      "eye_study"
+    ],
+    "primary": "style_study",
+    "themeLabel": "画風イラスト",
+    "selectedImagePath": "selected/xiaolin_038_cb2308ed.png",
+    "status": "classified_for_prompt_design",
+    "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
+    "observation": "Calm bust-up portrait in bamboo light, useful as a standard style baseline.",
+    "gptFocus": [
+      "standard style",
+      "natural face lighting",
+      "outfit reference"
+    ],
+    "libraryImagePath": "library/images/concept_studies/concept_xiaolin_038_cb2308ed.png"
+  }
+]

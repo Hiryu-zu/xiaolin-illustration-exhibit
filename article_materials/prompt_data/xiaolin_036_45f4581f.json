@@ -1,0 +1,138 @@
+{
+  "id": "xiaolin_036_45f4581f",
+  "imageFile": "xiaolin_036_45f4581f.png",
+  "image": "../../selected/xiaolin_036_45f4581f.png",
+  "imageForMarkdown": "selected/xiaolin_036_45f4581f.png",
+  "noteOrder": 15,
+  "title": "正面からの瓦割り",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "瓦割り",
+    "正面構図",
+    "衝撃",
+    "道場"
+  ],
+  "caption": "正面から瓦や床材を割る瞬間を見せる一枚。飛び散る破片と体の中心軸が、真っ直ぐな衝撃を強調している。",
+  "scene": {
+    "ja": "木造道場の室内、正面の位置で瓦や床材が割れる瞬間",
+    "en": "inside a wooden dojo, viewed from the front at the instant tiles or floor material break apart"
+  },
+  "pose": {
+    "ja": "両足を開いて体を安定させ、正面から力を打ち下ろす",
+    "en": "standing with both legs braced, driving force downward from a frontal position"
+  },
+  "intent": {
+    "ja": "正面から見た瓦割りの衝撃と、体幹の安定感を見せる",
+    "en": "show the impact of a frontal tile-breaking strike and the stability of the core"
+  },
+  "composition": {
+    "ja": "正面構図で人物と破壊点を中央に置き、破片を左右に広げる",
+    "en": "use a frontal composition, placing the character and break point in the center with debris spreading to both sides"
+  },
+  "strengths": {
+    "ja": [
+      "正面からの衝撃の分かりやすさ",
+      "飛び散る破片",
+      "ぶれない体幹と足幅"
+    ],
+    "en": [
+      "clear frontal impact",
+      "flying fragments",
+      "stable core and wide stance"
+    ]
+  },
+  "motion": {
+    "ja": "破片と埃に強い動きを入れ、人物の体の中心はぶらさず残す",
+    "en": "add strong motion to debris and dust while keeping the character?s core steady"
+  },
+  "lighting": {
+    "ja": "道場内の明るい光と破片の影で、衝撃点を強調する",
+    "en": "bright dojo light and debris shadows emphasizing the impact point"
+  },
+  "mood": {
+    "ja": "静かな武術から一瞬だけ爆発する力",
+    "en": "power exploding for a single instant out of quiet martial control"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "15_xiaolin_036_45f4581f.png",
+  "libraryImagePath": "library/images/15_xiaolin_036_45f4581f.png",
+  "articleThemes": [
+    "still_to_motion",
+    "action_pose",
+    "strike",
+    "camera_work"
+  ],
+  "camera": [
+    "front",
+    "centered"
+  ],
+  "lightingClass": [
+    "interior_light"
+  ],
+  "technique": [
+    "tile_break"
+  ],
+  "motionTags": [
+    "debris",
+    "impact",
+    "low_center"
+  ]
+}

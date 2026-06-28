@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>縁側で目を閉じる静かな座法 - プロンプト切り替え</title>
+    <style>:root { color-scheme: light; --bg: #f7f4ee; --panel: #ffffff; --ink: #1f252d; --muted: #667085; --line: #d9d2c7; --accent: #1f6f78; --accent-strong: #18555c; } * { box-sizing: border-box; } body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; margin: 0; } main { display: grid; gap: 20px; grid-template-columns: minmax(280px, 390px) minmax(420px, 1fr); margin: 0 auto; max-width: 1280px; padding: 24px; } .preview, .editor, .prompt-card, details { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; } .editor { display: grid; gap: 14px; } h1 { font-size: 22px; line-height: 1.3; margin: 0 0 10px; } h2 { font-size: 16px; margin: 0; } img { border-radius: 6px; display: block; height: auto; width: 100%; } a { color: var(--accent); } .caption, .hint, .meta-line { color: var(--muted); font-size: 13px; margin: 10px 0 0; } .meta { display: grid; gap: 4px 10px; grid-template-columns: max-content 1fr; font-size: 13px; } .meta dt { color: var(--muted); } .controls, .prompt-head { align-items: center; display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; } .controls { justify-content: flex-start; } label { align-items: center; display: inline-flex; gap: 8px; } input[type="checkbox"] { height: 18px; width: 18px; } button { background: var(--accent); border: 0; border-radius: 6px; color: white; cursor: pointer; font: inherit; font-weight: 700; padding: 8px 12px; } button:hover { background: var(--accent-strong); } textarea { border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: 13px/1.55 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; margin-top: 10px; min-height: 300px; padding: 12px; resize: vertical; width: 100%; } code, pre { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; } pre { background: #f7f7f7; border-radius: 6px; overflow: auto; padding: 10px; white-space: pre-wrap; } @media (max-width: 900px) { main { grid-template-columns: 1fr; padding: 14px; } }</style>
+  </head>
+  <body>
+    <main>
+      <section class="preview">
+        <p><a href="index.html">一覧へ戻る</a></p>
+        <h1>縁側で目を閉じる静かな座法</h1>
+        <img src="../assets/images/06_xiaolin_016_7df317fc.png" alt="縁側で目を閉じる静かな座法">
+        <p class="caption">縁側に座って目を閉じる静かなカット。庭と柱のフレーミングが、内面に向かう時間を作っている。</p>
+        <dl class="meta">
+          <dt>カテゴリ</dt><dd>meditation</dd>
+          <dt>タグ</dt><dd>縁側, 瞑想, 庭, 柔らかい光</dd>
+          <dt>状態</dt><dd>ready</dd>
+        </dl>
+        <details>
+          <summary>構造データを表示</summary>
+          <pre id="sourceData"></pre>
+        </details>
+      </section>
+
+      <section class="editor">
+        <div class="controls">
+          <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
+        </div>
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button id="copyEnglish" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false"></textarea>
+        </section>
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>日本語プロンプト</h2><button id="copyJapanese" type="button">日本語版をコピー</button></div>
+          <textarea id="japanesePrompt" spellcheck="false"></textarea>
+        </section>
+      </section>
+    </main>
+    <script>
+      const data = {
+  "item": {
+    "category": "meditation",
+    "tags": [
+      "縁側",
+      "瞑想",
+      "庭",
+      "柔らかい光"
+    ],
+    "noteOrder": 6,
+    "noteSection": "静の修練・瞑想",
+    "status": "ready",
+    "subjectHandling": {
+      "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+      "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+    },
+    "scene": {
+      "ja": "庭に面した古い道場の縁側",
+      "en": "a veranda of an old dojo facing a garden"
+    },
+    "pose": {
+      "ja": "脚を組んで座り、目を閉じて手を膝に置く",
+      "en": "sitting cross-legged with eyes closed and hands resting on the knees"
+    },
+    "intent": {
+      "ja": "外の気配を聞きながら、心を静める修練",
+      "en": "calming the mind while listening to the presence of the garden outside"
+    },
+    "composition": {
+      "ja": "柱と窓枠で人物を囲み、背景の庭へ視線を抜く",
+      "en": "frame the figure with pillars and window frames, letting the eye move into the garden behind"
+    },
+    "strengths": {
+      "ja": [
+        "閉じた目の穏やかさ",
+        "室内外の明暗差",
+        "庭の奥行き"
+      ],
+      "en": [
+        "peacefulness of the closed eyes",
+        "contrast between interior and exterior light",
+        "depth in the garden"
+      ]
+    },
+    "motion": {
+      "ja": "完全に静止。髪先と衣装に自然な重みを持たせる",
+      "en": "completely still, with natural weight in the hair tips and clothing"
+    },
+    "lighting": {
+      "ja": "庭から入る柔らかな自然光と、室内の落ち着いた影",
+      "en": "soft natural garden light with calm interior shadows"
+    },
+    "mood": {
+      "ja": "穏やかで内省的な、静の時間",
+      "en": "peaceful, introspective, and meditative"
+    },
+    "style": {
+      "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+      "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+    },
+    "details": {
+      "ja": [
+        "背景の質感",
+        "自然な奥行き",
+        "キャラクターの重心",
+        "視線誘導"
+      ],
+      "en": [
+        "background texture",
+        "natural depth",
+        "clear body weight balance",
+        "strong visual focus"
+      ]
+    },
+    "negative": {
+      "ja": [
+        "余分な人物",
+        "武器が勝手に増えること",
+        "文字",
+        "ロゴ",
+        "歪んだ手",
+        "壊れた指",
+        "関節の破綻",
+        "過度に筋肉質な体型",
+        "幼すぎる比率",
+        "強すぎるモーションブラー"
+      ],
+      "en": [
+        "extra characters",
+        "unwanted weapons",
+        "text",
+        "logos",
+        "distorted hands",
+        "broken fingers",
+        "incorrect limb joints",
+        "overly muscular body",
+        "childish proportions",
+        "excessive motion blur"
+      ]
+    },
+    "reviewChecklist": [
+      "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+      "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+      "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+      "構図、光、背景、動き、雰囲気に矛盾がないか",
+      "その画像の見どころが strengths に入っているか",
+      "ネガティブ指定が生成意図を潰していないか",
+      "note記事で説明しやすい見どころが残っているか"
+    ],
+    "id": "xiaolin_016_7df317fc",
+    "imageFile": "xiaolin_016_7df317fc.png",
+    "image": "../assets/images/06_xiaolin_016_7df317fc.png",
+    "imageForMarkdown": "../assets/images/06_xiaolin_016_7df317fc.png",
+    "title": "縁側で目を閉じる静かな座法",
+    "caption": "縁側に座って目を閉じる静かなカット。庭と柱のフレーミングが、内面に向かう時間を作っている。",
+    "fixedCharacter": {
+      "nameJa": "小鈴（シャオリン）",
+      "nameEn": "Xiaolin",
+      "ja": {
+        "identity": "21歳の女性中国武術家。身長165cm",
+        "body": "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つき",
+        "hair": "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束",
+        "eyes": "琥珀色から黄褐色の瞳",
+        "face": "可愛さと凛々しさの中間にある落ち着いた顔立ち",
+        "outfit": "白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズ",
+        "personality": "真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気"
+      },
+      "en": {
+        "identity": "a 21-year-old female Chinese martial artist, 165 cm tall",
+        "body": "a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular",
+        "hair": "glossy black short bob hair with bangs and side locks framing her face",
+        "eyes": "amber to yellow-brown eyes",
+        "face": "a calm face that balances cuteness with dignified sharpness",
+        "outfit": "a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes",
+        "personality": "serious, focused, disciplined, quietly approachable, and not too cold"
+      }
+    }
+  },
+  "prompts": {
+    "englishGeneric": "Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style illustration set in a veranda of an old dojo facing a garden. The pose/action is sitting cross-legged with eyes closed and hands resting on the knees, expressing calming the mind while listening to the presence of the garden outside.\n\nComposition: frame the figure with pillars and window frames, letting the eye move into the garden behind. Emphasize peacefulness of the closed eyes, contrast between interior and exterior light, depth in the garden.\n\nKeep completely still, with natural weight in the hair tips and clothing, soft natural garden light with calm interior shadows, and peaceful, introspective, and meditative. The scene should feel quiet, focused, and cinematic rather than chaotic.\n\nUse background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.\n\nAvoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.",
+    "englishFixed": "Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style illustration set in a veranda of an old dojo facing a garden. The pose/action is sitting cross-legged with eyes closed and hands resting on the knees, expressing calming the mind while listening to the presence of the garden outside.\n\nComposition: frame the figure with pillars and window frames, letting the eye move into the garden behind. Emphasize peacefulness of the closed eyes, contrast between interior and exterior light, depth in the garden.\n\nKeep completely still, with natural weight in the hair tips and clothing, soft natural garden light with calm interior shadows, and peaceful, introspective, and meditative. The scene should feel quiet, focused, and cinematic rather than chaotic.\n\nUse background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.\n\nThe martial artist is Xiaolin, a 21-year-old female Chinese martial artist, 165 cm tall. She has a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular. She has glossy black short bob hair with bangs and side locks framing her face, amber to yellow-brown eyes, and a calm face that balances cuteness with dignified sharpness.\n\nShe wears a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes. Her expression and presence are serious, focused, disciplined, quietly approachable, and not too cold.\n\nAvoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.",
+    "japaneseGeneric": "参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。\n\n人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。\n\n庭に面した古い道場の縁側を舞台に、脚を組んで座り、目を閉じて手を膝に置く場面を、アニメ調の高品質イラストとして描いてください。外の気配を聞きながら、心を静める修練が伝わるようにしてください。\n\n柱と窓枠で人物を囲み、背景の庭へ視線を抜く。見どころとして、閉じた目の穏やかさ、室内外の明暗差、庭の奥行きを強調してください。\n\n完全に静止。髪先と衣装に自然な重みを持たせる、庭から入る柔らかな自然光と、室内の落ち着いた影、穏やかで内省的な、静の時間を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。\n\n背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。\n\n余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。",
+    "japaneseFixed": "参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。\n\n人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。\n\n庭に面した古い道場の縁側を舞台に、脚を組んで座り、目を閉じて手を膝に置く場面を、アニメ調の高品質イラストとして描いてください。外の気配を聞きながら、心を静める修練が伝わるようにしてください。\n\n柱と窓枠で人物を囲み、背景の庭へ視線を抜く。見どころとして、閉じた目の穏やかさ、室内外の明暗差、庭の奥行きを強調してください。\n\n完全に静止。髪先と衣装に自然な重みを持たせる、庭から入る柔らかな自然光と、室内の落ち着いた影、穏やかで内省的な、静の時間を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。\n\n背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。\n\n武術家は小鈴（シャオリン）です。21歳の女性中国武術家。身長165cm。しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。\n\n衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。表情と雰囲気は、真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気にしてください。\n\n余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。"
+  }
+};
+      const checkbox = document.getElementById("useFixedCharacter");
+      const englishTextarea = document.getElementById("englishPrompt");
+      const japaneseTextarea = document.getElementById("japanesePrompt");
+      const sourceData = document.getElementById("sourceData");
+      const copyEnglish = document.getElementById("copyEnglish");
+      const copyJapanese = document.getElementById("copyJapanese");
+      function renderPrompts() {
+        englishTextarea.value = checkbox.checked ? data.prompts.englishFixed : data.prompts.englishGeneric;
+        japaneseTextarea.value = checkbox.checked ? data.prompts.japaneseFixed : data.prompts.japaneseGeneric;
+        sourceData.textContent = JSON.stringify(data.item, null, 2);
+      }
+      async function copyFrom(textarea, button, label) {
+        await navigator.clipboard.writeText(textarea.value);
+        button.textContent = "コピー済み";
+        setTimeout(() => { button.textContent = label; }, 1200);
+      }
+      checkbox.addEventListener("change", renderPrompts);
+      copyEnglish.addEventListener("click", () => copyFrom(englishTextarea, copyEnglish, "英語版をコピー"));
+      copyJapanese.addEventListener("click", () => copyFrom(japaneseTextarea, copyJapanese, "日本語版をコピー"));
+      renderPrompts();
+    </script>
+  </body>
+</html>

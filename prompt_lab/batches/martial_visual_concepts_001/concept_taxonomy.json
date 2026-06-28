@@ -1,0 +1,21 @@
+{
+  "batchId": "martial_visual_concepts_001",
+  "purpose": "今後GPTにプロンプト化を依頼するため、武術イラストの表現テーマを体系化する。今回は記事化しない。",
+  "themes": {
+    "summary_sheet": "まとめイラスト",
+    "manga_composition": "漫画構図",
+    "style_study": "画風イラスト",
+    "eye_study": "眼のイラスト",
+    "shadow_study": "影のイラスト",
+    "screen_break": "画面破壊のイラスト",
+    "breathing_study": "呼吸のイラスト"
+  },
+  "gptPromptDesignLayers": [
+    "reference_handling: preserve person, outfit, hairstyle, and body type from the reference image",
+    "visual_theme: summary sheet / manga composition / style / eyes / shadow / screen break / breathing",
+    "composition: panel layout, cut-ins, foreground, midground, background, negative space",
+    "motion_or_stillness: impact, speed lines, wind trails, breathing, stillness",
+    "lighting_shadow: backlight, dappled light, face shadow, giant wall shadow, white diffused light",
+    "prompt_goal: research notes, prompt draft, generation prompt, comparison sheet"
+  ]
+}

@@ -1,0 +1,239 @@
+# 壁際で流す掌打の接近戦
+
+対象画像: `selected/xiaolin_015_b0f6ade9.png`
+
+## note用キャプション案
+
+壁際で身をひねり、掌打を流すように出すアクションカット。袖と髪の流れ、壁の近さが接近戦の圧を作る。
+
+## 構造データ
+
+```json
+{
+  "category": "battle_motion",
+  "tags": [
+    "室内",
+    "掌打",
+    "モーションブラー",
+    "接近戦"
+  ],
+  "noteOrder": 5,
+  "noteSection": "動きのある戦闘",
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "scene": {
+    "ja": "古い道場の壁際、窓から光が入る室内",
+    "en": "inside an old dojo near a wall, with light entering through windows"
+  },
+  "pose": {
+    "ja": "体をひねりながら片手を前に出し、もう片方の腕でバランスを取る",
+    "en": "twisting the body while extending one palm forward and using the other arm for balance"
+  },
+  "intent": {
+    "ja": "近距離で相手の攻撃を流し、反撃へ移る瞬間",
+    "en": "the instant of redirecting an opponent’s attack at close range and moving into a counter"
+  },
+  "composition": {
+    "ja": "斜めの壁と床の線で速度を出し、人物を右寄りに大きく置く",
+    "en": "diagonal wall and floor lines create speed, with the character placed large and slightly to the right"
+  },
+  "strengths": {
+    "ja": [
+      "袖と髪の流れ",
+      "壁面に沿うスピード感",
+      "近距離の圧迫感"
+    ],
+    "en": [
+      "flowing sleeves and hair",
+      "speed along the wall surface",
+      "close-range pressure"
+    ]
+  },
+  "motion": {
+    "ja": "手先、袖、髪に中程度のモーションブラーを入れ、顔は崩さず残す",
+    "en": "use medium motion blur on the hands, sleeves, and hair while keeping the face clear"
+  },
+  "lighting": {
+    "ja": "窓からの斜光と室内の暗部で、輪郭を強く見せる",
+    "en": "slanted window light and indoor shadows emphasizing the silhouette"
+  },
+  "mood": {
+    "ja": "速いが制御された、接近戦の鋭い集中",
+    "en": "fast but controlled, with sharp close-combat focus"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "id": "xiaolin_015_b0f6ade9",
+  "imageFile": "xiaolin_015_b0f6ade9.png",
+  "image": "../../selected/xiaolin_015_b0f6ade9.png",
+  "imageForMarkdown": "selected/xiaolin_015_b0f6ade9.png",
+  "title": "壁際で流す掌打の接近戦",
+  "caption": "壁際で身をひねり、掌打を流すように出すアクションカット。袖と髪の流れ、壁の近さが接近戦の圧を作る。",
+  "fixedCharacter": {
+    "nameJa": "小鈴（シャオリン）",
+    "nameEn": "Xiaolin",
+    "ja": {
+      "identity": "21歳の女性中国武術家。身長165cm",
+      "body": "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つき",
+      "hair": "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束",
+      "eyes": "琥珀色から黄褐色の瞳",
+      "face": "可愛さと凛々しさの中間にある落ち着いた顔立ち",
+      "outfit": "白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズ",
+      "personality": "真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気"
+    },
+    "en": {
+      "identity": "a 21-year-old female Chinese martial artist, 165 cm tall",
+      "body": "a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular",
+      "hair": "glossy black short bob hair with bangs and side locks framing her face",
+      "eyes": "amber to yellow-brown eyes",
+      "face": "a calm face that balances cuteness with dignified sharpness",
+      "outfit": "a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes",
+      "personality": "serious, focused, disciplined, quietly approachable, and not too cold"
+    }
+  }
+}
+```
+
+## 汎用プロンプト 英語版
+
+```text
+Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style illustration set in inside an old dojo near a wall, with light entering through windows. The pose/action is twisting the body while extending one palm forward and using the other arm for balance, expressing the instant of redirecting an opponent’s attack at close range and moving into a counter.
+
+Composition: diagonal wall and floor lines create speed, with the character placed large and slightly to the right. Emphasize flowing sleeves and hair, speed along the wall surface, close-range pressure.
+
+Keep use medium motion blur on the hands, sleeves, and hair while keeping the face clear, slanted window light and indoor shadows emphasizing the silhouette, and fast but controlled, with sharp close-combat focus. The scene should feel quiet, focused, and cinematic rather than chaotic.
+
+Use background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.
+
+Avoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.
+```
+
+## 汎用プロンプト 日本語版
+
+```text
+参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。
+
+人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。
+
+古い道場の壁際、窓から光が入る室内を舞台に、体をひねりながら片手を前に出し、もう片方の腕でバランスを取る場面を、アニメ調の高品質イラストとして描いてください。近距離で相手の攻撃を流し、反撃へ移る瞬間が伝わるようにしてください。
+
+斜めの壁と床の線で速度を出し、人物を右寄りに大きく置く。見どころとして、袖と髪の流れ、壁面に沿うスピード感、近距離の圧迫感を強調してください。
+
+手先、袖、髪に中程度のモーションブラーを入れ、顔は崩さず残す、窓からの斜光と室内の暗部で、輪郭を強く見せる、速いが制御された、接近戦の鋭い集中を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。
+
+背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。
+
+余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。
+```
+
+## 小鈴（シャオリン）固定キャラ版 英語
+
+```text
+Use the reference image as the main guide for the character, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style illustration set in inside an old dojo near a wall, with light entering through windows. The pose/action is twisting the body while extending one palm forward and using the other arm for balance, expressing the instant of redirecting an opponent’s attack at close range and moving into a counter.
+
+Composition: diagonal wall and floor lines create speed, with the character placed large and slightly to the right. Emphasize flowing sleeves and hair, speed along the wall surface, close-range pressure.
+
+Keep use medium motion blur on the hands, sleeves, and hair while keeping the face clear, slanted window light and indoor shadows emphasizing the silhouette, and fast but controlled, with sharp close-combat focus. The scene should feel quiet, focused, and cinematic rather than chaotic.
+
+Use background texture, natural depth, clear body weight balance, strong visual focus, high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish.
+
+The martial artist is Xiaolin, a 21-year-old female Chinese martial artist, 165 cm tall. She has a balanced, agile, healthy martial-arts build, neither too thin nor overly muscular. She has glossy black short bob hair with bangs and side locks framing her face, amber to yellow-brown eyes, and a calm face that balances cuteness with dignified sharpness.
+
+She wears a white-and-black Chinese martial arts outfit: a white Chinese-style top with black trim and frog buttons, black fitted martial arts pants or leggings, and lightweight black-and-white martial arts shoes. Her expression and presence are serious, focused, disciplined, quietly approachable, and not too cold.
+
+Avoid extra characters, unwanted weapons, text, logos, distorted hands, broken fingers, incorrect limb joints, overly muscular body, childish proportions, excessive motion blur.
+```
+
+## 小鈴（シャオリン）固定キャラ版 日本語
+
+```text
+参考画像を、人物・服装・髪型・体型・構図・雰囲気の主なガイドとして使用してください。
+
+人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。
+
+古い道場の壁際、窓から光が入る室内を舞台に、体をひねりながら片手を前に出し、もう片方の腕でバランスを取る場面を、アニメ調の高品質イラストとして描いてください。近距離で相手の攻撃を流し、反撃へ移る瞬間が伝わるようにしてください。
+
+斜めの壁と床の線で速度を出し、人物を右寄りに大きく置く。見どころとして、袖と髪の流れ、壁面に沿うスピード感、近距離の圧迫感を強調してください。
+
+手先、袖、髪に中程度のモーションブラーを入れ、顔は崩さず残す、窓からの斜光と室内の暗部で、輪郭を強く見せる、速いが制御された、接近戦の鋭い集中を保ってください。場面は混沌とした戦闘ではなく、集中した、映画的で静かな一瞬にしてください。
+
+背景の質感、自然な奥行き、キャラクターの重心、視線誘導、高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラストにしてください。
+
+武術家は小鈴（シャオリン）です。21歳の女性中国武術家。身長165cm。しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。
+
+衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。表情と雰囲気は、真剣で集中しており、礼儀正しく芯が強いが、冷たすぎない雰囲気にしてください。
+
+余分な人物、武器が勝手に増えること、文字、ロゴ、歪んだ手、壊れた指、関節の破綻、過度に筋肉質な体型、幼すぎる比率、強すぎるモーションブラーは避けてください。
+```
+
+## AIレビュー観点
+
+- 参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか
+- 汎用版に固定キャラ名や固定衣装が混ざっていないか
+- 固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか
+- 構図、光、背景、動き、雰囲気に矛盾がないか
+- その画像の見どころが strengths に入っているか
+- ネガティブ指定が生成意図を潰していないか
+- note記事で説明しやすい見どころが残っているか

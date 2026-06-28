@@ -1,0 +1,135 @@
+{
+  "id": "xiaolin_016_7df317fc",
+  "imageFile": "xiaolin_016_7df317fc.png",
+  "image": "../../selected/xiaolin_016_7df317fc.png",
+  "imageForMarkdown": "selected/xiaolin_016_7df317fc.png",
+  "noteOrder": 6,
+  "title": "縁側で目を閉じる静かな座法",
+  "noteSection": "静の修練・瞑想",
+  "category": "meditation",
+  "tags": [
+    "縁側",
+    "瞑想",
+    "庭",
+    "柔らかい光"
+  ],
+  "caption": "縁側に座って目を閉じる静かなカット。庭と柱のフレーミングが、内面に向かう時間を作っている。",
+  "scene": {
+    "ja": "庭に面した古い道場の縁側",
+    "en": "a veranda of an old dojo facing a garden"
+  },
+  "pose": {
+    "ja": "脚を組んで座り、目を閉じて手を膝に置く",
+    "en": "sitting cross-legged with eyes closed and hands resting on the knees"
+  },
+  "intent": {
+    "ja": "外の気配を聞きながら、心を静める修練",
+    "en": "calming the mind while listening to the presence of the garden outside"
+  },
+  "composition": {
+    "ja": "柱と窓枠で人物を囲み、背景の庭へ視線を抜く",
+    "en": "frame the figure with pillars and window frames, letting the eye move into the garden behind"
+  },
+  "strengths": {
+    "ja": [
+      "閉じた目の穏やかさ",
+      "室内外の明暗差",
+      "庭の奥行き"
+    ],
+    "en": [
+      "peacefulness of the closed eyes",
+      "contrast between interior and exterior light",
+      "depth in the garden"
+    ]
+  },
+  "motion": {
+    "ja": "完全に静止。髪先と衣装に自然な重みを持たせる",
+    "en": "completely still, with natural weight in the hair tips and clothing"
+  },
+  "lighting": {
+    "ja": "庭から入る柔らかな自然光と、室内の落ち着いた影",
+    "en": "soft natural garden light with calm interior shadows"
+  },
+  "mood": {
+    "ja": "穏やかで内省的な、静の時間",
+    "en": "peaceful, introspective, and meditative"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "06_xiaolin_016_7df317fc.png",
+  "libraryImagePath": "library/images/06_xiaolin_016_7df317fc.png",
+  "articleThemes": [
+    "meditation",
+    "lighting"
+  ],
+  "camera": [
+    "centered",
+    "negative_space"
+  ],
+  "lightingClass": [
+    "soft_natural",
+    "interior_light"
+  ],
+  "technique": [
+    "meditation"
+  ],
+  "motionTags": [
+    "stillness"
+  ]
+}

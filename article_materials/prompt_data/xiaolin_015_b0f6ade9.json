@@ -1,0 +1,139 @@
+{
+  "id": "xiaolin_015_b0f6ade9",
+  "imageFile": "xiaolin_015_b0f6ade9.png",
+  "image": "../../selected/xiaolin_015_b0f6ade9.png",
+  "imageForMarkdown": "selected/xiaolin_015_b0f6ade9.png",
+  "noteOrder": 5,
+  "title": "壁際で流す掌打の接近戦",
+  "noteSection": "動きのある戦闘",
+  "category": "battle_motion",
+  "tags": [
+    "室内",
+    "掌打",
+    "モーションブラー",
+    "接近戦"
+  ],
+  "caption": "壁際で身をひねり、掌打を流すように出すアクションカット。袖と髪の流れ、壁の近さが接近戦の圧を作る。",
+  "scene": {
+    "ja": "古い道場の壁際、窓から光が入る室内",
+    "en": "inside an old dojo near a wall, with light entering through windows"
+  },
+  "pose": {
+    "ja": "体をひねりながら片手を前に出し、もう片方の腕でバランスを取る",
+    "en": "twisting the body while extending one palm forward and using the other arm for balance"
+  },
+  "intent": {
+    "ja": "近距離で相手の攻撃を流し、反撃へ移る瞬間",
+    "en": "the instant of redirecting an opponent’s attack at close range and moving into a counter"
+  },
+  "composition": {
+    "ja": "斜めの壁と床の線で速度を出し、人物を右寄りに大きく置く",
+    "en": "diagonal wall and floor lines create speed, with the character placed large and slightly to the right"
+  },
+  "strengths": {
+    "ja": [
+      "袖と髪の流れ",
+      "壁面に沿うスピード感",
+      "近距離の圧迫感"
+    ],
+    "en": [
+      "flowing sleeves and hair",
+      "speed along the wall surface",
+      "close-range pressure"
+    ]
+  },
+  "motion": {
+    "ja": "手先、袖、髪に中程度のモーションブラーを入れ、顔は崩さず残す",
+    "en": "use medium motion blur on the hands, sleeves, and hair while keeping the face clear"
+  },
+  "lighting": {
+    "ja": "窓からの斜光と室内の暗部で、輪郭を強く見せる",
+    "en": "slanted window light and indoor shadows emphasizing the silhouette"
+  },
+  "mood": {
+    "ja": "速いが制御された、接近戦の鋭い集中",
+    "en": "fast but controlled, with sharp close-combat focus"
+  },
+  "status": "ready",
+  "subjectHandling": {
+    "ja": "人物、服装、髪型、体型は参考画像を保持する。固定キャラ版だけ別途キャラ指定を加える。",
+    "en": "the person, outfit, hairstyle, and body type from the reference image; only the fixed-character version adds separate character details"
+  },
+  "style": {
+    "ja": "高品質アニメ調、シャープな線画、印象的な瞳、自然な布のしわ、破綻のない人体、完成度の高いイラスト",
+    "en": "high-quality anime style, sharp linework, detailed eyes, natural cloth folds, balanced anatomy, polished illustration finish"
+  },
+  "details": {
+    "ja": [
+      "背景の質感",
+      "自然な奥行き",
+      "キャラクターの重心",
+      "視線誘導"
+    ],
+    "en": [
+      "background texture",
+      "natural depth",
+      "clear body weight balance",
+      "strong visual focus"
+    ]
+  },
+  "negative": {
+    "ja": [
+      "余分な人物",
+      "武器が勝手に増えること",
+      "文字",
+      "ロゴ",
+      "歪んだ手",
+      "壊れた指",
+      "関節の破綻",
+      "過度に筋肉質な体型",
+      "幼すぎる比率",
+      "強すぎるモーションブラー"
+    ],
+    "en": [
+      "extra characters",
+      "unwanted weapons",
+      "text",
+      "logos",
+      "distorted hands",
+      "broken fingers",
+      "incorrect limb joints",
+      "overly muscular body",
+      "childish proportions",
+      "excessive motion blur"
+    ]
+  },
+  "reviewChecklist": [
+    "参考画像の人物・服装・髪型・体型をプロンプトで上書きしすぎていないか",
+    "汎用版に固定キャラ名や固定衣装が混ざっていないか",
+    "固定キャラ版でのみ小鈴の髪型・目・衣装・体型が追加されているか",
+    "構図、光、背景、動き、雰囲気に矛盾がないか",
+    "その画像の見どころが strengths に入っているか",
+    "ネガティブ指定が生成意図を潰していないか",
+    "note記事で説明しやすい見どころが残っているか"
+  ],
+  "libraryImageFile": "05_xiaolin_015_b0f6ade9.png",
+  "libraryImagePath": "library/images/05_xiaolin_015_b0f6ade9.png",
+  "articleThemes": [
+    "action_pose",
+    "strike",
+    "camera_work",
+    "lighting"
+  ],
+  "camera": [
+    "diagonal",
+    "closeup"
+  ],
+  "lightingClass": [
+    "interior_light",
+    "rim_light"
+  ],
+  "technique": [
+    "palm_strike",
+    "close_combat"
+  ],
+  "motionTags": [
+    "motion_blur",
+    "low_center"
+  ]
+}
