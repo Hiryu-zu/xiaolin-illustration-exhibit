@@ -231,12 +231,17 @@ function buildConceptsPage(items, taxonomy) {
       const theme = themesByKey.get(key) || { label: key, description: "" };
       const cards = themeItems.map((item) => {
         const imageName = conceptAssetName(item);
+        const title = item.titleJa || item.title;
         return `
-          <article class="card concept-card">
-            <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(item.title)}">
-            <h3>${escapeHtml(item.title)}</h3>
+          <article class="card concept-card" id="${escapeHtml(item.id)}">
+            <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(title)}">
+            <h3>${escapeHtml(title)}</h3>
             <p>${escapeHtml(item.observation || "")}</p>
             <ul class="focus-list">${(item.gptFocus || []).map((focus) => `<li>${escapeHtml(focus)}</li>`).join("")}</ul>
+            <details class="prompt-block" open>
+              <summary>個別プロンプト</summary>
+              <p>${escapeHtml(item.promptJa || "")}</p>
+            </details>
           </article>`;
       }).join("\n");
       return `
@@ -336,7 +341,7 @@ nav a, .button { color: var(--accent); font-weight: 700; text-decoration: none; 
 .card h3 { font-size: 15px; line-height: 1.35; margin: 12px 12px 6px; }
 .card p { font-size: 13px; margin: 0 12px; }
 .concept-card img { aspect-ratio: 1 / 1; }
-.focus-list { color: var(--muted); font-size: 13px; margin: 10px 12px 0; padding-left: 18px; }
+.focus-list { color: var(--muted); font-size: 13px; margin: 10px 12px 0; padding-left: 18px; }\n.prompt-block { border: 0; border-top: 1px solid var(--line); border-radius: 0; margin: 12px 12px 0; padding: 10px 0 0; }\n.prompt-block p { color: var(--ink); font-size: 13px; margin-top: 8px; }
 .summary-panel, .theme-section { margin-bottom: 28px; }
 .summary-panel { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
 .theme-section > header { margin-bottom: 12px; }

@@ -17,6 +17,8 @@ nav a, .button { color: var(--accent); font-weight: 700; text-decoration: none; 
 .card p { font-size: 13px; margin: 0 12px; }
 .concept-card img { aspect-ratio: 1 / 1; }
 .focus-list { color: var(--muted); font-size: 13px; margin: 10px 12px 0; padding-left: 18px; }
+.prompt-block { border: 0; border-top: 1px solid var(--line); border-radius: 0; margin: 12px 12px 0; padding: 10px 0 0; }
+.prompt-block p { color: var(--ink); font-size: 13px; margin-top: 8px; }
 .summary-panel, .theme-section { margin-bottom: 28px; }
 .summary-panel { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
 .theme-section > header { margin-bottom: 12px; }
