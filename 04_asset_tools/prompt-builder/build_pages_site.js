@@ -223,9 +223,20 @@ function buildConceptDetailPages(items, taxonomy) {
     const theme = themesByKey.get(item.primary) || { label: item.themeLabel || item.primary, description: "" };
     const focus = (item.gptFocus || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("");
     const promptLabel = item.promptLabel || (item.usageStatus === "article_ready" ? "記事用プロンプト" : "設計メモ");
-    const negative = item.negativeJa ? `
-        <h2>ネガティブ指定</h2>
-        <pre class="prompt-text"><code>${escapeHtml(item.negativeJa)}</code></pre>` : "";
+    const negativeCard = item.negativeJa ? `
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>ネガティブ指定</h2><button data-copy-target="negativePrompt" type="button">ネガティブ指定をコピー</button></div>
+          <textarea id="negativePrompt" spellcheck="false">${escapeHtml(item.negativeJa)}</textarea>
+        </section>` : "";
+    const data = {
+      id: item.id,
+      titleJa: title,
+      theme: theme.label,
+      usageStatus: item.usageStatus || "",
+      focus: item.gptFocus || [],
+      prompt: item.promptJa || "",
+      negative: item.negativeJa || "",
+    };
     const html = `<!doctype html>
 <html lang="ja">
 <head>
@@ -236,24 +247,67 @@ function buildConceptDetailPages(items, taxonomy) {
 </head>
 <body>
   <nav><a href="../index.html">Home</a><a href="index.html">Concepts</a><a href="../prompts/index.html">Prompt Viewer</a><a href="../article.html">Note Draft</a></nav>
-  <main class="detail-page">
-    <p class="breadcrumb"><a href="index.html#${escapeHtml(item.primary)}">Concepts</a> / ${escapeHtml(theme.label)}</p>
-    <section class="detail-layout">
-      <figure class="detail-image">
+  <main class="tool-layout">
+    <section class="preview">
+      <p class="breadcrumb"><a href="index.html#${escapeHtml(item.primary)}">一覧へ戻る</a></p>
+      <h1>${escapeHtml(title)}</h1>
+      <figure>
         <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(title)}">
       </figure>
-      <article class="detail-body">
-        <p class="theme-badge">${escapeHtml(theme.label)}</p>
-        <h1>${escapeHtml(title)}</h1>
-        <p>${escapeHtml(item.observation || "")}</p>
-        <h2>注目ポイント</h2>
-        <ul class="focus-list detail-focus">${focus}</ul>
-        <h2>${escapeHtml(promptLabel)}</h2>
-        <pre class="prompt-text"><code>${escapeHtml(item.promptJa || "")}</code></pre>
-        ${negative}
-      </article>
+      <p class="caption">${escapeHtml(item.observation || "")}</p>
+      <dl class="meta">
+        <dt>カテゴリ</dt><dd>${escapeHtml(item.primary || "")}</dd>
+        <dt>テーマ</dt><dd>${escapeHtml(theme.label)}</dd>
+        <dt>状態</dt><dd>${escapeHtml(item.usageStatus || "")}</dd>
+      </dl>
+      <details>
+        <summary>構造データを表示</summary>
+        <pre><code>${escapeHtml(JSON.stringify(data, null, 2))}</code></pre>
+      </details>
+    </section>
+    <section class="editor">
+      <div class="controls">
+        <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
+      </div>
+      <section class="prompt-card">
+        <div class="prompt-head"><h2>${escapeHtml(promptLabel)}</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <textarea id="japanesePrompt" spellcheck="false">${escapeHtml(item.promptJa || "")}</textarea>
+      </section>
+      ${negativeCard}
+      <section class="prompt-card">
+        <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
+        <textarea id="focusPrompt" spellcheck="false">${escapeHtml((item.gptFocus || []).join("\n"))}</textarea>
+      </section>
     </section>
   </main>
+  <script>
+    const fixedCharacter = [
+      "武術家は小鈴（シャオリン）です。",
+      "21歳の女性中国武術家。身長165cm。",
+      "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
+      "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。",
+      "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
+      "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
+    ].join("\\n");
+    const basePrompt = ${JSON.stringify(item.promptJa || "")};
+    const promptTextarea = document.getElementById("japanesePrompt");
+    const checkbox = document.getElementById("useFixedCharacter");
+    function renderPrompt() {
+      promptTextarea.value = checkbox.checked ? basePrompt + "\\n\\n" + fixedCharacter : basePrompt;
+    }
+    async function copyFrom(targetId, button) {
+      const textarea = document.getElementById(targetId);
+      await navigator.clipboard.writeText(textarea.value);
+      const label = button.textContent;
+      button.textContent = "コピーしました";
+      setTimeout(() => { button.textContent = label; }, 1200);
+    }
+    checkbox.addEventListener("change", renderPrompt);
+    document.querySelectorAll("[data-copy-target]").forEach((button) => {
+      button.addEventListener("click", () => copyFrom(button.dataset.copyTarget, button));
+    });
+    renderPrompt();
+  </script>
 </body>
 </html>
 `;
@@ -400,6 +454,8 @@ body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-
 nav { background: #fff; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 16px; padding: 12px 24px; position: sticky; top: 0; z-index: 2; }
 a { color: var(--accent); }
 nav a, .button, .text-link { color: var(--accent); font-weight: 700; text-decoration: none; }
+button { background: var(--accent); border: 0; border-radius: 6px; color: #fff; cursor: pointer; font: inherit; font-weight: 700; padding: 8px 12px; }
+button:hover { background: #18555c; }
 .hero, main { margin: 0 auto; max-width: 1180px; padding: 24px; }
 .hero h1 { font-size: 32px; margin: 0 0 8px; }
 .hero p, .card p { color: var(--muted); }
@@ -430,17 +486,25 @@ pre { background: #fff; border: 1px solid var(--line); border-radius: 8px; overf
 details { background:#fff; border:1px solid var(--line); border-radius:8px; margin: 14px 0; padding: 12px; }
 summary { cursor: pointer; font-weight: 700; }
 .breadcrumb { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
-.detail-layout { align-items: start; display: grid; gap: 24px; grid-template-columns: minmax(280px, 44%) 1fr; }
-.detail-image { margin: 0; }
-.detail-image img { background: #fff; border: 1px solid var(--line); width: 100%; }
-.detail-body { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
-.detail-body h1 { font-size: 28px; line-height: 1.3; margin: 8px 0 12px; }
-.detail-body h2 { font-size: 18px; margin: 22px 0 8px; }
-.detail-focus { margin-left: 0; }
-.theme-badge { color: var(--accent); font-size: 13px; font-weight: 700; margin: 0; }
-.prompt-text { font-size: 14px; line-height: 1.8; }
+.tool-layout { align-items: start; display: grid; gap: 20px; grid-template-columns: minmax(280px, 390px) minmax(420px, 1fr); margin: 0 auto; max-width: 1280px; padding: 24px; }
+.preview, .editor, .prompt-card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+.editor { display: grid; gap: 14px; }
+.preview h1 { font-size: 22px; line-height: 1.3; margin: 0 0 10px; }
+.preview figure { margin: 0; }
+.preview img { display: block; width: 100%; }
+.caption, .meta-line { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+.meta { display: grid; gap: 4px 10px; grid-template-columns: max-content 1fr; font-size: 13px; margin-top: 14px; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; }
+.controls, .prompt-head { align-items: center; display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; }
+.controls { justify-content: flex-start; }
+label { align-items: center; display: inline-flex; gap: 8px; }
+input[type="checkbox"] { height: 18px; width: 18px; }
+.prompt-card h2 { font-size: 16px; margin: 0; }
+textarea { border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: 13px/1.55 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; margin-top: 10px; min-height: 260px; padding: 12px; resize: vertical; width: 100%; }
+#negativePrompt, #focusPrompt { min-height: 120px; }
 @media (max-width: 760px) {
-  .detail-layout { grid-template-columns: 1fr; }
+  .tool-layout { grid-template-columns: 1fr; padding: 14px; }
 }
 `;
   fs.writeFileSync(path.join(docsDir, "site.css"), css, "utf8");

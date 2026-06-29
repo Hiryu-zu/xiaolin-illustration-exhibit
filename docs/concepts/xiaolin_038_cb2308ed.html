@@ -8,25 +8,84 @@
 </head>
 <body>
   <nav><a href="../index.html">Home</a><a href="index.html">Concepts</a><a href="../prompts/index.html">Prompt Viewer</a><a href="../article.html">Note Draft</a></nav>
-  <main class="detail-page">
-    <p class="breadcrumb"><a href="index.html#breathing_study">Concepts</a> / 呼吸のイラスト</p>
-    <section class="detail-layout">
-      <figure class="detail-image">
+  <main class="tool-layout">
+    <section class="preview">
+      <p class="breadcrumb"><a href="index.html#breathing_study">一覧へ戻る</a></p>
+      <h1>竹林の静かな呼吸</h1>
+      <figure>
         <img src="../assets/concepts/concept_xiaolin_038_cb2308ed.png" alt="竹林の静かな呼吸">
       </figure>
-      <article class="detail-body">
-        <p class="theme-badge">呼吸のイラスト</p>
-        <h1>竹林の静かな呼吸</h1>
-        <p>Calm bust-up portrait in bamboo light, useful as a standard style baseline.</p>
-        <h2>注目ポイント</h2>
-        <ul class="focus-list detail-focus"><li>standard style</li><li>natural face lighting</li><li>outfit reference</li></ul>
-        <h2>記事用プロンプト</h2>
-        <pre class="prompt-text"><code>参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。</code></pre>
-        
-        <h2>ネガティブ指定</h2>
-        <pre class="prompt-text"><code>低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物</code></pre>
-      </article>
+      <p class="caption">Calm bust-up portrait in bamboo light, useful as a standard style baseline.</p>
+      <dl class="meta">
+        <dt>カテゴリ</dt><dd>breathing_study</dd>
+        <dt>テーマ</dt><dd>呼吸のイラスト</dd>
+        <dt>状態</dt><dd>article_ready</dd>
+      </dl>
+      <details>
+        <summary>構造データを表示</summary>
+        <pre><code>{
+  &quot;id&quot;: &quot;xiaolin_038_cb2308ed&quot;,
+  &quot;titleJa&quot;: &quot;竹林の静かな呼吸&quot;,
+  &quot;theme&quot;: &quot;呼吸のイラスト&quot;,
+  &quot;usageStatus&quot;: &quot;article_ready&quot;,
+  &quot;focus&quot;: [
+    &quot;standard style&quot;,
+    &quot;natural face lighting&quot;,
+    &quot;outfit reference&quot;
+  ],
+  &quot;prompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。&quot;,
+  &quot;negative&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;
+}</code></pre>
+      </details>
+    </section>
+    <section class="editor">
+      <div class="controls">
+        <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
+      </div>
+      <section class="prompt-card">
+        <div class="prompt-head"><h2>記事用プロンプト</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <textarea id="japanesePrompt" spellcheck="false">参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。</textarea>
+      </section>
+      
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>ネガティブ指定</h2><button data-copy-target="negativePrompt" type="button">ネガティブ指定をコピー</button></div>
+          <textarea id="negativePrompt" spellcheck="false">低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物</textarea>
+        </section>
+      <section class="prompt-card">
+        <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
+        <textarea id="focusPrompt" spellcheck="false">standard style
+natural face lighting
+outfit reference</textarea>
+      </section>
     </section>
   </main>
+  <script>
+    const fixedCharacter = [
+      "武術家は小鈴（シャオリン）です。",
+      "21歳の女性中国武術家。身長165cm。",
+      "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
+      "艶のある黒髪のショートボブ、前髪あり、両サイドに顔を縁取る毛束。",
+      "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
+      "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
+    ].join("\n");
+    const basePrompt = "参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。";
+    const promptTextarea = document.getElementById("japanesePrompt");
+    const checkbox = document.getElementById("useFixedCharacter");
+    function renderPrompt() {
+      promptTextarea.value = checkbox.checked ? basePrompt + "\n\n" + fixedCharacter : basePrompt;
+    }
+    async function copyFrom(targetId, button) {
+      const textarea = document.getElementById(targetId);
+      await navigator.clipboard.writeText(textarea.value);
+      const label = button.textContent;
+      button.textContent = "コピーしました";
+      setTimeout(() => { button.textContent = label; }, 1200);
+    }
+    checkbox.addEventListener("change", renderPrompt);
+    document.querySelectorAll("[data-copy-target]").forEach((button) => {
+      button.addEventListener("click", () => copyFrom(button.dataset.copyTarget, button));
+    });
+    renderPrompt();
+  </script>
 </body>
 </html>
