@@ -26,7 +26,7 @@ function resetDir(dir) {
 }
 
 function escapeHtml(value) {
-  return String(value)
+  return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -149,8 +149,7 @@ function buildArticlePage() {
   for (const file of fs.readdirSync(noteImagesDir).filter((name) => /\.(png|jpe?g|webp)$/i.test(name))) {
     fs.copyFileSync(path.join(noteImagesDir, file), path.join(noteAssets, file));
   }
-  const markdown = fs.readFileSync(noteArticlePath, "utf8");
-  const body = markdownToHtml(markdown);
+  const body = markdownToHtml(fs.readFileSync(noteArticlePath, "utf8"));
   const html = `<!doctype html>
 <html lang="ja">
 <head>
@@ -182,6 +181,10 @@ function conceptAssetName(item) {
   return path.basename(item.libraryImagePath || "");
 }
 
+function conceptPageName(item) {
+  return `${item.id}.html`;
+}
+
 function copyConceptAssets(items) {
   fs.mkdirSync(conceptAssetsDir, { recursive: true });
   let copied = 0;
@@ -206,6 +209,51 @@ function conceptThemeEntries(taxonomy) {
       description: typeof value === "string" ? "" : value?.description || "",
     };
   });
+}
+
+function conceptThemeMap(taxonomy) {
+  return new Map(conceptThemeEntries(taxonomy).map((theme) => [theme.key, theme]));
+}
+
+function buildConceptDetailPages(items, taxonomy) {
+  const themesByKey = conceptThemeMap(taxonomy);
+  for (const item of items) {
+    const title = item.titleJa || item.title;
+    const imageName = conceptAssetName(item);
+    const theme = themesByKey.get(item.primary) || { label: item.themeLabel || item.primary, description: "" };
+    const focus = (item.gptFocus || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("");
+    const html = `<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(title)}</title>
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <nav><a href="../index.html">Home</a><a href="index.html">Concepts</a><a href="../prompts/index.html">Prompt Viewer</a><a href="../article.html">Note Draft</a></nav>
+  <main class="detail-page">
+    <p class="breadcrumb"><a href="index.html#${escapeHtml(item.primary)}">Concepts</a> / ${escapeHtml(theme.label)}</p>
+    <section class="detail-layout">
+      <figure class="detail-image">
+        <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(title)}">
+      </figure>
+      <article class="detail-body">
+        <p class="theme-badge">${escapeHtml(theme.label)}</p>
+        <h1>${escapeHtml(title)}</h1>
+        <p>${escapeHtml(item.observation || "")}</p>
+        <h2>注目ポイント</h2>
+        <ul class="focus-list detail-focus">${focus}</ul>
+        <h2>個別プロンプト</h2>
+        <pre class="prompt-text"><code>${escapeHtml(item.promptJa || "")}</code></pre>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
+`;
+    fs.writeFileSync(path.join(conceptPagesDir, conceptPageName(item)), html, "utf8");
+  }
 }
 
 function buildConceptsPage(items, taxonomy) {
@@ -234,14 +282,12 @@ function buildConceptsPage(items, taxonomy) {
         const title = item.titleJa || item.title;
         return `
           <article class="card concept-card" id="${escapeHtml(item.id)}">
-            <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(title)}">
-            <h3>${escapeHtml(title)}</h3>
+            <a href="${escapeHtml(conceptPageName(item))}">
+              <img src="../assets/concepts/${escapeHtml(imageName)}" alt="${escapeHtml(title)}">
+              <h3>${escapeHtml(title)}</h3>
+            </a>
             <p>${escapeHtml(item.observation || "")}</p>
-            <ul class="focus-list">${(item.gptFocus || []).map((focus) => `<li>${escapeHtml(focus)}</li>`).join("")}</ul>
-            <details class="prompt-block" open>
-              <summary>個別プロンプト</summary>
-              <p>${escapeHtml(item.promptJa || "")}</p>
-            </details>
+            <a class="text-link" href="${escapeHtml(conceptPageName(item))}">プロンプトを見る</a>
           </article>`;
       }).join("\n");
       return `
@@ -266,7 +312,7 @@ function buildConceptsPage(items, taxonomy) {
   <nav><a href="../index.html">Home</a><a href="../prompts/index.html">Prompt Viewer</a><a href="index.html">Concepts</a><a href="../article.html">Note Draft</a></nav>
   <header class="hero">
     <h1>コンセプト仕分け一覧</h1>
-    <p>今後GPTにプロンプト化を依頼するためのネタ帳です。各画像は代表テーマを1つだけ持ち、漫画構図・眼・画面破壊などを個別に整理しています。</p>
+    <p>各画像をクリックすると、個別プロンプトを確認できます。代表テーマは1枚につき1つだけに整理しています。</p>
   </header>
   <main>
     <section class="links">${nav}</section>
@@ -276,20 +322,32 @@ function buildConceptsPage(items, taxonomy) {
 </html>
 `;
   fs.writeFileSync(path.join(conceptPagesDir, "index.html"), html, "utf8");
+  buildConceptDetailPages(items, taxonomy);
 }
 
 function buildHome(items, conceptItems, taxonomy) {
   const conceptThemes = conceptThemeEntries(taxonomy)
     .map((theme) => `${theme.label}: ${conceptItems.filter((item) => item.primary === theme.key).length}`)
     .join(" / ");
-  const cards = items.map((item) => `
+  const promptCards = items.map((item) => `
     <article class="card">
       <a href="prompts/${escapeHtml(item.id)}_prompt_switcher.html">
         <img src="assets/images/${escapeHtml(item.libraryImageFile)}" alt="${escapeHtml(item.title)}">
+        <h2>${escapeHtml(item.title)}</h2>
       </a>
-      <h2>${escapeHtml(item.title)}</h2>
       <p>${escapeHtml(item.caption || "")}</p>
     </article>`).join("\n");
+  const conceptCards = conceptItems.map((item) => {
+    const title = item.titleJa || item.title;
+    return `
+    <article class="card">
+      <a href="concepts/${escapeHtml(conceptPageName(item))}">
+        <img src="assets/concepts/${escapeHtml(conceptAssetName(item))}" alt="${escapeHtml(title)}">
+        <h2>${escapeHtml(title)}</h2>
+      </a>
+      <p>${escapeHtml(item.themeLabel || "")}</p>
+    </article>`;
+  }).join("\n");
   const html = `<!doctype html>
 <html lang="ja">
 <head>
@@ -302,7 +360,7 @@ function buildHome(items, conceptItems, taxonomy) {
   <nav><a href="index.html">Home</a><a href="prompts/index.html">Prompt Viewer</a><a href="concepts/index.html">Concepts</a><a href="article.html">Note Draft</a></nav>
   <header class="hero">
     <h1>小鈴イラスト展 プロンプト資料</h1>
-    <p>武術ポーズ、構図、光、モーションを整理したローカル制作資料のPages版です。</p>
+    <p>武術ポーズ、構図、光、モーションを整理した制作資料です。画像カードをクリックすると各プロンプトを確認できます。</p>
   </header>
   <main>
     <section class="links">
@@ -314,7 +372,14 @@ function buildHome(items, conceptItems, taxonomy) {
       <h2>今回の仕分け</h2>
       <p>${escapeHtml(conceptThemes)}</p>
     </section>
-    <section class="grid">${cards}</section>
+    <section class="home-section">
+      <h2>今回分の個別プロンプト</h2>
+      <div class="grid">${conceptCards}</div>
+    </section>
+    <section class="home-section">
+      <h2>記事用プロンプト</h2>
+      <div class="grid">${promptCards}</div>
+    </section>
   </main>
 </body>
 </html>
@@ -328,7 +393,7 @@ function buildCss() {
 body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; line-height: 1.65; }
 nav { background: #fff; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 16px; padding: 12px 24px; position: sticky; top: 0; z-index: 2; }
 a { color: var(--accent); }
-nav a, .button { color: var(--accent); font-weight: 700; text-decoration: none; }
+nav a, .button, .text-link { color: var(--accent); font-weight: 700; text-decoration: none; }
 .hero, main { margin: 0 auto; max-width: 1180px; padding: 24px; }
 .hero h1 { font-size: 32px; margin: 0 0 8px; }
 .hero p, .card p { color: var(--muted); }
@@ -336,16 +401,18 @@ nav a, .button { color: var(--accent); font-weight: 700; text-decoration: none; 
 .button { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; padding-bottom: 12px; }
+.card a { color: inherit; display: block; text-decoration: none; }
 .card img { aspect-ratio: 4 / 5; display: block; object-fit: cover; width: 100%; }
 .card h2 { font-size: 16px; line-height: 1.35; margin: 12px 12px 6px; }
 .card h3 { font-size: 15px; line-height: 1.35; margin: 12px 12px 6px; }
 .card p { font-size: 13px; margin: 0 12px; }
+.text-link { display: inline-block; font-size: 13px; margin: 10px 12px 0; }
 .concept-card img { aspect-ratio: 1 / 1; }
-.focus-list { color: var(--muted); font-size: 13px; margin: 10px 12px 0; padding-left: 18px; }\n.prompt-block { border: 0; border-top: 1px solid var(--line); border-radius: 0; margin: 12px 12px 0; padding: 10px 0 0; }\n.prompt-block p { color: var(--ink); font-size: 13px; margin-top: 8px; }
-.summary-panel, .theme-section { margin-bottom: 28px; }
+.focus-list { color: var(--muted); font-size: 13px; margin: 10px 12px 0; padding-left: 18px; }
+.summary-panel, .theme-section, .home-section { margin-bottom: 28px; }
 .summary-panel { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
-.theme-section > header { margin-bottom: 12px; }
-.theme-section h2, .summary-panel h2 { font-size: 22px; margin: 0 0 6px; }
+.theme-section > header, .home-section > h2 { margin-bottom: 12px; }
+.theme-section h2, .summary-panel h2, .home-section h2 { font-size: 22px; margin: 0 0 6px; }
 .theme-section p, .summary-panel p { color: var(--muted); margin: 0; }
 .article { max-width: 880px; }
 .article h1 { font-size: 30px; line-height: 1.3; }
@@ -356,6 +423,19 @@ figcaption { color: var(--muted); font-size: 13px; margin-top: 6px; }
 pre { background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow:auto; padding: 12px; white-space: pre-wrap; }
 details { background:#fff; border:1px solid var(--line); border-radius:8px; margin: 14px 0; padding: 12px; }
 summary { cursor: pointer; font-weight: 700; }
+.breadcrumb { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+.detail-layout { align-items: start; display: grid; gap: 24px; grid-template-columns: minmax(280px, 44%) 1fr; }
+.detail-image { margin: 0; }
+.detail-image img { background: #fff; border: 1px solid var(--line); width: 100%; }
+.detail-body { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
+.detail-body h1 { font-size: 28px; line-height: 1.3; margin: 8px 0 12px; }
+.detail-body h2 { font-size: 18px; margin: 22px 0 8px; }
+.detail-focus { margin-left: 0; }
+.theme-badge { color: var(--accent); font-size: 13px; font-weight: 700; margin: 0; }
+.prompt-text { font-size: 14px; line-height: 1.8; }
+@media (max-width: 760px) {
+  .detail-layout { grid-template-columns: 1fr; }
+}
 `;
   fs.writeFileSync(path.join(docsDir, "site.css"), css, "utf8");
 }
