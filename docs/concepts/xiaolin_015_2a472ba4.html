@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>竹林の画風比較</title>
   <link rel="stylesheet" href="../site.css">
+  <style>:root { color-scheme: light; --bg: #f7f4ee; --panel: #ffffff; --ink: #1f252d; --muted: #667085; --line: #d9d2c7; --accent: #1f6f78; --accent-strong: #18555c; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; margin: 0; }
+nav { background: #fff; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 16px; padding: 12px 24px; position: sticky; top: 0; z-index: 2; }
+a { color: var(--accent); }
+nav a { color: var(--accent); font-weight: 700; text-decoration: none; }
+main.tool-layout { display: grid; gap: 20px; grid-template-columns: minmax(280px, 390px) minmax(420px, 1fr); margin: 0 auto; max-width: 1280px; padding: 24px; }
+.preview, .editor, .prompt-card, details { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+.editor { display: grid; gap: 14px; }
+h1 { font-size: 22px; line-height: 1.3; margin: 0 0 10px; }
+h2 { font-size: 16px; margin: 0; }
+figure { margin: 0; }
+img { border-radius: 6px; display: block; height: auto; width: 100%; }
+.breadcrumb { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+.caption, .meta-line { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+.meta { display: grid; gap: 4px 10px; grid-template-columns: max-content 1fr; font-size: 13px; margin-top: 14px; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; }
+.controls, .prompt-head { align-items: center; display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; }
+.controls { justify-content: flex-start; }
+label { align-items: center; display: inline-flex; gap: 8px; }
+input[type="checkbox"] { height: 18px; width: 18px; }
+button { background: var(--accent); border: 0; border-radius: 6px; color: white; cursor: pointer; font: inherit; font-weight: 700; padding: 8px 12px; }
+button:hover { background: var(--accent-strong); }
+textarea { border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: 13px/1.55 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; margin-top: 10px; min-height: 300px; padding: 12px; resize: vertical; width: 100%; }
+#negativePrompt, #focusPrompt { min-height: 120px; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+pre { background: #f7f7f7; border-radius: 6px; overflow: auto; padding: 10px; white-space: pre-wrap; }
+summary { cursor: pointer; font-weight: 700; }
+@media (max-width: 900px) { main.tool-layout { grid-template-columns: 1fr; padding: 14px; } }</style>
 </head>
 <body>
   <nav><a href="../index.html">Home</a><a href="index.html">Concepts</a><a href="../prompts/index.html">Prompt Viewer</a><a href="../article.html">Note Draft</a></nav>
