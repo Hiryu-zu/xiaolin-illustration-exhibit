@@ -3,8 +3,7 @@
     "id": "xiaolin_001_156c0c08",
     "title": "summary pose sheet 01",
     "themes": [
-      "summary_sheet",
-      "style_study"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -23,8 +22,7 @@
     "id": "xiaolin_002_6e10a10e",
     "title": "mixed stance reference sheet",
     "themes": [
-      "summary_sheet",
-      "manga_composition"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -43,9 +41,7 @@
     "id": "xiaolin_003_a5eab930",
     "title": "light and shadow pose sheet",
     "themes": [
-      "summary_sheet",
-      "shadow_study",
-      "manga_composition"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -64,9 +60,7 @@
     "id": "xiaolin_004_dec78598",
     "title": "integrated action pose board",
     "themes": [
-      "summary_sheet",
-      "manga_composition",
-      "breathing_study"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -85,9 +79,7 @@
     "id": "xiaolin_005_5b089ca4",
     "title": "palm and rotation action sheet",
     "themes": [
-      "summary_sheet",
-      "manga_composition",
-      "breathing_study"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -106,8 +98,7 @@
     "id": "xiaolin_006_5b61a5e0",
     "title": "selected action pose sheet",
     "themes": [
-      "summary_sheet",
-      "style_study"
+      "summary_sheet"
     ],
     "primary": "summary_sheet",
     "themeLabel": "まとめイラスト",
@@ -126,9 +117,7 @@
     "id": "xiaolin_007_c641b8f2",
     "title": "wide manga action layout",
     "themes": [
-      "manga_composition",
-      "screen_break",
-      "eye_study"
+      "manga_composition"
     ],
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
@@ -147,9 +136,7 @@
     "id": "xiaolin_009_1e58c68a",
     "title": "dojo sequential manga panels",
     "themes": [
-      "manga_composition",
-      "screen_break",
-      "eye_study"
+      "manga_composition"
     ],
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
@@ -168,9 +155,7 @@
     "id": "xiaolin_014_a400315e",
     "title": "bamboo manga panel breathing study",
     "themes": [
-      "manga_composition",
-      "breathing_study",
-      "eye_study"
+      "manga_composition"
     ],
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
@@ -189,8 +174,7 @@
     "id": "xiaolin_015_2a472ba4",
     "title": "bamboo style comparison",
     "themes": [
-      "style_study",
-      "summary_sheet"
+      "style_study"
     ],
     "primary": "style_study",
     "themeLabel": "画風イラスト",
@@ -209,9 +193,7 @@
     "id": "xiaolin_016_34893ba8",
     "title": "shadow and wind style comparison",
     "themes": [
-      "style_study",
-      "shadow_study",
-      "breathing_study"
+      "style_study"
     ],
     "primary": "style_study",
     "themeLabel": "画風イラスト",
@@ -230,8 +212,7 @@
     "id": "xiaolin_020_554f1a66",
     "title": "bamboo portrait baseline",
     "themes": [
-      "style_study",
-      "eye_study"
+      "style_study"
     ],
     "primary": "style_study",
     "themeLabel": "画風イラスト",
@@ -250,8 +231,7 @@
     "id": "xiaolin_021_ca4807ab",
     "title": "front eye expression baseline",
     "themes": [
-      "eye_study",
-      "style_study"
+      "eye_study"
     ],
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
@@ -270,8 +250,7 @@
     "id": "xiaolin_022_fc8e9a7d",
     "title": "shadowed sharp gaze",
     "themes": [
-      "eye_study",
-      "shadow_study"
+      "eye_study"
     ],
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
@@ -309,8 +288,7 @@
     "id": "xiaolin_024_2f635a52",
     "title": "strong face shadow portrait",
     "themes": [
-      "shadow_study",
-      "eye_study"
+      "shadow_study"
     ],
     "primary": "shadow_study",
     "themeLabel": "影のイラスト",
@@ -329,8 +307,7 @@
     "id": "xiaolin_029_51c0c6a2",
     "title": "giant wall shadow stance",
     "themes": [
-      "shadow_study",
-      "manga_composition"
+      "shadow_study"
     ],
     "primary": "shadow_study",
     "themeLabel": "影のイラスト",
@@ -349,8 +326,7 @@
     "id": "xiaolin_033_f59121cd",
     "title": "screen breaking fist punch",
     "themes": [
-      "screen_break",
-      "manga_composition"
+      "screen_break"
     ],
     "primary": "screen_break",
     "themeLabel": "画面破壊のイラスト",
@@ -369,8 +345,7 @@
     "id": "xiaolin_034_b928488a",
     "title": "screen breaking kick close-up",
     "themes": [
-      "screen_break",
-      "manga_composition"
+      "screen_break"
     ],
     "primary": "screen_break",
     "themeLabel": "画面破壊のイラスト",
@@ -389,8 +364,7 @@
     "id": "xiaolin_038_cb2308ed",
     "title": "bamboo standard portrait",
     "themes": [
-      "style_study",
-      "eye_study"
+      "style_study"
     ],
     "primary": "style_study",
     "themeLabel": "画風イラスト",
