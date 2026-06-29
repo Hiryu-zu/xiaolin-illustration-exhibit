@@ -222,6 +222,10 @@ function buildConceptDetailPages(items, taxonomy) {
     const imageName = conceptAssetName(item);
     const theme = themesByKey.get(item.primary) || { label: item.themeLabel || item.primary, description: "" };
     const focus = (item.gptFocus || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("");
+    const promptLabel = item.promptLabel || (item.usageStatus === "article_ready" ? "記事用プロンプト" : "設計メモ");
+    const negative = item.negativeJa ? `
+        <h2>ネガティブ指定</h2>
+        <pre class="prompt-text"><code>${escapeHtml(item.negativeJa)}</code></pre>` : "";
     const html = `<!doctype html>
 <html lang="ja">
 <head>
@@ -244,8 +248,9 @@ function buildConceptDetailPages(items, taxonomy) {
         <p>${escapeHtml(item.observation || "")}</p>
         <h2>注目ポイント</h2>
         <ul class="focus-list detail-focus">${focus}</ul>
-        <h2>個別プロンプト</h2>
+        <h2>${escapeHtml(promptLabel)}</h2>
         <pre class="prompt-text"><code>${escapeHtml(item.promptJa || "")}</code></pre>
+        ${negative}
       </article>
     </section>
   </main>
@@ -280,6 +285,7 @@ function buildConceptsPage(items, taxonomy) {
       const cards = themeItems.map((item) => {
         const imageName = conceptAssetName(item);
         const title = item.titleJa || item.title;
+        const promptLabel = item.promptLabel || (item.usageStatus === "article_ready" ? "記事用プロンプト" : "設計メモ");
         return `
           <article class="card concept-card" id="${escapeHtml(item.id)}">
             <a href="${escapeHtml(conceptPageName(item))}">
@@ -287,7 +293,7 @@ function buildConceptsPage(items, taxonomy) {
               <h3>${escapeHtml(title)}</h3>
             </a>
             <p>${escapeHtml(item.observation || "")}</p>
-            <a class="text-link" href="${escapeHtml(conceptPageName(item))}">プロンプトを見る</a>
+            <a class="text-link" href="${escapeHtml(conceptPageName(item))}">${escapeHtml(promptLabel)}を見る</a>
           </article>`;
       }).join("\n");
       return `

@@ -18,7 +18,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_001_156c0c08.png",
     "titleJa": "全身ポーズまとめシート",
-    "promptJa": "参考画像のキャラクター性、服装、髪型、体格を保ちながら、白背景の上に複数の武術ポーズを整理したポーズ資料を作る。立ち姿、構え、手技、低い姿勢、顔のアップを混在させ、各ポーズのシルエットが読み取りやすいように余白を残す。完成画というより、次の生成に使える参照シートとして、動きの差と姿勢の違いが一目で分かる構成にする。"
+    "promptJa": "参考画像のキャラクター性、服装、髪型、体格を保ちながら、白背景の上に複数の武術ポーズを整理したポーズ資料を作る。立ち姿、構え、手技、低い姿勢、顔のアップを混在させ、各ポーズのシルエットが読み取りやすいように余白を残す。完成画というより、次の生成に使える参照シートとして、動きの差と姿勢の違いが一目で分かる構成にする。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_002_6e10a10e",
@@ -39,7 +41,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_002_6e10a10e.png",
     "titleJa": "複合スタンス資料",
-    "promptJa": "参考画像の人物を維持し、全身立ち姿、横向きの構え、掌底、接近した手元を一枚にまとめた武術スタンス資料を作る。各カットは比較しやすい余白で配置し、服装や体格の一貫性を保つ。キャラクター紹介とアクション設計の中間になるよう、静止ポーズと攻撃動作の両方を見せる。"
+    "promptJa": "参考画像の人物を維持し、全身立ち姿、横向きの構え、掌底、接近した手元を一枚にまとめた武術スタンス資料を作る。各カットは比較しやすい余白で配置し、服装や体格の一貫性を保つ。キャラクター紹介とアクション設計の中間になるよう、静止ポーズと攻撃動作の両方を見せる。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_003_a5eab930",
@@ -60,7 +64,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_003_a5eab930.png",
     "titleJa": "光と影のポーズシート",
-    "promptJa": "参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。"
+    "promptJa": "参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_004_dec78598",
@@ -81,7 +87,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_004_dec78598.png",
     "titleJa": "統合アクションボード",
-    "promptJa": "参考画像の人物を維持し、正面の構え、掌底、回転する動き、シルエット、静かな立ち姿を一枚に整理したアクションボードを作る。風の軌跡や流線で動線を示し、個々のカットがばらばらにならないよう視線の流れを作る。プロンプト検討用に、静と動の差が分かる構成にする。"
+    "promptJa": "参考画像の人物を維持し、正面の構え、掌底、回転する動き、シルエット、静かな立ち姿を一枚に整理したアクションボードを作る。風の軌跡や流線で動線を示し、個々のカットがばらばらにならないよう視線の流れを作る。プロンプト検討用に、静と動の差が分かる構成にする。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_005_5b089ca4",
@@ -102,7 +110,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_005_5b089ca4.png",
     "titleJa": "掌底と旋回の比較シート",
-    "promptJa": "参考画像の人物を使い、掌底、旋回動作、立ち姿、座り姿を比較する武術アクション資料を作る。掌の大きさ、腕の伸び、回転の弧、衣服の揺れを分かりやすくし、静かな姿勢と勢いのある動作を同じ画面で対比させる。背景は控えめにしてポーズの設計を優先する。"
+    "promptJa": "参考画像の人物を使い、掌底、旋回動作、立ち姿、座り姿を比較する武術アクション資料を作る。掌の大きさ、腕の伸び、回転の弧、衣服の揺れを分かりやすくし、静かな姿勢と勢いのある動作を同じ画面で対比させる。背景は控えめにしてポーズの設計を優先する。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_006_5b61a5e0",
@@ -123,7 +133,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_006_5b61a5e0.png",
     "titleJa": "選抜アクションポーズ集",
-    "promptJa": "参考画像のキャラクターを保ちながら、使いやすい武術ポーズだけを選抜したポーズ集を作る。全身の構え、上半身の表情、攻撃直前の姿勢を整理し、アクションのシルエットが重ならないように配置する。次に記事化や個別プロンプト化しやすいよう、各ポーズの強みが見える資料にする。"
+    "promptJa": "参考画像のキャラクターを保ちながら、使いやすい武術ポーズだけを選抜したポーズ集を作る。全身の構え、上半身の表情、攻撃直前の姿勢を整理し、アクションのシルエットが重ならないように配置する。次に記事化や個別プロンプト化しやすいよう、各ポーズの強みが見える資料にする。",
+    "usageStatus": "reference_notes",
+    "promptLabel": "設計メモ"
   },
   {
     "id": "xiaolin_007_c641b8f2",
@@ -134,7 +146,7 @@
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
     "selectedImagePath": "selected/xiaolin_007_c641b8f2.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Wide manga-style layout with palm close-up, fist, eye cut-in, and horizontal panels.",
     "gptFocus": [
@@ -144,7 +156,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_007_c641b8f2.png",
     "titleJa": "横長漫画アクション構図",
-    "promptJa": "参考画像の人物を維持し、横長の漫画ページ風に、掌の接近、拳、目のカットイン、細い横コマを組み合わせた武術アクション構図を作る。読者の視線が左から右へ流れるようにコマを配置し、手元の迫力と目元の緊張感を交互に見せる。効果線は多すぎず、動きの順番が分かるようにする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_009_1e58c68a",
@@ -155,7 +170,7 @@
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
     "selectedImagePath": "selected/xiaolin_009_1e58c68a.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Indoor dojo manga page with horizontal panels, palm strike, eye cut-in, and low stance.",
     "gptFocus": [
@@ -165,7 +180,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_009_1e58c68a.png",
     "titleJa": "道場の連続漫画パネル",
-    "promptJa": "参考画像の人物を使い、道場内での連続動作を漫画パネルとして構成する。細い横コマ、掌底、目のカットイン、低い構えを組み合わせ、攻撃前後の間合いと緊張を表現する。背景の畳や柱は控えめに使い、コマごとの動きが読み取りやすい構図にする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_014_a400315e",
@@ -176,7 +194,7 @@
     "primary": "manga_composition",
     "themeLabel": "漫画構図",
     "selectedImagePath": "selected/xiaolin_014_a400315e.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Bamboo training panels with seated posture, stance, palm strike, and eye close-ups.",
     "gptFocus": [
@@ -186,7 +204,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_014_a400315e.png",
     "titleJa": "竹林修行の漫画パネル",
-    "promptJa": "参考画像の人物を維持し、竹林での修行シーンを漫画パネルで構成する。座った呼吸、構え、掌底、目元のアップを分けて配置し、竹の縦線で静けさと緊張を作る。動きだけでなく、呼吸を整えてから技に入る流れが伝わるようにする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林での修行シーンを漫画パネル構図で描く。座って呼吸を整えるカット、構えに入る全身カット、掌底を放つ手元、目元のアップを一枚の中に整理する。竹の縦線を背景に使い、静けさと緊張感を同時に出す。激しい効果線よりも、呼吸から技へ移る流れ、自然光、余白、視線誘導を重視する。高品質なアニメ調、繊細な線、落ち着いた色、読みやすい漫画構図。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_015_2a472ba4",
@@ -197,7 +218,7 @@
     "primary": "style_study",
     "themeLabel": "画風イラスト",
     "selectedImagePath": "selected/xiaolin_015_2a472ba4.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Four-panel comparison of similar bamboo stances with different rendering density.",
     "gptFocus": [
@@ -206,8 +227,11 @@
       "line and color density"
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_015_2a472ba4.png",
-    "titleJa": "竹林スタイル比較",
-    "promptJa": "参考画像の人物を使い、同じ竹林の構えを複数の描写密度で比較する。線の細かさ、色の濃さ、背景の描き込み、キャラクターの輪郭の強さを変え、どの画風が武術ポーズに合うかを見比べられる構成にする。ポーズは近い形に保ち、画風差が主役になるようにする。"
+    "titleJa": "竹林の画風比較",
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに構える武術少女を描く。線はシャープで、色は落ち着いた緑と白を中心にし、背景の竹は描き込みすぎず人物の輪郭を引き立てる。ポーズは大きく動かさず、手の位置、体重のかかり方、衣服のしわで武術らしさを出す。画風の魅力が伝わるよう、清潔な線、自然な光、整った人体、完成度の高い一枚絵として仕上げる。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_016_34893ba8",
@@ -218,7 +242,7 @@
     "primary": "style_study",
     "themeLabel": "画風イラスト",
     "selectedImagePath": "selected/xiaolin_016_34893ba8.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Style comparison with smoke-like trails, darker shadows, and breathing-like motion.",
     "gptFocus": [
@@ -227,8 +251,11 @@
       "shadow strength"
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_016_34893ba8.png",
-    "titleJa": "影と風の画風比較",
-    "promptJa": "参考画像の人物を維持し、煙のような風の軌跡、暗い影、明るい光を比較する画風資料を作る。動きのあるカットと静かなカットを並べ、影の強さや風の量で印象がどう変わるかを見せる。画面全体は重くしすぎず、人物の表情と体のラインが読めるようにする。"
+    "titleJa": "影と風の画風",
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、影と風の軌跡を使った武術イラストを描く。人物の周囲に煙のような風の流れを薄く入れ、暗い影と明るい自然光の対比で緊張感を作る。動きは強すぎず、構えの安定感と内側にためた力を重視する。髪と袖だけがわずかに揺れ、次の動作へ移る直前の空気を表現する。高品質なアニメ調、シャープな線、読みやすいシルエット、重くなりすぎない陰影。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_020_554f1a66",
@@ -239,7 +266,7 @@
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
     "selectedImagePath": "selected/xiaolin_020_554f1a66.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Bust-up portrait in bamboo lighting, useful as face, hair, outfit, and light baseline.",
     "gptFocus": [
@@ -249,7 +276,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_020_554f1a66.png",
     "titleJa": "竹林ポートレートの目元強調",
-    "promptJa": "参考画像の人物、髪型、服装を保ちながら、竹林の柔らかい光の中で目元を強調したバストアップを作る。顔全体は落ち着いた表情にし、瞳の色、ハイライト、視線の強さが主役になるようにする。背景の竹はぼかしすぎず、自然光が目元に集まる構図にする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の柔らかい光の中で目元を強調したバストアップを描く。顔全体は落ち着いた表情にし、瞳の色、ハイライト、まぶたの形、視線の強さが主役になるようにする。背景の竹は軽くぼかし、自然光が目元に集まる構図にする。派手な攻撃演出は入れず、静かな集中、凛とした表情、澄んだ瞳の印象を重視する。高品質なアニメ調、繊細な目の描写、自然な肌影、整った顔立ち。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_021_ca4807ab",
@@ -260,7 +290,7 @@
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
     "selectedImagePath": "selected/xiaolin_021_ca4807ab.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Straight-on face close-up with amber eyes and controlled expression.",
     "gptFocus": [
@@ -269,8 +299,11 @@
       "expression intensity"
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_021_ca4807ab.png",
-    "titleJa": "正面視線の基準ポートレート",
-    "promptJa": "参考画像の人物を維持し、正面からの顔アップで、まっすぐな視線と抑えた表情を描く。瞳の色、光の入り方、まぶたの形、前髪との重なりを丁寧に見せる。派手な演出は控え、目の印象だけで集中力と静かな強さが伝わるポートレートにする。"
+    "titleJa": "正面視線の目元ポートレート",
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、正面からの顔アップでまっすぐな視線を描く。瞳の色、ハイライト、前髪との重なり、まぶたの形を丁寧に描写し、表情は抑えめにする。背景はシンプルにして、目の印象だけで集中力と静かな強さが伝わるようにする。顔の左右バランス、自然な鼻筋、破綻のない目の配置を重視する。高品質なアニメ調、シャープな線、澄んだ瞳、落ち着いた緊張感。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_022_fc8e9a7d",
@@ -281,7 +314,7 @@
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
     "selectedImagePath": "selected/xiaolin_022_fc8e9a7d.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Sharper eyes with facial shadow and serious mood.",
     "gptFocus": [
@@ -291,7 +324,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_022_fc8e9a7d.png",
     "titleJa": "影を帯びた鋭い眼差し",
-    "promptJa": "参考画像の人物を使い、顔に落ちる影と鋭い目元を中心にしたポートレートを作る。目の周囲の影、眉の角度、瞳のハイライトを調整し、真剣さと少し冷たい緊張感を出す。暗くしすぎて表情が潰れないよう、瞳だけは明確に読める光を残す。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、顔に落ちる影と鋭い目元を中心にしたポートレートを描く。目の周囲に濃すぎない影を入れ、眉の角度と瞳のハイライトで真剣さを出す。全体は暗めでも、瞳だけは明確に読める光を残す。表情は感情を出しすぎず、次の一手を見据えるような冷静な緊張感にする。高品質なアニメ調、繊細な陰影、鋭い視線、自然な顔の立体感。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_023_e884e748",
@@ -302,7 +338,7 @@
     "primary": "eye_study",
     "themeLabel": "眼のイラスト",
     "selectedImagePath": "selected/xiaolin_023_e884e748.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Extreme crop around eyes, bangs, and nose bridge with minimal facial context.",
     "gptFocus": [
@@ -312,7 +348,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_023_e884e748.png",
     "titleJa": "超接近の眼アップ",
-    "promptJa": "参考画像の人物を維持し、目、前髪、鼻筋の一部だけを大胆に切り取った超接近ポートレートを作る。瞳のディテール、反射光、まつ毛、前髪の影を主役にし、顔の全体像はあえて見せない。画面いっぱいの目元で、次の動作に入る直前の集中を表現する。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、目、前髪、鼻筋の一部だけを大胆に切り取った超接近ポートレートを描く。画面いっぱいに目元を配置し、瞳の反射光、まつ毛、前髪の影、肌のわずかな陰影を丁寧に描写する。顔全体は見せず、次の動作に入る直前の集中を目だけで表現する。過度な装飾は避け、視線の強さと画面の切り取りで迫力を出す。高品質なアニメ調、極端なクローズアップ、破綻のない目元。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_024_2f635a52",
@@ -323,7 +362,7 @@
     "primary": "shadow_study",
     "themeLabel": "影のイラスト",
     "selectedImagePath": "selected/xiaolin_024_2f635a52.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Face under strong shadow, with eyes carrying most of the emotional pressure.",
     "gptFocus": [
@@ -333,7 +372,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_024_2f635a52.png",
     "titleJa": "強い顔影のポートレート",
-    "promptJa": "参考画像の人物を使い、顔の大部分に影を落とし、目元だけに感情の圧を残すポートレートを作る。暗い影、わずかな瞳の光、静かな口元で、内側にこもった緊張を表現する。黒く潰れないよう、輪郭と髪の流れは最低限読み取れるようにする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、顔の大部分に影を落とし、目元に感情の圧を残したポートレートを描く。暗い影、わずかな瞳の光、静かな口元で、内側にこもった緊張を表現する。黒く潰れすぎないよう、輪郭、前髪、頬の立体感は最低限読み取れるようにする。背景は控えめにし、顔影と視線の強さを主役にする。高品質なアニメ調、重い陰影、鋭い瞳、破綻のない顔立ち。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_029_51c0c6a2",
@@ -344,7 +386,7 @@
     "primary": "shadow_study",
     "themeLabel": "影のイラスト",
     "selectedImagePath": "selected/xiaolin_029_51c0c6a2.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Low stance in a dojo with a huge wall shadow behind the character.",
     "gptFocus": [
@@ -354,7 +396,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_029_51c0c6a2.png",
     "titleJa": "壁に伸びる巨大な影",
-    "promptJa": "参考画像の人物を維持し、道場で低く構えた姿と背後の巨大な壁影を描く。実際の体よりも大きく伸びる影で、心理的な圧力と技の気配を表現する。床、壁、光源の位置を明確にし、人物の小ささと影の大きさの対比が分かる構図にする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_033_f59121cd",
@@ -365,7 +410,7 @@
     "primary": "screen_break",
     "themeLabel": "画面破壊のイラスト",
     "selectedImagePath": "selected/xiaolin_033_f59121cd.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Foreground fist with crack lines and speed lines, pushing toward the viewer.",
     "gptFocus": [
@@ -375,7 +420,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_033_f59121cd.png",
     "titleJa": "拳の画面破壊",
-    "promptJa": "参考画像の人物を使い、拳が画面手前に迫り、透明な画面にひびが入るような超接近アクションを作る。拳は大きく、顔は奥に配置し、パースで距離感を強調する。割れ目、速度線、衝撃の白い抜きを使いながら、拳と表情の両方が読める構図にする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、拳が画面手前に迫り、透明な画面にひびが入るような超接近アクションを描く。拳を最前面に大きく配置し、顔と上半身は奥に見せる。極端なパース、割れたガラス状の線、速度線、白い衝撃の抜きを使い、拳の迫力と表情の両方が読める構図にする。手指や腕の形は破綻させず、迫力と読みやすさを両立する。高品質なアニメ調、強い遠近感、画面破壊演出。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_034_b928488a",
@@ -386,7 +434,7 @@
     "primary": "screen_break",
     "themeLabel": "画面破壊のイラスト",
     "selectedImagePath": "selected/xiaolin_034_b928488a.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Large sole in the foreground with glass-like crack impact.",
     "gptFocus": [
@@ -396,7 +444,10 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_034_b928488a.png",
     "titleJa": "蹴り足の画面破壊",
-    "promptJa": "参考画像の人物を維持し、蹴り足の足裏が画面に迫ってひびを入れる超接近アクションを作る。足裏を最前面に大きく置き、顔と上半身は奥に見せる。極端なパース、割れたガラス状の線、速度線を使い、蹴りの勢いとキャラクターの表情が同時に伝わるようにする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、蹴り足の足裏が画面に迫ってひびを入れる超接近アクションを描く。足裏を最前面に大きく置き、顔と上半身は奥に配置する。極端なパース、割れたガラス状の線、速度線を使い、蹴りの勢いとキャラクターの表情が同時に伝わるようにする。足の形、脚のつながり、体の向きが破綻しないようにし、画面破壊の迫力を主役にする。高品質なアニメ調、強い奥行き、ダイナミックな構図。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   },
   {
     "id": "xiaolin_038_cb2308ed",
@@ -407,7 +458,7 @@
     "primary": "breathing_study",
     "themeLabel": "呼吸のイラスト",
     "selectedImagePath": "selected/xiaolin_038_cb2308ed.png",
-    "status": "classified_for_prompt_design",
+    "status": "ready_for_article_prompt",
     "promptGoal": "Use this image as a reference source for future GPT prompt design, not as a note article asset.",
     "observation": "Calm bust-up portrait in bamboo light, useful as a standard style baseline.",
     "gptFocus": [
@@ -417,6 +468,9 @@
     ],
     "libraryImagePath": "library/images/concept_studies/concept_xiaolin_038_cb2308ed.png",
     "titleJa": "竹林の静かな呼吸",
-    "promptJa": "参考画像の人物、髪型、服装を保ちながら、竹林の中で静かに呼吸を整えるバストアップを作る。激しい動きではなく、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は入れず、静から動へ移る直前の落ち着きを主役にする。"
+    "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。",
+    "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
+    "usageStatus": "article_ready",
+    "promptLabel": "記事用プロンプト"
   }
 ]
