@@ -63,8 +63,10 @@ summary { cursor: pointer; font-weight: 700; }
     &quot;psychological pressure&quot;,
     &quot;scale contrast&quot;
   ],
-  &quot;prompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。&quot;,
-  &quot;negative&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;
+  &quot;englishPrompt&quot;: &quot;Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration of a low stance inside a dojo, with a huge wall shadow behind the character. Place the figure slightly small near the lower part of the frame, and make the shadow stretch large across the wall to create psychological pressure. Make the floor, wall, and light source easy to understand, emphasizing the contrast between the small figure and the enormous shadow. Keep the motion minimal, focusing on the presence before releasing a technique and the quiet pressure of the scene. Use a clear light source, strong silhouette, dojo atmosphere, and balanced anatomy.&quot;,
+  &quot;japanesePrompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。&quot;,
+  &quot;negativeJa&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;,
+  &quot;negativeEn&quot;: &quot;low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image&quot;
 }</code></pre>
       </details>
     </section>
@@ -72,8 +74,17 @@ summary { cursor: pointer; font-weight: 700; }
       <div class="controls">
         <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
       </div>
+      
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button data-copy-target="englishPrompt" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false">Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style martial arts illustration of a low stance inside a dojo, with a huge wall shadow behind the character. Place the figure slightly small near the lower part of the frame, and make the shadow stretch large across the wall to create psychological pressure. Make the floor, wall, and light source easy to understand, emphasizing the contrast between the small figure and the enormous shadow. Keep the motion minimal, focusing on the presence before releasing a technique and the quiet pressure of the scene. Use a clear light source, strong silhouette, dojo atmosphere, and balanced anatomy.</textarea>
+        </section>
       <section class="prompt-card">
-        <div class="prompt-head"><h2>記事用プロンプト</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <div class="prompt-head"><h2>日本語プロンプト</h2><button data-copy-target="japanesePrompt" type="button">日本語版をコピー</button></div>
         <textarea id="japanesePrompt" spellcheck="false">参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。</textarea>
       </section>
       
@@ -83,14 +94,12 @@ summary { cursor: pointer; font-weight: 700; }
         </section>
       <section class="prompt-card">
         <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
-        <textarea id="focusPrompt" spellcheck="false">giant shadow
-psychological pressure
-scale contrast</textarea>
+        <textarea id="focusPrompt" spellcheck="false">giant shadow\npsychological pressure\nscale contrast</textarea>
       </section>
     </section>
   </main>
   <script>
-    const fixedCharacter = [
+    const fixedCharacterJa = [
       "武術家は小鈴（シャオリン）です。",
       "21歳の女性中国武術家。身長165cm。",
       "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
@@ -98,11 +107,24 @@ scale contrast</textarea>
       "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
       "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
     ].join("\n");
-    const basePrompt = "参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。";
-    const promptTextarea = document.getElementById("japanesePrompt");
+    const fixedCharacterEn = [
+      "The martial artist is Xiaolin.",
+      "She is a 21-year-old female Chinese martial artist, 165 cm tall.",
+      "She has a flexible, balanced, healthy martial-arts build: not too thin, not overly muscular, and light enough for agile movement.",
+      "She has glossy black short-bob hair with bangs and side locks framing her face.",
+      "Her eyes are amber to yellow-brown, and her face balances cuteness with a calm, dignified strength.",
+      "Her outfit is a white-and-black Chinese-inspired martial arts uniform: a white Chinese-style top with black trim and frog buttons, black flexible martial arts pants or leggings, and lightweight white-and-black martial arts shoes."
+    ].join("\n");
+    const basePromptJa = "参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。";
+    const basePromptEn = "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration of a low stance inside a dojo, with a huge wall shadow behind the character. Place the figure slightly small near the lower part of the frame, and make the shadow stretch large across the wall to create psychological pressure. Make the floor, wall, and light source easy to understand, emphasizing the contrast between the small figure and the enormous shadow. Keep the motion minimal, focusing on the presence before releasing a technique and the quiet pressure of the scene. Use a clear light source, strong silhouette, dojo atmosphere, and balanced anatomy.";
+    const japaneseTextarea = document.getElementById("japanesePrompt");
+    const englishTextarea = document.getElementById("englishPrompt");
     const checkbox = document.getElementById("useFixedCharacter");
     function renderPrompt() {
-      promptTextarea.value = checkbox.checked ? basePrompt + "\n\n" + fixedCharacter : basePrompt;
+      japaneseTextarea.value = checkbox.checked ? basePromptJa + "\n\n" + fixedCharacterJa : basePromptJa;
+      if (englishTextarea) {
+        englishTextarea.value = checkbox.checked ? basePromptEn + "\n\n" + fixedCharacterEn : basePromptEn;
+      }
     }
     async function copyFrom(targetId, button) {
       const textarea = document.getElementById(targetId);

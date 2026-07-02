@@ -63,8 +63,10 @@ summary { cursor: pointer; font-weight: 700; }
     &quot;shadow staging&quot;,
     &quot;circular frame and reflection&quot;
   ],
-  &quot;prompt&quot;: &quot;参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。&quot;,
-  &quot;negative&quot;: &quot;&quot;
+  &quot;englishPrompt&quot;: &quot;&quot;,
+  &quot;japanesePrompt&quot;: &quot;参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。&quot;,
+  &quot;negativeJa&quot;: &quot;&quot;,
+  &quot;negativeEn&quot;: &quot;&quot;
 }</code></pre>
       </details>
     </section>
@@ -72,6 +74,7 @@ summary { cursor: pointer; font-weight: 700; }
       <div class="controls">
         <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
       </div>
+      
       <section class="prompt-card">
         <div class="prompt-head"><h2>設計メモ</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
         <textarea id="japanesePrompt" spellcheck="false">参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。</textarea>
@@ -79,14 +82,12 @@ summary { cursor: pointer; font-weight: 700; }
       
       <section class="prompt-card">
         <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
-        <textarea id="focusPrompt" spellcheck="false">pose-by-pose lighting differences
-shadow staging
-circular frame and reflection</textarea>
+        <textarea id="focusPrompt" spellcheck="false">pose-by-pose lighting differences\nshadow staging\ncircular frame and reflection</textarea>
       </section>
     </section>
   </main>
   <script>
-    const fixedCharacter = [
+    const fixedCharacterJa = [
       "武術家は小鈴（シャオリン）です。",
       "21歳の女性中国武術家。身長165cm。",
       "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
@@ -94,11 +95,24 @@ circular frame and reflection</textarea>
       "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
       "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
     ].join("\n");
-    const basePrompt = "参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。";
-    const promptTextarea = document.getElementById("japanesePrompt");
+    const fixedCharacterEn = [
+      "The martial artist is Xiaolin.",
+      "She is a 21-year-old female Chinese martial artist, 165 cm tall.",
+      "She has a flexible, balanced, healthy martial-arts build: not too thin, not overly muscular, and light enough for agile movement.",
+      "She has glossy black short-bob hair with bangs and side locks framing her face.",
+      "Her eyes are amber to yellow-brown, and her face balances cuteness with a calm, dignified strength.",
+      "Her outfit is a white-and-black Chinese-inspired martial arts uniform: a white Chinese-style top with black trim and frog buttons, black flexible martial arts pants or leggings, and lightweight white-and-black martial arts shoes."
+    ].join("\n");
+    const basePromptJa = "参考画像の人物を使い、道場の光、顔や体に落ちる影、円形フレーム、床の反射を比較できるポーズシートを作る。複数の構えを並べながら、同じキャラクターでも光の当たり方で緊張感が変わることを見せる。影は強すぎず、目元と姿勢の読みやすさを優先する。";
+    const basePromptEn = "";
+    const japaneseTextarea = document.getElementById("japanesePrompt");
+    const englishTextarea = document.getElementById("englishPrompt");
     const checkbox = document.getElementById("useFixedCharacter");
     function renderPrompt() {
-      promptTextarea.value = checkbox.checked ? basePrompt + "\n\n" + fixedCharacter : basePrompt;
+      japaneseTextarea.value = checkbox.checked ? basePromptJa + "\n\n" + fixedCharacterJa : basePromptJa;
+      if (englishTextarea) {
+        englishTextarea.value = checkbox.checked ? basePromptEn + "\n\n" + fixedCharacterEn : basePromptEn;
+      }
     }
     async function copyFrom(targetId, button) {
       const textarea = document.getElementById(targetId);

@@ -254,8 +254,12 @@ function buildConceptDetailPages(items, taxonomy) {
     const title = item.titleJa || item.title;
     const imageName = conceptAssetName(item);
     const theme = themesByKey.get(item.primary) || { label: item.themeLabel || item.primary, description: "" };
-    const focus = (item.gptFocus || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("");
     const promptLabel = item.promptLabel || (item.usageStatus === "article_ready" ? "記事用プロンプト" : "設計メモ");
+    const englishCard = item.promptEn ? `
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button data-copy-target="englishPrompt" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false">${escapeHtml(item.promptEn)}</textarea>
+        </section>` : "";
     const negativeCard = item.negativeJa ? `
         <section class="prompt-card">
           <div class="prompt-head"><h2>ネガティブ指定</h2><button data-copy-target="negativePrompt" type="button">ネガティブ指定をコピー</button></div>
@@ -267,8 +271,10 @@ function buildConceptDetailPages(items, taxonomy) {
       theme: theme.label,
       usageStatus: item.usageStatus || "",
       focus: item.gptFocus || [],
-      prompt: item.promptJa || "",
-      negative: item.negativeJa || "",
+      englishPrompt: item.promptEn || "",
+      japanesePrompt: item.promptJa || "",
+      negativeJa: item.negativeJa || "",
+      negativeEn: item.negativeEn || "",
     };
     const html = `<!doctype html>
 <html lang="ja">
@@ -303,19 +309,20 @@ function buildConceptDetailPages(items, taxonomy) {
       <div class="controls">
         <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
       </div>
+      ${englishCard}
       <section class="prompt-card">
-        <div class="prompt-head"><h2>${escapeHtml(promptLabel)}</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <div class="prompt-head"><h2>${item.promptEn ? "日本語プロンプト" : escapeHtml(promptLabel)}</h2><button data-copy-target="japanesePrompt" type="button">${item.promptEn ? "日本語版をコピー" : "プロンプトをコピー"}</button></div>
         <textarea id="japanesePrompt" spellcheck="false">${escapeHtml(item.promptJa || "")}</textarea>
       </section>
       ${negativeCard}
       <section class="prompt-card">
         <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
-        <textarea id="focusPrompt" spellcheck="false">${escapeHtml((item.gptFocus || []).join("\n"))}</textarea>
+        <textarea id="focusPrompt" spellcheck="false">${escapeHtml((item.gptFocus || []).join("\\n"))}</textarea>
       </section>
     </section>
   </main>
   <script>
-    const fixedCharacter = [
+    const fixedCharacterJa = [
       "武術家は小鈴（シャオリン）です。",
       "21歳の女性中国武術家。身長165cm。",
       "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
@@ -323,11 +330,24 @@ function buildConceptDetailPages(items, taxonomy) {
       "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
       "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
     ].join("\\n");
-    const basePrompt = ${JSON.stringify(item.promptJa || "")};
-    const promptTextarea = document.getElementById("japanesePrompt");
+    const fixedCharacterEn = [
+      "The martial artist is Xiaolin.",
+      "She is a 21-year-old female Chinese martial artist, 165 cm tall.",
+      "She has a flexible, balanced, healthy martial-arts build: not too thin, not overly muscular, and light enough for agile movement.",
+      "She has glossy black short-bob hair with bangs and side locks framing her face.",
+      "Her eyes are amber to yellow-brown, and her face balances cuteness with a calm, dignified strength.",
+      "Her outfit is a white-and-black Chinese-inspired martial arts uniform: a white Chinese-style top with black trim and frog buttons, black flexible martial arts pants or leggings, and lightweight white-and-black martial arts shoes."
+    ].join("\\n");
+    const basePromptJa = ${JSON.stringify(item.promptJa || "")};
+    const basePromptEn = ${JSON.stringify(item.promptEn || "")};
+    const japaneseTextarea = document.getElementById("japanesePrompt");
+    const englishTextarea = document.getElementById("englishPrompt");
     const checkbox = document.getElementById("useFixedCharacter");
     function renderPrompt() {
-      promptTextarea.value = checkbox.checked ? basePrompt + "\\n\\n" + fixedCharacter : basePrompt;
+      japaneseTextarea.value = checkbox.checked ? basePromptJa + "\\n\\n" + fixedCharacterJa : basePromptJa;
+      if (englishTextarea) {
+        englishTextarea.value = checkbox.checked ? basePromptEn + "\\n\\n" + fixedCharacterEn : basePromptEn;
+      }
     }
     async function copyFrom(targetId, button) {
       const textarea = document.getElementById(targetId);

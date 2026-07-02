@@ -63,8 +63,10 @@ summary { cursor: pointer; font-weight: 700; }
     &quot;palm strike foreground&quot;,
     &quot;eye cut-in&quot;
   ],
-  &quot;prompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。&quot;,
-  &quot;negative&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;
+  &quot;englishPrompt&quot;: &quot;Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration in a wide horizontal manga-page composition. Arrange several narrow horizontal panels in one image, combining a close foreground palm, a guarded fist, and an intense eye cut-in. Guide the viewer's eye from left to right, with the palm large in the foreground and the face far enough back to remain readable. Use speed lines sparingly, making the order of motion, distance control, and quiet focus easy to understand. Emphasize readable panel rhythm, clean linework, natural cloth folds, balanced anatomy, and a polished manga-action finish.&quot;,
+  &quot;japanesePrompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。&quot;,
+  &quot;negativeJa&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;,
+  &quot;negativeEn&quot;: &quot;low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image&quot;
 }</code></pre>
       </details>
     </section>
@@ -72,8 +74,17 @@ summary { cursor: pointer; font-weight: 700; }
       <div class="controls">
         <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
       </div>
+      
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button data-copy-target="englishPrompt" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false">Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style martial arts illustration in a wide horizontal manga-page composition. Arrange several narrow horizontal panels in one image, combining a close foreground palm, a guarded fist, and an intense eye cut-in. Guide the viewer's eye from left to right, with the palm large in the foreground and the face far enough back to remain readable. Use speed lines sparingly, making the order of motion, distance control, and quiet focus easy to understand. Emphasize readable panel rhythm, clean linework, natural cloth folds, balanced anatomy, and a polished manga-action finish.</textarea>
+        </section>
       <section class="prompt-card">
-        <div class="prompt-head"><h2>記事用プロンプト</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <div class="prompt-head"><h2>日本語プロンプト</h2><button data-copy-target="japanesePrompt" type="button">日本語版をコピー</button></div>
         <textarea id="japanesePrompt" spellcheck="false">参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。</textarea>
       </section>
       
@@ -83,14 +94,12 @@ summary { cursor: pointer; font-weight: 700; }
         </section>
       <section class="prompt-card">
         <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
-        <textarea id="focusPrompt" spellcheck="false">panel rhythm
-palm strike foreground
-eye cut-in</textarea>
+        <textarea id="focusPrompt" spellcheck="false">panel rhythm\npalm strike foreground\neye cut-in</textarea>
       </section>
     </section>
   </main>
   <script>
-    const fixedCharacter = [
+    const fixedCharacterJa = [
       "武術家は小鈴（シャオリン）です。",
       "21歳の女性中国武術家。身長165cm。",
       "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
@@ -98,11 +107,24 @@ eye cut-in</textarea>
       "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
       "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
     ].join("\n");
-    const basePrompt = "参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。";
-    const promptTextarea = document.getElementById("japanesePrompt");
+    const fixedCharacterEn = [
+      "The martial artist is Xiaolin.",
+      "She is a 21-year-old female Chinese martial artist, 165 cm tall.",
+      "She has a flexible, balanced, healthy martial-arts build: not too thin, not overly muscular, and light enough for agile movement.",
+      "She has glossy black short-bob hair with bangs and side locks framing her face.",
+      "Her eyes are amber to yellow-brown, and her face balances cuteness with a calm, dignified strength.",
+      "Her outfit is a white-and-black Chinese-inspired martial arts uniform: a white Chinese-style top with black trim and frog buttons, black flexible martial arts pants or leggings, and lightweight white-and-black martial arts shoes."
+    ].join("\n");
+    const basePromptJa = "参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。";
+    const basePromptEn = "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration in a wide horizontal manga-page composition. Arrange several narrow horizontal panels in one image, combining a close foreground palm, a guarded fist, and an intense eye cut-in. Guide the viewer's eye from left to right, with the palm large in the foreground and the face far enough back to remain readable. Use speed lines sparingly, making the order of motion, distance control, and quiet focus easy to understand. Emphasize readable panel rhythm, clean linework, natural cloth folds, balanced anatomy, and a polished manga-action finish.";
+    const japaneseTextarea = document.getElementById("japanesePrompt");
+    const englishTextarea = document.getElementById("englishPrompt");
     const checkbox = document.getElementById("useFixedCharacter");
     function renderPrompt() {
-      promptTextarea.value = checkbox.checked ? basePrompt + "\n\n" + fixedCharacter : basePrompt;
+      japaneseTextarea.value = checkbox.checked ? basePromptJa + "\n\n" + fixedCharacterJa : basePromptJa;
+      if (englishTextarea) {
+        englishTextarea.value = checkbox.checked ? basePromptEn + "\n\n" + fixedCharacterEn : basePromptEn;
+      }
     }
     async function copyFrom(targetId, button) {
       const textarea = document.getElementById(targetId);

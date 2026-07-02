@@ -63,8 +63,10 @@ summary { cursor: pointer; font-weight: 700; }
     &quot;thin horizontal panels&quot;,
     &quot;palm and eye tension&quot;
   ],
-  &quot;prompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。&quot;,
-  &quot;negative&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;
+  &quot;englishPrompt&quot;: &quot;Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration showing sequential motion inside a wooden dojo as manga panels. Stack narrow horizontal panels that show a low stance, the hand just before a palm strike, and a sharp eye cut-in. Use tatami, pillars, and wooden walls as restrained background elements, so the viewer can follow the flow of movement clearly. Focus less on the attack impact itself and more on the tense moment before the technique, the distance between opponents, and the pause of controlled breathing. Keep the panel layout readable, with natural perspective and clear visibility of both expression and hand movement.&quot;,
+  &quot;japanesePrompt&quot;: &quot;参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。&quot;,
+  &quot;negativeJa&quot;: &quot;低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物&quot;,
+  &quot;negativeEn&quot;: &quot;low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image&quot;
 }</code></pre>
       </details>
     </section>
@@ -72,8 +74,17 @@ summary { cursor: pointer; font-weight: 700; }
       <div class="controls">
         <label><input id="useFixedCharacter" type="checkbox"> 小鈴（シャオリン）固定キャラ指定を入れる</label>
       </div>
+      
+        <section class="prompt-card">
+          <div class="prompt-head"><h2>English Prompt</h2><button data-copy-target="englishPrompt" type="button">英語版をコピー</button></div>
+          <textarea id="englishPrompt" spellcheck="false">Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.
+
+Preserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.
+
+Create a high-quality anime-style martial arts illustration showing sequential motion inside a wooden dojo as manga panels. Stack narrow horizontal panels that show a low stance, the hand just before a palm strike, and a sharp eye cut-in. Use tatami, pillars, and wooden walls as restrained background elements, so the viewer can follow the flow of movement clearly. Focus less on the attack impact itself and more on the tense moment before the technique, the distance between opponents, and the pause of controlled breathing. Keep the panel layout readable, with natural perspective and clear visibility of both expression and hand movement.</textarea>
+        </section>
       <section class="prompt-card">
-        <div class="prompt-head"><h2>記事用プロンプト</h2><button data-copy-target="japanesePrompt" type="button">プロンプトをコピー</button></div>
+        <div class="prompt-head"><h2>日本語プロンプト</h2><button data-copy-target="japanesePrompt" type="button">日本語版をコピー</button></div>
         <textarea id="japanesePrompt" spellcheck="false">参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。</textarea>
       </section>
       
@@ -83,14 +94,12 @@ summary { cursor: pointer; font-weight: 700; }
         </section>
       <section class="prompt-card">
         <div class="prompt-head"><h2>注目ポイント</h2><button data-copy-target="focusPrompt" type="button">注目ポイントをコピー</button></div>
-        <textarea id="focusPrompt" spellcheck="false">sequential motion
-thin horizontal panels
-palm and eye tension</textarea>
+        <textarea id="focusPrompt" spellcheck="false">sequential motion\nthin horizontal panels\npalm and eye tension</textarea>
       </section>
     </section>
   </main>
   <script>
-    const fixedCharacter = [
+    const fixedCharacterJa = [
       "武術家は小鈴（シャオリン）です。",
       "21歳の女性中国武術家。身長165cm。",
       "しなやかで均整の取れた健康的な武術体型。細すぎず、筋肉質すぎず、軽やかに動ける身体つきです。",
@@ -98,11 +107,24 @@ palm and eye tension</textarea>
       "琥珀色から黄褐色の瞳で、可愛さと凛々しさの中間にある落ち着いた顔立ちです。",
       "衣装は白と黒を基調にした中華風武術衣装。白い中華風トップスに黒い縁取りとチャイナボタン、黒の動きやすい武術パンツまたはレギンス、軽量の白黒武術シューズです。"
     ].join("\n");
-    const basePrompt = "参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。";
-    const promptTextarea = document.getElementById("japanesePrompt");
+    const fixedCharacterEn = [
+      "The martial artist is Xiaolin.",
+      "She is a 21-year-old female Chinese martial artist, 165 cm tall.",
+      "She has a flexible, balanced, healthy martial-arts build: not too thin, not overly muscular, and light enough for agile movement.",
+      "She has glossy black short-bob hair with bangs and side locks framing her face.",
+      "Her eyes are amber to yellow-brown, and her face balances cuteness with a calm, dignified strength.",
+      "Her outfit is a white-and-black Chinese-inspired martial arts uniform: a white Chinese-style top with black trim and frog buttons, black flexible martial arts pants or leggings, and lightweight white-and-black martial arts shoes."
+    ].join("\n");
+    const basePromptJa = "参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。";
+    const basePromptEn = "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration showing sequential motion inside a wooden dojo as manga panels. Stack narrow horizontal panels that show a low stance, the hand just before a palm strike, and a sharp eye cut-in. Use tatami, pillars, and wooden walls as restrained background elements, so the viewer can follow the flow of movement clearly. Focus less on the attack impact itself and more on the tense moment before the technique, the distance between opponents, and the pause of controlled breathing. Keep the panel layout readable, with natural perspective and clear visibility of both expression and hand movement.";
+    const japaneseTextarea = document.getElementById("japanesePrompt");
+    const englishTextarea = document.getElementById("englishPrompt");
     const checkbox = document.getElementById("useFixedCharacter");
     function renderPrompt() {
-      promptTextarea.value = checkbox.checked ? basePrompt + "\n\n" + fixedCharacter : basePrompt;
+      japaneseTextarea.value = checkbox.checked ? basePromptJa + "\n\n" + fixedCharacterJa : basePromptJa;
+      if (englishTextarea) {
+        englishTextarea.value = checkbox.checked ? basePromptEn + "\n\n" + fixedCharacterEn : basePromptEn;
+      }
     }
     async function copyFrom(targetId, button) {
       const textarea = document.getElementById(targetId);

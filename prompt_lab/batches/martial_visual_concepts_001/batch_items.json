@@ -159,7 +159,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、横長の漫画ページ風アクション構図で描く。画面内に細い横コマを複数配置し、掌の接近、拳の構え、目元のカットインを組み合わせる。読者の視線が左から右へ流れるようにし、手前の掌は大きく、奥の顔は緊張感が読める大きさで配置する。効果線は控えめに使い、コマごとの動きの順番、間合い、静かな集中が分かるようにする。高品質なアニメ調、シャープな線、自然な布のしわ、破綻のない人体、読みやすい漫画構図。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration in a wide horizontal manga-page composition. Arrange several narrow horizontal panels in one image, combining a close foreground palm, a guarded fist, and an intense eye cut-in. Guide the viewer's eye from left to right, with the palm large in the foreground and the face far enough back to remain readable. Use speed lines sparingly, making the order of motion, distance control, and quiet focus easy to understand. Emphasize readable panel rhythm, clean linework, natural cloth folds, balanced anatomy, and a polished manga-action finish.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_009_1e58c68a",
@@ -183,7 +185,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、道場内での武術動作を連続漫画パネルとして描く。細い横長コマを重ね、低い構え、掌底を放つ直前の手元、鋭い目元のカットインを順番に配置する。畳、柱、木の壁は背景として控えめに入れ、視線が動作の流れを追えるようにする。攻撃の瞬間そのものより、技に入る直前の緊張、距離感、呼吸の間を重視する。高品質なアニメ調、読みやすいコマ割り、自然な遠近感、表情と手元が両方見える構図。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration showing sequential motion inside a wooden dojo as manga panels. Stack narrow horizontal panels that show a low stance, the hand just before a palm strike, and a sharp eye cut-in. Use tatami, pillars, and wooden walls as restrained background elements, so the viewer can follow the flow of movement clearly. Focus less on the attack impact itself and more on the tense moment before the technique, the distance between opponents, and the pause of controlled breathing. Keep the panel layout readable, with natural perspective and clear visibility of both expression and hand movement.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_014_a400315e",
@@ -207,7 +211,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林での修行シーンを漫画パネル構図で描く。座って呼吸を整えるカット、構えに入る全身カット、掌底を放つ手元、目元のアップを一枚の中に整理する。竹の縦線を背景に使い、静けさと緊張感を同時に出す。激しい効果線よりも、呼吸から技へ移る流れ、自然光、余白、視線誘導を重視する。高品質なアニメ調、繊細な線、落ち着いた色、読みやすい漫画構図。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration set in a bamboo grove, arranged as a manga-panel training sequence. Include a seated breathing cut, a full-body stance cut, a palm-strike hand detail, and a close-up of the eyes within one image. Use vertical bamboo lines to create both stillness and tension. Avoid excessive action effects; instead emphasize the flow from breathing into technique, soft natural light, negative space, and clear eye movement across the panels. Use delicate linework, calm colors, and a readable manga composition.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_015_2a472ba4",
@@ -231,7 +237,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに構える武術少女を描く。線はシャープで、色は落ち着いた緑と白を中心にし、背景の竹は描き込みすぎず人物の輪郭を引き立てる。ポーズは大きく動かさず、手の位置、体重のかかり方、衣服のしわで武術らしさを出す。画風の魅力が伝わるよう、清潔な線、自然な光、整った人体、完成度の高い一枚絵として仕上げる。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a polished anime-style illustration of a martial arts girl standing calmly in a bamboo grove. Keep the linework sharp, use restrained greens and whites, and let the bamboo background support the character silhouette without becoming too dense. The pose should remain controlled rather than explosive, showing martial arts through hand placement, weight balance, and natural folds in the clothing. Emphasize clean lines, natural light, balanced anatomy, and a finished illustration style that feels suitable for an article prompt example.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_016_34893ba8",
@@ -255,7 +263,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、影と風の軌跡を使った武術イラストを描く。人物の周囲に煙のような風の流れを薄く入れ、暗い影と明るい自然光の対比で緊張感を作る。動きは強すぎず、構えの安定感と内側にためた力を重視する。髪と袖だけがわずかに揺れ、次の動作へ移る直前の空気を表現する。高品質なアニメ調、シャープな線、読みやすいシルエット、重くなりすぎない陰影。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration using shadow and wind trails as the main visual language. Add subtle smoke-like wind flow around the character, and use the contrast between darker shadows and soft natural light to build tension. Keep the movement restrained, emphasizing the stability of the stance and the power held inside the body. Let only the hair and sleeves move slightly, suggesting the moment just before action. Maintain a readable silhouette, sharp linework, and shading that feels dramatic without becoming too heavy.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_020_554f1a66",
@@ -279,7 +289,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の柔らかい光の中で目元を強調したバストアップを描く。顔全体は落ち着いた表情にし、瞳の色、ハイライト、まぶたの形、視線の強さが主役になるようにする。背景の竹は軽くぼかし、自然光が目元に集まる構図にする。派手な攻撃演出は入れず、静かな集中、凛とした表情、澄んだ瞳の印象を重視する。高品質なアニメ調、繊細な目の描写、自然な肌影、整った顔立ち。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style bust-up portrait in soft bamboo-grove light, emphasizing the eyes. Keep the overall expression calm, while making the eye color, highlights, eyelid shape, and gaze intensity the main focus. Place the bamboo background slightly soft but not completely blurred, and guide natural light toward the eyes. Avoid flashy attack effects; prioritize quiet concentration, a dignified expression, and clear, memorable eyes. Use delicate eye rendering, natural facial shadows, and balanced facial structure.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_021_ca4807ab",
@@ -303,7 +315,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、正面からの顔アップでまっすぐな視線を描く。瞳の色、ハイライト、前髪との重なり、まぶたの形を丁寧に描写し、表情は抑えめにする。背景はシンプルにして、目の印象だけで集中力と静かな強さが伝わるようにする。顔の左右バランス、自然な鼻筋、破綻のない目の配置を重視する。高品質なアニメ調、シャープな線、澄んだ瞳、落ち着いた緊張感。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style close-up portrait from the front, centered on a direct gaze. Carefully render the eye color, highlights, overlap with bangs, and eyelid shape, while keeping the expression restrained. Keep the background simple so the eyes alone communicate focus and quiet strength. Prioritize facial symmetry, natural nose structure, stable eye placement, sharp linework, clear eyes, and a calm sense of tension.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_022_fc8e9a7d",
@@ -327,7 +341,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、顔に落ちる影と鋭い目元を中心にしたポートレートを描く。目の周囲に濃すぎない影を入れ、眉の角度と瞳のハイライトで真剣さを出す。全体は暗めでも、瞳だけは明確に読める光を残す。表情は感情を出しすぎず、次の一手を見据えるような冷静な緊張感にする。高品質なアニメ調、繊細な陰影、鋭い視線、自然な顔の立体感。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style portrait centered on a sharp gaze and shadow falling across the face. Add a controlled shadow around the eyes, using the eyebrow angle and eye highlights to create seriousness. The overall image may be dark, but the eyes must remain clearly readable. Keep the expression emotionally restrained, as if the character is calmly watching for the next move. Emphasize delicate shading, a sharp gaze, natural facial volume, and clean anime-style rendering.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_023_e884e748",
@@ -351,7 +367,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、目、前髪、鼻筋の一部だけを大胆に切り取った超接近ポートレートを描く。画面いっぱいに目元を配置し、瞳の反射光、まつ毛、前髪の影、肌のわずかな陰影を丁寧に描写する。顔全体は見せず、次の動作に入る直前の集中を目だけで表現する。過度な装飾は避け、視線の強さと画面の切り取りで迫力を出す。高品質なアニメ調、極端なクローズアップ、破綻のない目元。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate an extreme close-up anime-style portrait that boldly crops around the eyes, bangs, and a small part of the nose bridge. Fill the frame with the eye area, carefully rendering eye reflections, eyelashes, hair shadows, and subtle skin shading. Do not show the whole face; express the concentration just before the next motion through the eyes alone. Avoid excessive decoration, using the intensity of the gaze and the tight crop to create impact. Keep the eye anatomy stable and the close-up composition clean.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_024_2f635a52",
@@ -375,7 +393,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、顔の大部分に影を落とし、目元に感情の圧を残したポートレートを描く。暗い影、わずかな瞳の光、静かな口元で、内側にこもった緊張を表現する。黒く潰れすぎないよう、輪郭、前髪、頬の立体感は最低限読み取れるようにする。背景は控えめにし、顔影と視線の強さを主役にする。高品質なアニメ調、重い陰影、鋭い瞳、破綻のない顔立ち。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style portrait where most of the face is covered in strong shadow, leaving emotional pressure in the eyes. Use dark shadow, a small glint in the eyes, and a quiet mouth to express inward tension. Do not let the blacks crush the image completely; keep the silhouette, bangs, and cheek volume barely readable. Keep the background restrained so the face shadow and gaze become the main focus. Emphasize heavy but controlled shading, sharp eyes, and stable facial structure.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_029_51c0c6a2",
@@ -399,7 +419,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、道場で低く構えた姿と背後の巨大な壁影を描く。人物は画面下部にやや小さく配置し、壁に伸びる影を大きく見せて心理的な圧力を作る。床、壁、光源の位置を分かりやすくし、人物の小ささと影の大きさの対比を強調する。動きは少なく、技を放つ前の気配と静かな迫力を重視する。高品質なアニメ調、明確な光源、強いシルエット、道場の空気感。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style martial arts illustration of a low stance inside a dojo, with a huge wall shadow behind the character. Place the figure slightly small near the lower part of the frame, and make the shadow stretch large across the wall to create psychological pressure. Make the floor, wall, and light source easy to understand, emphasizing the contrast between the small figure and the enormous shadow. Keep the motion minimal, focusing on the presence before releasing a technique and the quiet pressure of the scene. Use a clear light source, strong silhouette, dojo atmosphere, and balanced anatomy.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_033_f59121cd",
@@ -423,7 +445,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、拳が画面手前に迫り、透明な画面にひびが入るような超接近アクションを描く。拳を最前面に大きく配置し、顔と上半身は奥に見せる。極端なパース、割れたガラス状の線、速度線、白い衝撃の抜きを使い、拳の迫力と表情の両方が読める構図にする。手指や腕の形は破綻させず、迫力と読みやすさを両立する。高品質なアニメ調、強い遠近感、画面破壊演出。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style extreme close-up action illustration where a fist rushes toward the viewer and cracks an invisible screen. Place the fist very large in the foreground, with the face and upper body visible farther back. Use dramatic perspective, glass-like crack lines, speed lines, and white impact shapes, while keeping both the fist and facial expression readable. Do not break the fingers, wrist, or arm structure. Balance impact with clarity, emphasizing strong perspective and a screen-breaking effect.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_034_b928488a",
@@ -447,7 +471,9 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、蹴り足の足裏が画面に迫ってひびを入れる超接近アクションを描く。足裏を最前面に大きく置き、顔と上半身は奥に配置する。極端なパース、割れたガラス状の線、速度線を使い、蹴りの勢いとキャラクターの表情が同時に伝わるようにする。足の形、脚のつながり、体の向きが破綻しないようにし、画面破壊の迫力を主役にする。高品質なアニメ調、強い奥行き、ダイナミックな構図。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style extreme close-up action illustration where the sole of a kicking foot rushes toward the screen and cracks it. Place the sole very large in the foreground, with the face and upper body visible farther back. Use extreme perspective, glass-like crack lines, and speed lines so the force of the kick and the character expression are both clear. Keep the foot shape, leg connection, and body direction anatomically stable. Make the screen-breaking impact the main visual focus with strong depth and a dynamic composition.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   },
   {
     "id": "xiaolin_038_cb2308ed",
@@ -471,6 +497,8 @@
     "promptJa": "参考画像の人物、服装、髪型、体格を保ったまま、竹林の中で静かに呼吸を整えるバストアップを描く。激しい動きは入れず、肩の力が抜けた姿勢、柔らかい自然光、わずかに揺れる髪や布で、内側の気配を表現する。目立つ攻撃演出は避け、静から動へ移る直前の落ち着きを主役にする。背景の竹は穏やかに配置し、人物の表情と呼吸の間が伝わるようにする。高品質なアニメ調、柔らかい光、静かな表情、自然な空気感。",
     "negativeJa": "低品質、崩れた人体、余分な指、不自然な手足、顔の歪み、左右非対称すぎる目、読みにくい構図、過剰な文字、ロゴ、透かし、背景の破綻、服装の大きな変更、参考画像と違う人物",
     "usageStatus": "article_ready",
-    "promptLabel": "記事用プロンプト"
+    "promptLabel": "記事用プロンプト",
+    "promptEn": "Use the reference image as the main guide for the person, outfit, hairstyle, body type, composition, and mood.\n\nPreserve the person, outfit, hairstyle, and body type from the reference image. Only the fixed-character version adds separate character details.\n\nCreate a high-quality anime-style bust-up portrait of the character quietly regulating her breathing in a bamboo grove. Avoid intense motion; show a relaxed shoulder line, soft natural light, and slightly moving hair or fabric to express inner presence. Do not add obvious attack effects. Make the calm moment just before moving from stillness into action the main subject. Arrange the bamboo background gently, so the expression and breathing rhythm are easy to feel. Emphasize soft light, a calm expression, and natural atmosphere.",
+    "negativeEn": "low quality, broken anatomy, extra fingers, unnatural hands or feet, distorted face, overly asymmetrical eyes, unreadable composition, excessive text, logo, watermark, broken background, major outfit changes, a person who does not match the reference image"
   }
 ]
